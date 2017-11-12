@@ -155,8 +155,9 @@ strong {
     font-size: 20px;
 }
 .section-1 {
-    background: white;
+    background: #0d2436;
     width: 100vw;
+	height: 50vh;
 }
 header {
     top: 0;
