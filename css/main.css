@@ -103,34 +103,35 @@ header ul a:hover {
     z-index: -30;
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    background-position: top left;
+    background-position: center;
 }
 .agapai {
     color: white;
     font-family: 'hindlight';
-    font-size: 150px;
+    font-size: 110px;
     margin: 0 0 20px 0;
     text-align: center;
     animation-duration: 700ms;
     animation-delay: 400ms;
     padding: 0;
     width: 1050px;
-	line-height: 150px;
+	line-height: 110px;
+	letter-spacing: 1px;
 }
 strong {
     font-family: 'hindbold';
 }
 .tfom {
     color: white;
-    font-family: 'hindmedium';
-    font-size: 24px;
+    font-family: 'hindlight';
+    font-size: 28px;
     margin: 0 0 40px 0;
     padding: 0;
     text-align: center;
     animation-duration: 700ms;
     animation-delay: 300ms;
-	line-height: 24px;
+	line-height: 28px;
+	letter-spacing: 5px;
 }
 .more {
     color: #428e69;
