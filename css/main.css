@@ -106,6 +106,7 @@ header ul a:hover {
     top: 0;
     z-index: -30;
     background: linear-gradient(45deg, #55b66a, #195c86);
+    background-attachment: fixed;
 }
 .cover1 {
     height: 100vh;
