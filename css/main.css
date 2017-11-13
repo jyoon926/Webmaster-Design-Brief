@@ -1,7 +1,7 @@
 html {
     margin: 0;
     padding: 0;
-    background: #428e69;
+    background: #287f66;
     overflow-x: hidden;
 }
 body {
@@ -93,14 +93,23 @@ header ul a:hover {
     flex-direction: column;
     width: 100%;
     overflow-x: hidden;
+	z-index: -10;
 }
 .cover {
     height: 100vh;
     width: 100%;
     position: absolute;
     top: 0;
+	z-index: -30;
+	background: linear-gradient(45deg, #55b66a, #195c86);
+}
+.cover1 {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
     background-image: url('../img/landerbg.svg');
-    z-index: -30;
+    z-index: -20;
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-size: cover;
     background-position: center;
@@ -156,9 +165,20 @@ strong {
     font-size: 20px;
 }
 .section-1 {
-    background: #0d2436;
+    background: #287f66;
     width: 100vw;
 	height: 50vh;
+	display: flex:
+}
+.section-1 p {
+	text-align: center;
+    width: 100vw;
+    color: white;
+    font-family: 'hindsemibold';
+    font-size: 28px;
+    margin-top: 21vh;
+    padding: 0;
+	letter-spacing: 1px;
 }
 header {
     top: 0;
