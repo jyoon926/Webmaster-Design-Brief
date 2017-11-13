@@ -93,15 +93,14 @@ header ul a:hover {
     flex-direction: column;
     width: 100%;
     overflow-x: hidden;
-	z-index: -10;
 }
 .cover {
     height: 100vh;
     width: 100%;
     position: absolute;
     top: 0;
-	z-index: -30;
-	background: linear-gradient(45deg, #55b66a, #195c86);
+    z-index: -30;
+    background: linear-gradient(45deg, #55b66a, #195c86);
 }
 .cover1 {
     height: 100vh;
@@ -124,8 +123,8 @@ header ul a:hover {
     animation-delay: 400ms;
     padding: 0;
     width: 1050px;
-	line-height: 110px;
-	letter-spacing: 1px;
+    line-height: 110px;
+    letter-spacing: 1px;
 }
 strong {
     font-family: 'hindbold';
@@ -139,8 +138,8 @@ strong {
     text-align: center;
     animation-duration: 700ms;
     animation-delay: 300ms;
-	line-height: 28px;
-	letter-spacing: 5px;
+    line-height: 28px;
+    letter-spacing: 5px;
 }
 .more {
     color: #428e69;
