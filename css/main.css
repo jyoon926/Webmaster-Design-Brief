@@ -1,188 +1,323 @@
 html {
-    margin: 0;
-    padding: 0;
-    background: #287f66;
-    overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  background: #287f66;
+  overflow-x: hidden;
 }
 body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 .page-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    overflow-x: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow-x: hidden;
 }
 header {
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    z-index: 50;
-    overflow-x: hidden;
-	background: none;
-    width: 100vw;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  z-index: 50;
+  overflow-x: hidden;
+  background: none;
+  width: 100vw;
 }
 header ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    width: 100vw;
-    justify-content: left;
-    align-items: center;
-    background-color: none;
-    transition-duration: 200ms;
-    z-index: 50;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100vw;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: none;
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+  z-index: 50;
 }
 header ul a {
-    height: 80px;
-    width: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    text-decoration: none;
-    font-size: 16px;
-    transition-duration: 400ms;
-    color: #fff;
-    font-family: 'hindsemibold';
-    letter-spacing: 1px;
-    background: rgba(250,250,250,0);
-    z-index: 50;
+  height: 80px;
+  width: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  text-decoration: none;
+  font-size: 16px;
+  -webkit-transition-duration: 400ms;
+          transition-duration: 400ms;
+  color: #fff;
+  font-family: "hindsemibold";
+  letter-spacing: 1px;
+  background: rgba(250, 250, 250, 0);
+  z-index: 50;
 }
 header ul a:hover {
-    background: rgba(250,250,250,1);
-    color: #428e69;
+  background: rgba(250, 250, 250, 1);
+  color: #06131c;
 }
 .chapterpage {
-    position: fixed;
-    top: 16px;
-    right: 16px;
-    z-index: 100;
-    height: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    text-decoration: none;
-    font-size: 16px;
-    background-color: rgba(250,250,250,0);
-    color: #fff;
-    font-family: 'hindsemibold';
-    border: 2px solid #fff;
-    border-radius: 45px;
-    letter-spacing: 1px;
-    transition-duration: 200ms;
-    padding: 0 20px;
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  z-index: 100;
+  height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  text-decoration: none;
+  font-size: 16px;
+  background-color: rgba(250, 250, 250, 0);
+  color: #fff;
+  font-family: "hindsemibold";
+  border: 2px solid #fff;
+  border-radius: 45px;
+  letter-spacing: 1px;
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+  padding: 0 20px;
 }
 .chapterpage:hover {
-    background-color: rgba(250,250,250,1);
-    color: #428e69;
-    border: 2px solid #fff;
+  background-color: rgba(250, 250, 250, 1);
+  color: #06131c;
+  border: 2px solid #fff;
 }
-.lander{
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    overflow-x: hidden;
-    top: 0;
-    background-image: url('../img/landerbg.svg');
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-size: cover;
-    background-position: center;
+.lander {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  overflow-x: hidden;
+  top: 0;
+  background-image: url("../img/landerbg.svg");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .cover {
-    height: 100vh;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    z-index: -30;
-    background: linear-gradient(45deg, #55b66a, #195c86);
-    background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -30;
+  background: -webkit-linear-gradient(45deg, #55b66a, #195c86);
+  background: linear-gradient(45deg, #55b66a, #195c86);
+  background-attachment: fixed;
 }
 .cover1 {
-    height: 100vh;
-    width: 100%;
-    position: absolute;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
 }
 .agapai {
-    color: white;
-    font-family: 'hindlight';
-    font-size: 110px;
-    margin: 0 0 20px 0;
-    text-align: center;
-    animation-duration: 700ms;
-    animation-delay: 400ms;
-    padding: 0;
-    width: 1050px;
-    line-height: 110px;
-    letter-spacing: 1px;
+  color: white;
+  font-family: "hindlight";
+  font-size: 110px;
+  margin: 0 0 20px 0;
+  text-align: center;
+  -webkit-animation-duration: 700ms;
+          animation-duration: 700ms;
+  -webkit-animation-delay: 400ms;
+          animation-delay: 400ms;
+  padding: 0;
+  width: 1050px;
+  line-height: 110px;
+  letter-spacing: 1px;
 }
 strong {
-    font-family: 'hindbold';
+  font-family: "hindbold";
 }
 .tfom {
-    color: white;
-    font-family: 'hindlight';
-    font-size: 28px;
-    margin: 0 0 40px 0;
-    padding: 0;
-    text-align: center;
-    animation-duration: 700ms;
-    animation-delay: 300ms;
-    line-height: 28px;
-    letter-spacing: 5px;
+  color: white;
+  font-family: "hindlight";
+  font-size: 28px;
+  margin: 0 0 40px 0;
+  padding: 0;
+  text-align: center;
+  -webkit-animation-duration: 700ms;
+          animation-duration: 700ms;
+  -webkit-animation-delay: 300ms;
+          animation-delay: 300ms;
+  line-height: 28px;
+  letter-spacing: 5px;
 }
 .more {
-    color: #428e69;
-    background-color: #ffffff;
-    font-family: 'hindmedium';
-    font-size: 12px;
-    padding: 15px 25px;
-    border: 2px solid white;
-    border-radius: 60px;
-    text-decoration: none;
-    margin: 0;
-    transition-duration: 200ms;
-    transition-timing-function: ease-out;
-    animation-duration: 700ms;
-    animation-delay: 600ms;
+  color: #06131c;
+  background-color: #ffffff;
+  font-family: "hindmedium";
+  font-size: 12px;
+  padding: 15px 25px;
+  border: 2px solid white;
+  border-radius: 60px;
+  text-decoration: none;
+  margin: 0;
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
+  -webkit-animation-duration: 700ms;
+          animation-duration: 700ms;
+  -webkit-animation-delay: 600ms;
+          animation-delay: 600ms;
+  z-index: 10000;
 }
 .more:hover {
-    background: none;
-    color: white;
+  background: none;
+  color: white;
 }
 .button {
-    font-size: 20px;
+  font-size: 20px;
 }
 .section-1 {
-    background: #287f66;
-    width: 100vw;
-	height: 50vh;
-	display: flex:
+  background-image: url("../img/city.png");
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 100%;
+}
+.text {
+  width: 1050px;
+}
+.section-1 h1 {
+  text-align: right;
+  width: 700px;
+  margin-left: 350px;
+  color: white;
+  font-family: "hindbold";
+  font-size: 28px;
+  margin-top: 150px;
+  padding: 0;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
 }
 .section-1 p {
-	text-align: center;
-    width: 100vw;
-    color: white;
-    font-family: 'hindsemibold';
-    font-size: 28px;
-    margin-top: 21vh;
-    padding: 0;
-	letter-spacing: 1px;
+  text-align: left;
+  width: 1050px;
+  color: white;
+  font-family: "hindregular";
+  font-size: 20px;
+  padding: 0;
+  letter-spacing: 1px;
+  line-height: 28px;
+}
+.section-1 p:last-child {
+  margin-bottom: 150px;
 }
 header {
-    top: 0;
-    position: fixed;
+  top: 0;
+  position: fixed;
 }
-@media screen and (max-width: 1000px){
-
+@media screen and (max-width: 1200px) {
+	.text {
+	  width: 900px;
+	}
+	.section-1 h1 {
+	  text-align: right;
+	  width: 600px;
+	  margin-left: 300px;
+	  color: white;
+	  font-family: "hindbold";
+	  font-size: 28px;
+	  margin-top: 100px;
+	  padding: 0;
+	  letter-spacing: 1px;
+	  margin-bottom: 50px;
+	}
+	.section-1 p {
+	  text-align: left;
+	  width: 900px;
+	  color: white;
+	  font-family: "hindregular";
+	  font-size: 20px;
+	  padding: 0;
+	  letter-spacing: 1px;
+	  line-height: 28px;
+	}
+	.section-1 p:last-child {
+	  margin-bottom: 100px;
+	}
+}
+@media screen and (max-width: 1000px) {
+	.text {
+	  width: 600px;
+	}
+	.section-1 h1 {
+	  text-align: right;
+	  width: 400px;
+	  margin-left: 200px;
+	  color: white;
+	  font-family: "hindbold";
+	  font-size: 28px;
+	  margin-top: 50px;
+	  padding: 0;
+	  letter-spacing: 1px;
+	  margin-bottom: 40px;
+	}
+	.section-1 p {
+	  text-align: left;
+	  width: 600px;
+	  color: white;
+	  font-family: "hindregular";
+	  font-size: 20px;
+	  padding: 0;
+	  letter-spacing: 1px;
+	  line-height: 28px;
+	}
+	.section-1 p:last-child {
+	  margin-bottom: 50px;
+	}
 }
