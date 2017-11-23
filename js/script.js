@@ -556,3 +556,16 @@ $(window).scroll(function (e) {
 var scwease = require('scroll-with-ease');
 scwease(element, 1500, [0.42, 0.0, 0.58, 1.0]);
 */
+
+$(window).on("scroll",function () {
+  if ($(this).scrollTop() > 150) {
+    $('.aaa').css('top', '0px');
+    $('.chapterpage').css('top', '16px');
+    $('.logo').css('color', '#0000fe');
+  }
+  else {
+    $('.aaa').css('top', '-80px');
+    $('.chapterpage').css('top', '-64px');
+    $('.logo').css('color', '#ffffff');
+  }
+});
