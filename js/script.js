@@ -562,10 +562,12 @@ $(window).on("scroll",function () {
     $('.aaa').css('top', '0px');
     $('.chapterpage').css('top', '16px');
     $('.logo').css('color', '#0000fe');
+    $('.mobile').css('top', '0px');
   }
   else {
     $('.aaa').css('top', '-80px');
     $('.chapterpage').css('top', '-64px');
     $('.logo').css('color', '#ffffff');
+    $('.mobile').css('top', '-80px');
   }
 });
