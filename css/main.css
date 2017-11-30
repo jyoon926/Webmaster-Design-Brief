@@ -41,7 +41,7 @@ header {
   width: 100vw;
   -webkit-transition-duration: 300ms;
           transition-duration: 300ms;
-  background: #ffe808;
+  background: #0000fe;
 }
 /*header:hover {
   background: #ffe808;
