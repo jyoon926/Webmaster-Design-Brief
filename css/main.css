@@ -9,6 +9,10 @@ body {
   padding: 0;
   overflow-x: hidden;
 }
+::selection {
+  color: #0000fe;
+  background: #ffe808;
+}
 .page-content {
   display: -webkit-box;
   display: -ms-flexbox;
