@@ -1758,6 +1758,9 @@ header ul a li:hover {
 .mobile {
     display: none;
 }
+.mobile1 {
+    display: none;
+}
 }
 
 @media screen and (max-width: 1000px) {
