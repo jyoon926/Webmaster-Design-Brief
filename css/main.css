@@ -41,7 +41,7 @@ header {
   width: 100vw;
   -webkit-transition-duration: 300ms;
           transition-duration: 300ms;
-  background: #0000fe;
+  background: #ffe808;
 }
 /*header:hover {
   background: #ffe808;
@@ -1591,9 +1591,7 @@ hr {
     background: #ffe808;
     position: fixed;
     transition-duration: 300ms;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: none;
 }
 .mobile:hover {
     cursor: pointer;
@@ -1610,6 +1608,7 @@ hr {
     z-index: 24;
     padding: 22px 27px;
     top: -160px !important;
+    display: none;
 }
 .checkbox:checked ~ .mobile {
     top: 0px !important;
@@ -1645,7 +1644,6 @@ header {
   width: 100vw;
   -webkit-transition-duration: 300ms;
           transition-duration: 300ms;
-  background: #ffe808;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1693,7 +1691,6 @@ header ul a {
   font-size: 16px;
   -webkit-transition-duration: 300ms;
   transition-duration: 300ms;
-  color: #0000fe;
   font-family: "hindsemibold";
   letter-spacing: 1px;
   background: none;
@@ -1704,12 +1701,10 @@ header ul a {
 }
 header ul a li {
   padding: 4px;
-  border-bottom: 2px solid #ffe808;
   -webkit-transition-duration: 300ms;
           transition-duration: 300ms;
 }
 header ul a li:hover {
-  border-bottom: 2px solid #0000fe;
 }
 .chapterpage {
   position: fixed;
@@ -1773,7 +1768,6 @@ header {
   width: 100vw;
   -webkit-transition-duration: 300ms;
           transition-duration: 300ms;
-  background: #ffe808;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1823,7 +1817,6 @@ header ul a {
   font-size: 16px;
   -webkit-transition-duration: 300ms;
   transition-duration: 300ms;
-  color: #0000fe;
   font-family: "hindsemibold";
   letter-spacing: 1px;
   background: none;
@@ -1835,12 +1828,10 @@ header ul a {
 }
 header ul a li {
   padding: 4px;
-  border-bottom: 2px solid #ffe808;
   -webkit-transition-duration: 300ms;
           transition-duration: 300ms;
 }
 header ul a li:hover {
-  border-bottom: 2px solid #0000fe;
 }
 .chapterpage {
   position: fixed;
@@ -1887,6 +1878,11 @@ header ul a li:hover {
   margin-left: 0;
 }
 .mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.mobile1 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
