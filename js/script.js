@@ -561,13 +561,15 @@ $(window).on("scroll",function () {
   if ($(this).scrollTop() > 150) {
     $('.aaa').css('top', '0px');
     $('.chapterpage').css('top', '16px');
-    $('.logo').css('color', '#0000fe');
+    $('.logo').css('color', '#000000');
+    $('.logostrong').css('color', '#0000fe');
     $('.mobile').css('top', '0px');
   }
   else {
     $('.aaa').css('top', '-80px');
     $('.chapterpage').css('top', '-64px');
     $('.logo').css('color', '#ffffff');
+    $('.logostrong').css('color', '#ffe808');
     $('.mobile').css('top', '-80px');
   }
 });

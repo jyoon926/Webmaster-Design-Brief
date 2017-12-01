@@ -151,7 +151,6 @@ header ul a li:hover {
   color: #0000fe;
 }
 .logo {
-  font-family: "hindbold";
   font-size: 36px;
   position: fixed;
   width: 100vw;
@@ -160,6 +159,12 @@ header ul a li:hover {
   top: 5px;
   line-height: 0;
   color: #ffffff;
+}
+.logostrong {
+    z-index: 100;
+    color: #ffe808;
+    -webkit-transition-duration: 200ms;
+    transition-duration: 200ms;
 }
 .lander {
   margin: 0;
