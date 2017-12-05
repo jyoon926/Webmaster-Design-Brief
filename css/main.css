@@ -1,3 +1,7 @@
+:root {
+    --first-color: #30415d;
+    --second-color: #cf6766;
+}
 html {
   margin: 0;
   padding: 0;
@@ -10,8 +14,8 @@ body {
   overflow-x: hidden;
 }
 ::selection {
-  color: #0000fe;
-  background: #ffe808;
+  color: var(--first-color);
+  background: var(--second-color);
 }
 .page-content {
   display: -webkit-box;
@@ -41,26 +45,8 @@ header {
   width: 100vw;
   -webkit-transition-duration: 300ms;
           transition-duration: 300ms;
-  background: #ffe808;
+  background: var(--second-color);
 }
-/*header:hover {
-  background: #ffe808;
-}
-header:hover .chapterpage {
-  background: #0000fe;
-  color: #ffe808;
-  border: 2px solid #0000fe;
-}
-header:hover .chapterpage:hover {
-  background: none;
-  color: #0000fe;
-}
-header:hover .okay {
-  color: #0000fe;
-}
-header:hover .okay:hover {
-  border-bottom: 2px solid #0000fe;
-}*/
 header ul {
   margin: 0;
   padding: 0;
@@ -100,7 +86,7 @@ header ul a {
   font-size: 16px;
   -webkit-transition-duration: 300ms;
   transition-duration: 300ms;
-  color: #0000fe;
+  color: var(--first-color);
   font-family: "hindsemibold";
   letter-spacing: 1px;
   background: none;
@@ -111,12 +97,12 @@ header ul a {
 }
 header ul a li {
   padding: 4px;
-  border-bottom: 2px solid #ffe808;
+  border-bottom: 2px solid var(--second-color);
   -webkit-transition-duration: 300ms;
           transition-duration: 300ms;
 }
 header ul a li:hover {
-  border-bottom: 2px solid #0000fe;
+  border-bottom: 2px solid var(--first-color);
 }
 .chapterpage {
   position: fixed;
@@ -136,10 +122,10 @@ header ul a li:hover {
   list-style: none;
   text-decoration: none;
   font-size: 16px;
-  background-color: #0000fe;
-  color: #ffe808;
+  background-color: var(--first-color);
+  color: var(--second-color);
   font-family: "hindbold";
-  border: 2px solid #0000fe;
+  border: 2px solid var(--first-color);
   border-radius: 45px;
   letter-spacing: 1px;
   -webkit-transition-duration: 200ms;
@@ -148,7 +134,7 @@ header ul a li:hover {
 }
 .chapterpage:hover {
   background-color: rgba(255, 232, 8, 0);
-  color: #0000fe;
+  color: var(--first-color);
 }
 .logo {
   font-size: 36px;
@@ -162,7 +148,7 @@ header ul a li:hover {
 }
 .logostrong {
     z-index: 100;
-    color: #ffe808;
+    color: var(--second-color);
     -webkit-transition-duration: 200ms;
     transition-duration: 200ms;
 }
@@ -221,12 +207,12 @@ header ul a li:hover {
   letter-spacing: 5px;
 }
 .more {
-  color: #0000fe;
-  background-color: #ffe808;
+  color: var(--first-color);
+  background-color: var(--second-color);
   font-family: "hindbold";
   font-size: 20px;
   padding: 25px 40px;
-  border: 2px solid #ffe808;
+  border: 2px solid var(--second-color);
   border-radius: 60px;
   text-decoration: none;
   margin: 0;
@@ -241,7 +227,7 @@ header ul a li:hover {
 }
 .more:hover {
   background: none;
-  color: #ffe808;
+  color: var(--second-color);
 }
 .section-1 {
   background-image: url("../img/jason-leung-370358.jpg");
@@ -288,12 +274,12 @@ header ul a li:hover {
   line-height: 28px;
 }
 .aboutagapai {
-  color: #0000fe;
+  color: var(--first-color);
   background-color: none;
   font-family: "hindlight";
   font-size: 20px;
   padding: 25px 40px;
-  border: 2px solid #0000fe;
+  border: 2px solid var(--first-color);
   border-radius: 60px;
   text-decoration: none;
   -webkit-transition-duration: 200ms;
@@ -307,7 +293,7 @@ header ul a li:hover {
   z-index: 1;
 }
 .aboutagapai:hover {
-  background: #0000fe;
+  background: var(--first-color);
   color: white;
 }
 .bbb {
@@ -354,7 +340,7 @@ strong {
 .section-2 h1 {
   text-align: center;
   width: 1050px;
-  color: #ffe808;
+  color: var(--second-color);
   font-family: "hindbold";
   font-size: 48px;
   padding: 0;
@@ -374,12 +360,12 @@ strong {
   letter-spacing: 2px;
 }
 .purchasecarl {
-  color: #ffe808;
+  color: var(--second-color);
   background-color: none;
   font-family: "hindlight";
   font-size: 20px;
   padding: 25px 40px;
-  border: 2px solid #ffe808;
+  border: 2px solid var(--second-color);
   border-radius: 60px;
   text-decoration: none;
   -webkit-transition-duration: 200ms;
@@ -396,8 +382,8 @@ strong {
       align-self: center;
 }
 .purchasecarl:hover {
-  background: #ffe808;
-  color: #0000fe;
+  background: var(--second-color);
+  color: var(--first-color);
 }
 .section-3 {
   background-image: url("../img/felix-russell-saw-102514.jpg");
@@ -437,7 +423,7 @@ strong {
 .section-3 h1 {
   text-align: center;
   width: 350px;
-  color: #0000fe;
+  color: var(--first-color);
   font-family: "hindbold";
   font-size: 48px;
   padding: 0;
@@ -466,12 +452,12 @@ strong {
   letter-spacing: 2px;
 }
 .purchasepaul {
-  color: #0000fe;
+  color: var(--first-color);
   background-color: none;
   font-family: "hindlight";
   font-size: 20px;
   padding: 25px 40px;
-  border: 2px solid #0000fe;
+  border: 2px solid var(--first-color);
   border-radius: 60px;
   text-decoration: none;
   -webkit-transition-duration: 200ms;
@@ -488,8 +474,8 @@ strong {
       align-self: center;
 }
 .purchasepaul:hover {
-  background: #0000fe;
-  color: #ffe808;
+  background: var(--first-color);
+  color: var(--second-color);
 }
 .section-4 {
   background-image: url("../img/arif-wahid-266541.jpg");
@@ -546,12 +532,12 @@ strong {
   letter-spacing: 2px;
 }
 .findouthere {
-  color: #ffe808;
+  color: var(--second-color);
   background-color: none;
   font-family: "hindlight";
   font-size: 20px;
   padding: 25px 40px;
-  border: 2px solid #ffe808;
+  border: 2px solid var(--second-color);
   border-radius: 60px;
   text-decoration: none;
   -webkit-transition-duration: 200ms;
@@ -568,8 +554,8 @@ strong {
       align-self: center;
 }
 .findouthere:hover {
-  background: #ffe808;
-  color: #0000fe;
+  background: var(--second-color);
+  color: var(--first-color);
 }
 .chapterpage {
   -webkit-transition-duration: 300ms;
@@ -620,14 +606,14 @@ footer {
     }
 }
 .footer p {
-  color: #ffe808;
+  color: var(--second-color);
   font-family: "hindlight";
   font-size: 30px;
   letter-spacing: 2px;
 }
 hr {
   width: 40px;
-  border-color: #ffe808;
+  border-color: var(--second-color);
   margin: 0 50px;
 }
 .footer a {
@@ -646,7 +632,7 @@ hr {
   font-size: 16px;
   -webkit-transition-duration: 300ms;
   transition-duration: 300ms;
-  color: #ffe808;
+  color: var(--second-color);
   font-family: "hindlight";
   letter-spacing: 1px;
   background: none;
@@ -667,12 +653,12 @@ hr {
   padding-left: none;
 }
 .footer a li:hover {
-  border-bottom: 2px solid #ffe808;
+  border-bottom: 2px solid var(--second-color);
 }
 .backtotop {
-  color: #ffe808;
+  color: var(--second-color);
   font-size: 20px;
-  border: 2px solid #ffe808;
+  border: 2px solid var(--second-color);
   text-decoration: none;
   padding: 4px;
   border-radius: 100%;
@@ -706,12 +692,12 @@ hr {
   line-height: 28px;
 }
 .aboutagapai {
-  color: #0000fe;
+  color: var(--first-color);
   background-color: none;
   font-family: "hindlight";
   font-size: 20px;
   padding: 25px 40px;
-  border: 2px solid #0000fe;
+  border: 2px solid var(--first-color);
   border-radius: 60px;
   text-decoration: none;
   -webkit-transition-duration: 200ms;
@@ -746,7 +732,7 @@ hr {
 .section-2 h1 {
   text-align: center;
   width: 900px;
-  color: #ffe808;
+  color: var(--second-color);
   font-family: "hindbold";
   font-size: 48px;
   padding: 0;
@@ -784,7 +770,7 @@ hr {
 .section-3 h1 {
   text-align: center;
   width: 300px;
-  color: #0000fe;
+  color: var(--first-color);
   font-family: "hindbold";
   font-size: 48px;
   padding: 0;
@@ -813,12 +799,12 @@ hr {
   letter-spacing: 2px;
 }
 .purchasepaul {
-  color: #0000fe;
+  color: var(--first-color);
   background-color: none;
   font-family: "hindlight";
   font-size: 20px;
   padding: 25px 40px;
-  border: 2px solid #0000fe;
+  border: 2px solid var(--first-color);
   border-radius: 60px;
   text-decoration: none;
   -webkit-transition-duration: 200ms;
@@ -835,8 +821,8 @@ hr {
       align-self: center;
 }
 .purchasepaul:hover {
-  background: #0000fe;
-  color: #ffe808;
+  background: var(--first-color);
+  color: var(--second-color);
 }
 .section-4 {
   background-image: url("../img/arif-wahid-266541.jpg");
@@ -893,12 +879,12 @@ hr {
   letter-spacing: 2px;
 }
 .findouthere {
-  color: #ffe808;
+  color: var(--second-color);
   background-color: none;
   font-family: "hindlight";
   font-size: 20px;
   padding: 25px 40px;
-  border: 2px solid #ffe808;
+  border: 2px solid var(--second-color);
   border-radius: 60px;
   text-decoration: none;
   -webkit-transition-duration: 200ms;
@@ -915,8 +901,8 @@ hr {
       align-self: center;
 }
 .findouthere:hover {
-  background: #ffe808;
-  color: #0000fe;
+  background: var(--second-color);
+  color: var(--first-color);
 }
 }
 
@@ -946,12 +932,12 @@ hr {
   line-height: 28px;
 }
 .aboutagapai {
-  color: #0000fe;
+  color: var(--first-color);
   background-color: none;
   font-family: "hindlight";
   font-size: 20px;
   padding: 25px 40px;
-  border: 2px solid #0000fe;
+  border: 2px solid var(--first-color);
   border-radius: 60px;
   text-decoration: none;
   -webkit-transition-duration: 200ms;
@@ -986,7 +972,7 @@ hr {
 .section-2 h1 {
   text-align: center;
   width: 600px;
-  color: #ffe808;
+  color: var(--second-color);
   font-family: "hindbold";
   font-size: 48px;
   padding: 0;
@@ -1006,12 +992,12 @@ hr {
   letter-spacing: 2px;
 }
 .purchasecarl {
-  color: #ffe808;
+  color: var(--second-color);
   background-color: none;
   font-family: "hindlight";
   font-size: 20px;
   padding: 25px 40px;
-  border: 2px solid #ffe808;
+  border: 2px solid var(--second-color);
   border-radius: 60px;
   text-decoration: none;
   -webkit-transition-duration: 200ms;
@@ -1028,7 +1014,7 @@ hr {
       align-self: center;
 }
 .section-3 {
-  background-image: url("../img/felix-russell-saw-102514(2).jpg");
+  background-image: url("../img/felix-russell-saw-102514.jpg");
 }
 .text3 {
   width: 600px;
@@ -1100,9 +1086,9 @@ hr {
       align-self: center;
 }
 .purchasepaul:hover {
-  background: #0000fe;
+  background: var(--first-color);
   color: #fff;
-  border: 2px solid #0000fe;
+  border: 2px solid var(--first-color);
 }
 .section-4 {
   background-image: url("../img/arif-wahid-266541.jpg");
@@ -1159,12 +1145,12 @@ hr {
   letter-spacing: 2px;
 }
 .findouthere {
-  color: #ffe808;
+  color: var(--second-color);
   background-color: none;
   font-family: "hindlight";
   font-size: 20px;
   padding: 25px 40px;
-  border: 2px solid #ffe808;
+  border: 2px solid var(--second-color);
   border-radius: 60px;
   text-decoration: none;
   -webkit-transition-duration: 200ms;
@@ -1181,8 +1167,8 @@ hr {
       align-self: center;
 }
 .findouthere:hover {
-  background: #ffe808;
-  color: #0000fe;
+  background: var(--second-color);
+  color: var(--first-color);
 }
 .lander {
   margin: 0;
@@ -1239,12 +1225,12 @@ hr {
   letter-spacing: 5px;
 }
 .more {
-  color: #0000fe;
-  background-color: #ffe808;
+  color: var(--first-color);
+  background-color: var(--second-color);
   font-family: "hindbold";
   font-size: 20px;
   padding: 25px 40px;
-  border: 2px solid #ffe808;
+  border: 2px solid var(--second-color);
   border-radius: 60px;
   text-decoration: none;
   margin: 0;
@@ -1259,7 +1245,7 @@ hr {
 }
 .more:hover {
   background: none;
-  color: #ffe808;
+  color: var(--second-color);
 }
 }
 
@@ -1318,12 +1304,12 @@ hr {
   line-height: 25px;
 }
 .aboutagapai {
-  color: #0000fe;
+  color: var(--first-color);
   background-color: none;
   font-family: "hindlight";
   font-size: 18px;
   padding: 22px 26px;
-  border: 2px solid #0000fe;
+  border: 2px solid var(--first-color);
   border-radius: 60px;
   text-decoration: none;
   -webkit-transition-duration: 200ms;
@@ -1360,7 +1346,7 @@ hr {
 .section-2 h1 {
   text-align: center;
   width: 600px;
-  color: #ffe808;
+  color: var(--second-color);
   font-family: "hindbold";
   font-size: 48px;
   padding: 0;
@@ -1380,12 +1366,12 @@ hr {
   letter-spacing: 2px;
 }
 .purchasecarl {
-  color: #ffe808;
+  color: var(--second-color);
   background-color: none;
   font-family: "hindlight";
   font-size: 20px;
   padding: 25px 40px;
-  border: 2px solid #ffe808;
+  border: 2px solid var(--second-color);
   border-radius: 60px;
   text-decoration: none;
   -webkit-transition-duration: 200ms;
@@ -1402,7 +1388,7 @@ hr {
       align-self: center;
 }
 .section-3 {
-  background-image: url("../img/felix-russell-saw-102514(2).jpg");
+  background-image: url("../img/felix-russell-saw-102514.jpg");
 }
 .text3 {
   width: 500px;
@@ -1474,9 +1460,9 @@ hr {
       align-self: center;
 }
 .purchasepaul:hover {
-  background: #0000fe;
+  background: var(--first-color);
   color: #fff;
-  border: 2px solid #0000fe;
+  border: 2px solid var(--first-color);
 }
 .text4 {
   width: 500px;
@@ -1520,7 +1506,7 @@ hr {
 /*HEADER*/
 
 .header-mobile {
-    background: #ffe808;
+    background: var(--second-color);
     position: fixed;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1547,7 +1533,7 @@ hr {
             animation-timing-function: cubic-bezier(0,.41,.4,1.01);
 }
 .header-mobile a {
-    color: #0000fe;
+    color: var(--first-color);
     text-decoration: none;
     font-family: "hindsemibold";
     list-style: none;
@@ -1568,13 +1554,13 @@ hr {
 }
 .header-mobile a li {
     padding: 8px 0;
-    border-bottom: 2px solid #ffe808;
+    border-bottom: 2px solid var(--second-color);
     -webkit-transition-duration: 300ms;
             transition-duration: 300ms;
 }
 .header-mobile a:hover li {
     padding: 4px 0;
-    border-bottom: 2px solid #0000fe;
+    border-bottom: 2px solid var(--first-color);
 }
 .checkbox {
     position: fixed;
@@ -1584,7 +1570,7 @@ hr {
 }
 .mobile {
     z-index: 25;
-	color: #0000fe;
+	color: var(--first-color);
     margin: 0;
     padding: 22px 26px;
     left: 0px;
@@ -1593,15 +1579,15 @@ hr {
     line-height: 36px;
     -webkit-transition-duration: 300ms;
             transition-duration: 300ms;
-    background: #ffe808;
+    background: var(--second-color);
     position: fixed;
     transition-duration: 300ms;
     display: none;
 }
 .mobile:hover {
     cursor: pointer;
-    background: #0000fe;
-    color: #ffe808;
+    background: var(--first-color);
+    color: var(--second-color);
     -webkit-transition-duration: 300ms;
             transition-duration: 300ms;
     -webkit-transition-delay: 0ms;
@@ -1729,10 +1715,10 @@ header ul a li:hover {
   list-style: none;
   text-decoration: none;
   font-size: 16px;
-  background-color: #0000fe;
-  color: #ffe808;
+  background-color: var(--first-color);
+  color: var(--second-color);
   font-family: "hindbold";
-  border: 2px solid #0000fe;
+  border: 2px solid var(--first-color);
   border-radius: 45px;
   letter-spacing: 1px;
   -webkit-transition-duration: 200ms;
@@ -1741,7 +1727,7 @@ header ul a li:hover {
 }
 .chapterpage:hover {
   background-color: rgba(255, 232, 8, 0);
-  color: #0000fe;
+  color: var(--first-color);
 }
 .logo {
   font-family: "hindbold";
@@ -1856,10 +1842,10 @@ header ul a li:hover {
   list-style: none;
   text-decoration: none;
   font-size: 16px;
-  background-color: #0000fe;
-  color: #ffe808;
+  background-color: var(--first-color);
+  color: var(--second-color);
   font-family: "hindbold";
-  border: 2px solid #0000fe;
+  border: 2px solid var(--first-color);
   border-radius: 45px;
   letter-spacing: 1px;
   -webkit-transition-duration: 200ms;
@@ -1868,7 +1854,7 @@ header ul a li:hover {
 }
 .chapterpage:hover {
   background-color: rgba(255, 232, 8, 0);
-  color: #0000fe;
+  color: var(--first-color);
 }
 .logo {
   font-family: "hindbold";
