@@ -145,6 +145,7 @@ header ul a li:hover {
   top: 5px;
   line-height: 0;
   color: #ffffff;
+  font-family: "hindbold";
 }
 .logostrong {
     z-index: 100;
