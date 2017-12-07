@@ -1,6 +1,6 @@
 :root {
-    --first-color: #30415d;
-    --second-color: #cf6766;
+    --first-color: #1F3A93;
+    --second-color: #F4D03F;
 }
 html {
   margin: 0;
@@ -269,7 +269,7 @@ header ul a li:hover {
   text-align: left;
   width: 1050px;
   color: black;
-  font-family: "hindlight";
+  font-family: "hindmedium";
   font-size: 20px;
   padding: 0;
   line-height: 28px;
@@ -304,7 +304,7 @@ strong {
   font-family: "hindbold";
 }
 .section-2 {
-  background-image: url("../img/samuel-zeller-118178.jpg");
+  background-image: url("../img/ricardo-gomez-angel-204573.jpg");
   background-size: cover;
   background-position: center;
   display: -webkit-box;
@@ -424,7 +424,7 @@ strong {
 .section-3 h1 {
   text-align: center;
   width: 350px;
-  color: var(--first-color);
+  color: white;
   font-family: "hindbold";
   font-size: 48px;
   padding: 0;
@@ -445,7 +445,7 @@ strong {
 .section-3 p {
   text-align: center;
   width: 350px;
-  color: black;
+  color: white;
   font-family: "hindlight";
   font-size: 20px;
   padding: 0;
@@ -453,12 +453,12 @@ strong {
   letter-spacing: 2px;
 }
 .purchasepaul {
-  color: var(--first-color);
+  color: #fff;
   background-color: none;
   font-family: "hindlight";
   font-size: 20px;
   padding: 25px 40px;
-  border: 2px solid var(--first-color);
+  border: 2px solid #fff;
   border-radius: 60px;
   text-decoration: none;
   -webkit-transition-duration: 200ms;
@@ -475,8 +475,8 @@ strong {
       align-self: center;
 }
 .purchasepaul:hover {
-  background: var(--first-color);
-  color: var(--second-color);
+  background: #fff;
+  color: var(--first-color);
 }
 .section-4 {
   background-image: url("../img/arif-wahid-266541.jpg");
@@ -733,7 +733,6 @@ hr {
 .section-2 h1 {
   text-align: center;
   width: 900px;
-  color: var(--second-color);
   font-family: "hindbold";
   font-size: 48px;
   padding: 0;
@@ -771,12 +770,12 @@ hr {
 .section-3 h1 {
   text-align: center;
   width: 300px;
-  color: var(--first-color);
   font-family: "hindbold";
   font-size: 48px;
   padding: 0;
   letter-spacing: 1px;
   margin: 0 300px 0 0;
+  color: white;
 }
 .part1 {
   width: 300px;
@@ -792,7 +791,7 @@ hr {
 .section-3 p {
   text-align: center;
   width: 300px;
-  color: black;
+  color: white;
   font-family: "hindlight";
   font-size: 20px;
   padding: 0;
@@ -800,12 +799,10 @@ hr {
   letter-spacing: 2px;
 }
 .purchasepaul {
-  color: var(--first-color);
   background-color: none;
   font-family: "hindlight";
   font-size: 20px;
   padding: 25px 40px;
-  border: 2px solid var(--first-color);
   border-radius: 60px;
   text-decoration: none;
   -webkit-transition-duration: 200ms;
@@ -820,10 +817,6 @@ hr {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-}
-.purchasepaul:hover {
-  background: var(--first-color);
-  color: var(--second-color);
 }
 .section-4 {
   background-image: url("../img/arif-wahid-266541.jpg");
@@ -880,12 +873,10 @@ hr {
   letter-spacing: 2px;
 }
 .findouthere {
-  color: var(--second-color);
   background-color: none;
   font-family: "hindlight";
   font-size: 20px;
   padding: 25px 40px;
-  border: 2px solid var(--second-color);
   border-radius: 60px;
   text-decoration: none;
   -webkit-transition-duration: 200ms;
@@ -927,7 +918,7 @@ hr {
   text-align: left;
   width: 600px;
   color: black;
-  font-family: "hindlight";
+  font-family: "hindregular";
   font-size: 20px;
   padding: 0;
   line-height: 28px;
@@ -973,7 +964,6 @@ hr {
 .section-2 h1 {
   text-align: center;
   width: 600px;
-  color: var(--second-color);
   font-family: "hindbold";
   font-size: 48px;
   padding: 0;
@@ -1087,9 +1077,9 @@ hr {
       align-self: center;
 }
 .purchasepaul:hover {
-  background: var(--first-color);
-  color: #fff;
-  border: 2px solid var(--first-color);
+  background: #fff;
+  color: var(--first-color);
+  border: 2px solid #fff;
 }
 .section-4 {
   background-image: url("../img/arif-wahid-266541.jpg");
@@ -1139,7 +1129,7 @@ hr {
   text-align: center;
   width: 600px;
   color: white;
-  font-family: "hindlight";
+  font-family: "hindregular";
   font-size: 20px;
   padding: 0;
   line-height: 28px;
@@ -1299,7 +1289,7 @@ hr {
   text-align: center;
   width: 500px;
   color: black;
-  font-family: "hindlight";
+  font-family: "hindregular";
   font-size: 18px;
   padding: 0;
   line-height: 25px;
@@ -1347,7 +1337,6 @@ hr {
 .section-2 h1 {
   text-align: center;
   width: 600px;
-  color: var(--second-color);
   font-family: "hindbold";
   font-size: 48px;
   padding: 0;
@@ -1461,9 +1450,9 @@ hr {
       align-self: center;
 }
 .purchasepaul:hover {
-  background: var(--first-color);
-  color: #fff;
-  border: 2px solid var(--first-color);
+  background: #fff;
+  color: var(--first-color);
+  border: 2px solid #fff;
 }
 .text4 {
   width: 500px;
@@ -1495,7 +1484,7 @@ hr {
   text-align: center;
   width: 500px;
   color: white;
-  font-family: "hindlight";
+  font-family: "hindregular";
   font-size: 20px;
   padding: 0;
   line-height: 28px;

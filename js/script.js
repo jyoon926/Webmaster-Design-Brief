@@ -562,14 +562,14 @@ $(window).on("scroll",function () {
     $('.aaa').css('top', '0px');
     $('.chapterpage').css('top', '16px');
     $('.logo').css('color', '#000000');
-    $('.logostrong').css('color', '#30415d');
+    $('.logostrong').css('color', '#1F3A93');
     $('.mobile').css('top', '0px');
   }
   else {
     $('.aaa').css('top', '-80px');
     $('.chapterpage').css('top', '-64px');
     $('.logo').css('color', '#ffffff');
-    $('.logostrong').css('color', '#cf6766');
+    $('.logostrong').css('color', '#F4D03F');
     $('.mobile').css('top', '-80px');
   }
 });
