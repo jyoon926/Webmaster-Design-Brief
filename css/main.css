@@ -6,7 +6,6 @@ html {
   margin: 0;
   padding: 0;
   background: #000;
-  overflow-x: hidden;
 }
 body {
   margin: 0;
@@ -31,7 +30,6 @@ body {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  overflow-x: hidden;
 }
 .aaa {
   z-index: 10;
@@ -41,7 +39,6 @@ header {
   padding: 0;
   position: absolute;
   z-index: 10;
-  overflow-x: hidden;
   width: 100vw;
   -webkit-transition-duration: 300ms;
           transition-duration: 300ms;
@@ -171,7 +168,6 @@ header ul a li:hover {
   -ms-flex-direction: column;
   flex-direction: column;
   width: 100%;
-  overflow-x: hidden;
   top: 0;
   background-image: url("../img/christopher-burns-271403.jpg");
   background-repeat: no-repeat, no-repeat, no-repeat;
@@ -269,7 +265,7 @@ header ul a li:hover {
   text-align: left;
   width: 1050px;
   color: black;
-  font-family: "hindmedium";
+  font-family: "hindregular";
   font-size: 20px;
   padding: 0;
   line-height: 28px;
@@ -687,7 +683,7 @@ hr {
   text-align: left;
   width: 900px;
   color: black;
-  font-family: "hindlight";
+  font-family: "hindregular";
   font-size: 20px;
   padding: 0;
   line-height: 28px;
@@ -1179,7 +1175,6 @@ hr {
   -ms-flex-direction: column;
   flex-direction: column;
   width: 100%;
-  overflow-x: hidden;
   top: 0;
   background-image: url("../img/christopher-burns-271403.jpg");
   background-repeat: no-repeat, no-repeat, no-repeat;
@@ -1621,7 +1616,6 @@ header {
   padding: 0;
   position: absolute;
   z-index: 10;
-  overflow-x: hidden;
   width: 100vw;
   -webkit-transition-duration: 300ms;
           transition-duration: 300ms;
@@ -1745,7 +1739,6 @@ header {
   padding: 0;
   position: absolute;
   z-index: 10;
-  overflow-x: hidden;
   width: 100vw;
   -webkit-transition-duration: 300ms;
           transition-duration: 300ms;
@@ -1868,4 +1861,8 @@ header ul a li:hover {
     display: -ms-flexbox;
     display: flex;
 }
+}
+
+strong {
+  font-family: "hindbold" !important;
 }
