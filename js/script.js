@@ -512,27 +512,31 @@
 
 }).call(this);
 
+$(window).on("scroll",function () {
+  if ($(this).scrollTop() > 1) {
+    $('.header-background').css('top', '0px');
+    $('.logo').css('color', 'black');
+    $('.logo').css('font-weight', '300');
+    $('.logo').css('font-size', '35px');
+    $('.logo').css('margin', '20px 0 0 var(--outside)');
+    $('.logostrong').css('font-size', '35px');
+    $('.logostrong').css('color', '#1F3A93');
+    $('.header-button').css('color', 'black');
+    $('.header-button').css('margin', '20px var(--outside) 0 0');
+  }
+  else {
+    $('.header-background').css('top', '-80px');
+    $('.logo').css('color', '#ffffff');
+    $('.logo').css('font-weight', '200');
+    $('.logo').css('margin', '40px 0 0 var(--outside)');
+    $('.logo').css('font-size', '40px');
+    $('.logostrong').css('font-size', '40px');
+    $('.logostrong').css('color', '#6534ff');
+    $('.header-button').css('color', 'white');
+    $('.header-button').css('margin', '45px var(--outside) 0 0');
+  }
+});
 
-/*  $(document).ready(function(){
-$("a").on('click', function(event) {
-if (this.hash !== "") {
-event.preventDefault();
-var hash = this.hash;
-$('html, body').animate({
-scrollTop: $(hash).offset().top
-}, 800, function(){
-window.location.hash = hash;
-});
-} // End if
-});
-});
-
-$(window).on("scroll", function () {
-    if ($(this).scrollTop() > 0) {
-    }
-    else {
-    }
-});
 //Parallax
 function simpleParallax() {
    //This variable is storing the distance scrolled
@@ -540,13 +544,9 @@ function simpleParallax() {
    var winW = window.innerWidth;
 
    if( winW >= 1000) {
-       $('.cover3').css('background-position', '0' + -(scrolled * 0.7) + 'px');
-       $('.cover').css('background-position', '0' + -(scrolled * 0.4) + 'px');
-       $('.cover2').css('background-position', '0' + -(scrolled * 0.2) + 'px');
+       $('.cover').css('background-position', '0' + -(scrolled * 0.6) + 'px');
    } else {
-       $('.cover3').css('background-position', '0' + -(scrolled * 0) + 'px');
        $('.cover').css('background-position', '0' + -(scrolled * 0) + 'px');
-       $('.cover2').css('background-position', '0' + -(scrolled * 0) + 'px');
    }
 }
 //Everytime we scroll, it will fire the function
@@ -555,58 +555,3 @@ $(window).scroll(function (e) {
 });
 var scwease = require('scroll-with-ease');
 scwease(element, 1500, [0.42, 0.0, 0.58, 1.0]);
-*/
-
-$(window).on("scroll",function () {
-  if ($(this).scrollTop() > 150) {
-    $('.aaa').css('top', '0px');
-    $('.chapterpage').css('top', '16px');
-    $('.logo').css('color', '#000000');
-    $('.logostrong').css('color', '#1F3A93');
-    $('.mobile').css('top', '0px');
-  }
-  else {
-    $('.aaa').css('top', '-80px');
-    $('.chapterpage').css('top', '-64px');
-    $('.logo').css('color', '#ffffff');
-    $('.logostrong').css('color', '#F4D03F');
-    $('.mobile').css('top', '-80px');
-  }
-});
-
-// Select all links with hashes
-$('a[href*="#"]')
-  // Remove links that don't actually link to anything
-  .not('[href="#"]')
-  .not('[href="#0"]')
-  .click(function(event) {
-    // On-page links
-    if (
-      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
-      &&
-      location.hostname == this.hostname
-    ) {
-      // Figure out element to scroll to
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-      // Does a scroll target exist?
-      if (target.length) {
-        // Only prevent default if animation is actually gonna happen
-        event.preventDefault();
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 1000, function() {
-          // Callback after animation
-          // Must change focus!
-          var $target = $(target);
-          $target.focus();
-          if ($target.is(":focus")) { // Checking if the target was focused
-            return false;
-          } else {
-            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
-            $target.focus(); // Set focus again
-          };
-        });
-      }
-    }
-  });
