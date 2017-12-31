@@ -518,22 +518,22 @@ $(window).on("scroll",function () {
     $('.logo').css('color', 'black');
     $('.logo').css('font-weight', '300');
     $('.logo').css('font-size', '35px');
-    $('.logo').css('margin', '20px 0 0 var(--outside)');
+    $('.logo').css('margin', '20px 0 0 var(--between)');
     $('.logostrong').css('font-size', '35px');
-    $('.logostrong').css('color', '#1F3A93');
+    $('.logostrong').css('color', 'var(--color1)');
     $('.header-button').css('color', 'black');
-    $('.header-button').css('margin', '20px var(--outside) 0 0');
+    $('.header-button').css('margin', '20px var(--between) 0 0');
   }
   else {
     $('.header-background').css('top', '-80px');
     $('.logo').css('color', '#ffffff');
     $('.logo').css('font-weight', '200');
-    $('.logo').css('margin', '40px 0 0 var(--outside)');
+    $('.logo').css('margin', '40px 0 0 var(--between)');
     $('.logo').css('font-size', '40px');
     $('.logostrong').css('font-size', '40px');
-    $('.logostrong').css('color', '#6534ff');
+    $('.logostrong').css('color', 'var(--color1)');
     $('.header-button').css('color', 'white');
-    $('.header-button').css('margin', '45px var(--outside) 0 0');
+    $('.header-button').css('margin', '45px var(--between) 0 0');
   }
 });
 
