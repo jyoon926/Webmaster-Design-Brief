@@ -19,9 +19,6 @@ body {
   padding: 0;
   overflow-x: hidden;
 }
-::-webkit-scrollbar {
-display: none;
-}
 /*
 ::selection {
   color: var(--darker-blue);
