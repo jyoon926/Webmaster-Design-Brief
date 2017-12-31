@@ -250,8 +250,8 @@ body {
 }
 .section-1 h1 {
   font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 30px;
+  font-weight: 800;
+  font-size: 40px;
   color: var(--color1);
   text-align: center;
   width: var(--3col);
@@ -317,7 +317,7 @@ body {
 }
 .section-2 h1 {
   font-family: 'Raleway', sans-serif;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 40px;
   line-height: 40px;
   color: var(--color1);
@@ -390,7 +390,7 @@ body {
 }
 .section-3 h1 {
   font-family: 'Raleway', sans-serif;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 40px;
   line-height: 40px;
   color: var(--color1);
