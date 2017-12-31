@@ -1,13 +1,13 @@
 :root {
-    --purple: #6534ff;
-    --blue: #62bcfa;
-    --peach: #fccdd3;
-    --lighter-blue: #bbc4ef;
-    --outside: 200px;
-    --Loutside: 400px;
-    --2colinside: 50px;
-    --between: 100px;
-    --inside: 10px;
+  --purple: #6534ff;
+  --blue: #62bcfa;
+  --peach: #fccdd3;
+  --lighter-blue: #bbc4ef;
+  --outside: 200px;
+  --Loutside: 400px;
+  --2colinside: 50px;
+  --between: 100px;
+  --inside: 10px;
 }
 html {
   margin: 0;
@@ -18,6 +18,9 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+}
+::-webkit-scrollbar {
+display: none;
 }
 /*
 ::selection {
@@ -31,6 +34,7 @@ body {
   filter: saturate(1) brightness(1);
   transition-duration: 300ms;
 }
+.js div#preloader { position: fixed; left: 0; top: 0; z-index: 999; width: 100%; height: 100%; overflow: visible; background: #333 url('http://files.mimoymima.com/images/loading.gif') no-repeat center center; }
 .header-background {
   width: 100vw;
   height: 80px;
@@ -78,7 +82,7 @@ body {
   padding: 0;
   margin: 0;
   width: 100%;
-  height: 500px;
+  height: 220px;
   position: fixed;
   display: flex;
   justify-content: center;
@@ -93,14 +97,15 @@ body {
   box-shadow: 0 0 20px rgba(0,0,0,0.7);
 }
 .header a {
-  margin: 20px;
+  margin: 10px;
   padding: 0;
   text-decoration: none;
   color: white;
   list-style: none;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 20px;
+	line-height: 20px;
   letter-spacing: 3px;
   transition-duration: 200ms;
   border-bottom: 2px solid rgba(255, 255, 255, 0);
@@ -312,7 +317,6 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: 18px;
   color: black;
   line-height: 36px;
   text-align: left;
@@ -379,7 +383,6 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: 18px;
   color: black;
   line-height: 36px;
   text-align: right;
