@@ -40,6 +40,7 @@ body {
   background: #fff;
   position: fixed;
   top: -80px;
+  left: 0;
   transition-duration: 200ms;
   z-index: 100;
   box-shadow: 0 0 20px rgba(0,0,0,0.7);
@@ -222,7 +223,7 @@ body {
   line-height: 16px;
   background: var(--color1); 
   transition-duration: 200ms;
-  box-shadow: 5px 5px 0 var(--color2);
+  box-shadow: 6px 6px 0 var(--color2);
 }
 .lander a:hover {
   color: var(--color1);
@@ -281,7 +282,7 @@ body {
   line-height: 16px;
   background: var(--color1); 
   transition-duration: 200ms;
-  box-shadow: 5px 5px 0 var(--color2);
+  box-shadow: 6px 6px 0 var(--color2);
 }
 .aboutagapai strong {
   font-weight: 800;
@@ -333,6 +334,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   font-size: 18px;
+  width: var(--4col);
   color: black;
   line-height: 36px;
   text-align: left;
@@ -352,7 +354,7 @@ body {
   line-height: 16px;
   background: var(--color1); 
   transition-duration: 200ms;
-  box-shadow: 5px 5px 0 var(--color2);
+  box-shadow: 6px 6px 0 var(--color2);
 }
 .findouthere strong {
   font-weight: 800;
@@ -425,7 +427,7 @@ body {
   line-height: 16px;
   background: var(--color1); 
   transition-duration: 200ms;
-  box-shadow: 5px 5px 0 var(--color2);
+  box-shadow: 6px 6px 0 var(--color2);
 }
 .purchasecarl strong {
   font-weight: 800;
