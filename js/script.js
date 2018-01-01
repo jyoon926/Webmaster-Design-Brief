@@ -555,3 +555,4 @@ $(window).scroll(function (e) {
 });
 var scwease = require('scroll-with-ease');
 scwease(element, 1500, [0.42, 0.0, 0.58, 1.0]);
+
