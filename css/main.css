@@ -378,11 +378,15 @@ body {
 }
 .section-2-carl-image {
 	width: var(--2col);
+  height: auto;
 	background: var(--color2);
 	margin: 0 2vw 0 0;
 	border-radius: 0;
 	transition-duration: 500ms;
   opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /*.section-2-carl-image:hover {
 	border-radius: 2vw;
