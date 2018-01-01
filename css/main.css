@@ -296,7 +296,7 @@ body {
   width: var(--6col);
   height: 1px;
   background: linear-gradient(to right, var(--color2), var(--color1));
-  opacity: 0.5;
+  opacity: 01;
 }
 .section-2 {
 	padding: 0;
@@ -370,11 +370,23 @@ body {
   font-size: 16px;
   width: var(--1col);
   color: black;
-  line-height: 30px;
+  line-height: 26px;
   text-align: left;
-	letter-spacing: 1px;
+	letter-spacing: 0;
 	margin: 0;
 	padding: 0;
+}
+.line {
+  margin: 60px auto 0 auto;
+  width: 1.5vw;
+  border-bottom: 2px solid var(--color1);
+  z-index: 1;
+}
+.section-2-carl img {
+  margin: 0 0 0 5.833333333vw;
+  position: absolute;
+  width: var(--1col);
+  z-index: 1 !important;
 }
 .section-2-carl-image {
 	width: var(--2col);
@@ -387,6 +399,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: -1 !important;
 }
 /*.section-2-carl-image:hover {
 	border-radius: 2vw;
@@ -407,6 +420,7 @@ body {
 	border-radius: 0;
 	transition-duration: 500ms;
   opacity: 1;
+  z-index: -1 !important;
 }
 /*.section-2-paul-image:hover {
 	border-radius: 2vw;
@@ -422,7 +436,6 @@ body {
 }
 .purchasecarl-parent {
   margin: 50px 0 0 0;
-	
 }
 .purchasecarl {
   padding: 12px 30px;
@@ -438,6 +451,7 @@ body {
   transition-duration: 200ms;
 	border-radius: 38px;
   box-shadow: 6px 6px 0 var(--color2);
+  margin: 0;
 }
 .purchasecarl:hover {
   color: var(--color1);
