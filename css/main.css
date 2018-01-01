@@ -557,6 +557,7 @@ PRELOADING
   left: 0;
   background: var(--color1);
   transition-duration: 1000ms;
+  transition-delay: 1000ms;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -612,7 +613,7 @@ RESPONSIVE
     text-align: center;
     margin: 40px 0 0 0;
   }
-  .sectsecion-3 hr {
+  .section-3 hr {
     margin: 40px 0 40px 0;
   }
   .section-3 p {
