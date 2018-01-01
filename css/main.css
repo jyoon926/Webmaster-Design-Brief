@@ -226,7 +226,7 @@ body {
 }
 .lander a:hover {
   color: var(--color1);
-  background: var(--color3);sec
+  background: var(--color3);
 }
 .group-1 {
   width: 100vw;
@@ -355,25 +355,13 @@ body {
 .section-2-content {
 	width: 80vw;
 	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: flex-start;
+	flex-direction: row;
 	margin: 0 0 100px 0;
 	padding: 0;
-	
 }
 .section-2-carl {
 	width: var(--1col);
 	margin: 0 2vw 0 0;
-}
-.section-2-paul2 {
-	display: none;
-}
-.section-2-paul2 p {
-	margin: 0;
-}
-.section-2-paul-image2 {
-	display: none;
 }
 .section-2-carl p {
   font-family: 'Raleway', sans-serif;
@@ -627,11 +615,19 @@ RESPONSIVE
   }
   .section-2-titles h1 {
     width: var(--4col);
-    margin: 0 auto 40px auto;
-    text-align: center;
+    margin: 0 0 40px 27.333vw;
+    text-align: left;
   }
   .section-2-titles h2 {
-    display: none;
+    width: var(--2col);
+    margin: 0 0 0 15.666vw;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    color: var(--color1);
+    text-align: left;
+    letter-spacing: 1px;
   }
   .section-2-content {
     width: 80vw;
@@ -641,40 +637,60 @@ RESPONSIVE
     padding: 0;
   }
   .section-2-carl {
-    width: var(--2col);
+    width: var(--1col);
+    margin: 0 2vw 0 0;
   }
   .section-2-carl p {
-    width: var(--2col);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: var(--1col);
+    color: black;
+    line-height: 26px;
+    text-align: left;
+    letter-spacing: 0;
+    margin: 0;
+    padding: 0;
   }
   .line {
     margin: 60px auto 0 auto;
-    width: 2vw;
+    width: 1.5vw;
     border-bottom: 2px solid var(--color1);
+    z-index: 1;
   }
   .section-2-carl img {
-    margin: -1px 0 0 12.666vw;
-    width: 22vw;
+    margin: 0 0 0 5.833333333vw;
+    position: absolute;
+    width: var(--1col);
+    z-index: 1 !important;
   }
   .section-2-carl-image {
-    width: var(--4col);
+    width: var(--2col);
+    height: auto;
+    background: var(--color2);
+    margin: 0 2vw 0 0;
+    border-radius: 0;
+    transition-duration: 500ms;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1 !important;
   }
   .section-2-carl-image-file {
-    width: 23.333vw;
-    margin: 0 1vw;
+    width: 19.333vw;
+    margin: 1.5vw 3vw;
     transition-duration: 500ms;
   }
-	.section-2-paul {
-		display: none;
-	}
   .section-2-paul-image {
-    display: none;
+    width: var(--2col);
+    background: var(--color2);
+    margin: 0 0 0 0;
+    border-radius: 0;
+    transition-duration: 500ms;
+    opacity: 1;
+    z-index: -1 !important;
   }
-	.section-2-paul2 {
-		display: flex;
-	}
-	.section-2-paul-image2 {
-		display: flex;
-	}
   .section-2-paul-image-file {
     width: 19.333vw;
     margin: 1.5vw 3vw;
