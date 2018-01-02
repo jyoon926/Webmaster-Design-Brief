@@ -521,7 +521,7 @@ $(window).on("scroll",function () {
     $('.logo').css('margin', '20px 0 0 var(--between)');
     $('.logostrong').css('font-size', '35px');
     $('.logostrong').css('color', 'var(--color1)');
-    $('.header-button').css('color', 'black');
+    $('.header-button').css('color', 'var(--color1)');
     $('.header-button').css('margin', '20px var(--between) 0 0');
   }
   else {
