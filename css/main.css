@@ -26,12 +26,26 @@ body {
   color: white;
   background: var(--color1);
 }
-
 .page-wrap {
-  margin: 0;
-  padding: 0;
   filter: saturate(1) brightness(1);
   transition-duration: 300ms;
+}
+.up-arrow {
+  margin: 0;
+  padding: 5px 15px 7px 15px;
+  border-radius: 10px;
+  background: rgba(0,0,0,0.4);
+  position: fixed;
+  bottom: 1.8vw;
+  right: 2vw;
+  z-index: 20;
+  font-size: 30px;
+  color: white;
+  transition-duration: 400ms;
+}
+.up-arrow:hover {
+  background: rgba(0,0,0,0.8);
+  border-radius: 40px;
 }
 .header-background {
   width: 100vw;
