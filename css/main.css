@@ -546,6 +546,133 @@ body {
   width: var(--2col);
   margin: 0 var(--between) 0 var(--inside);
 }
+footer {
+  height: 300px;
+  width: 100vw;
+  background: linear-gradient(to top right, var(--color2), var(--color1));
+}
+.footer-wrap {
+  width: var(--6col);
+  margin: auto auto;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+}
+.footer-section-1 {
+  width: var(--3col);
+  margin: 0 2vw 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 300px;
+}
+.footer-section-1-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.footer-section-1-2 {
+  margin: 0 0 0 20px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.footer-section-1 img {
+  margin: 0;
+  padding: 0;
+  width: 150px;
+}
+.footer-section-1 h1{
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  color: white;
+  font-size: 30px;
+}
+.footer-section-1 h1 strong {
+  font-weight: 800;
+
+}
+.footer-section-1 hr {
+  width: 60px;
+  margin: 6px 0 10px 0;
+}
+.footer-section-1 h2 {
+  font-weight: 300;
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+.footer-section-1 a {
+  margin: 20px 0 0 0;
+  padding: 20px 0 20px 0;
+  width: 200px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 14px;
+  background: var(--color1); 
+  transition-duration: 200ms;
+  box-shadow: 6px 6px 0 var(--color2);
+  border-radius: 56px;
+}
+.footer-section-1 a:hover {
+  background: var(--color3);
+  color: var(--color1);
+}
+.footer-section-2 {
+  margin: 0 0 0 2vw;
+  padding: 0;
+  width: var(--3col);
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.footer-section-2 h3 {
+  font-weight: 800;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 0;
+}
+.footer-section-2 hr {
+  width: 60px;
+  margin: 6px 0 10px 0;
+}
+.footer-section-2 ul {
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer-section-2 a  {
+  color: white;
+  text-decoration: none;
+  text-align: right;
+  line-height: 22px;
+}
+.footer-section-2 a li {
+
+}
 /*
 *
 *
