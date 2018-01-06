@@ -544,9 +544,13 @@ function simpleParallax() {
    var winW = window.innerWidth;
 
    if( winW >= 1000) {
-       $('.cover').css('background-position', '0' + -(scrolled * 0.6) + 'px');
+       $('.cover').css('background-position', '0' + -(scrolled * 0.5) + 'px');
+       $('.cover1').css('background-position', '0' + -(scrolled * 0.7) + 'px');
+       $('.cover2').css('background-position', '0' + -(scrolled * 0.2) + 'px');
    } else {
        $('.cover').css('background-position', '0' + -(scrolled * 0) + 'px');
+       $('.cover1').css('background-position', '0' + -(scrolled * 0) + 'px');
+       $('.cover2').css('background-position', '0' + -(scrolled * 0) + 'px');
    }
 }
 //Everytime we scroll, it will fire the function
