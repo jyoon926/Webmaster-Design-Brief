@@ -15,6 +15,9 @@
   --6col: 80vw;
   --between: 10vw;
   --inside: 2vw;
+  --regular: 300;
+  --bold: 900;
+  --font: 'Roboto', sans-serif;
 }
 html {
   margin: 0;
@@ -123,8 +126,8 @@ body {
   text-decoration: none;
   color: white;
   list-style: none;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
+  font-family: var(--font);
+  font-weight: var(--regular);
   font-size: 20px;
 	line-height: 20px;
   letter-spacing: 3px;
@@ -153,9 +156,9 @@ body {
   margin: 40px 0 0 var(--between);
   padding: 0;
   position: fixed;
-  font-family: 'Raleway', sans-serif;
+  font-family: var(--font);
   font-size: 40px;
-  font-weight: 200;
+  font-weight: var(--regular);
   color: white;
   text-decoration: none;
   transition-duration: 200ms;
@@ -165,8 +168,8 @@ body {
 .logostrong {
   margin: 0;
   padding: 0;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 900;
+  font-family: var(--font);
+  font-weight: var(--bold);
   color: var(--color1);
   letter-spacing: 1px;
   transition-duration: 200ms;
@@ -203,8 +206,8 @@ body {
   width: 80vw;
   margin: 0 0 0 var(--between);
   padding: 0;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 800;
+  font-family: var(--font);
+  font-weight: var(--bold);
   color: white;
   z-index: 1;
   text-align: left;
@@ -215,8 +218,8 @@ body {
 .lander h2 {
   margin: 20px 0 50px var(--between);
   padding: 0;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 200;
+  font-family: var(--font);
+  font-weight: var(--regular);
   color: white;
   text-align: left;
   font-size: 40px;
@@ -233,8 +236,8 @@ body {
   margin: 0 0 0 var(--between);
   padding: 25px 0 25px 0;
   width: 220px;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
+  font-family: var(--font);
+  font-weight: var(--regular);
   color: white;
   text-align: center;
   text-decoration: none;
@@ -270,8 +273,8 @@ body {
   padding: 0 0 0 0;
 }
 .section-1 h1 {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 800;
+  font-family: var(--font);
+  font-weight: var(--bold);
   font-size: 40px;
   color: var(--color1);
   text-align: center;
@@ -279,8 +282,8 @@ body {
   margin: 0 0 0 0;
 }
 .section-1 p {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
+  font-family: var(--font);
+  font-weight: var(--regular);
   font-size: 18px;
   width: var(--5col);
   color: black;
@@ -292,8 +295,8 @@ body {
   margin: 40px 0 100px 0;
   padding: 25px 0 25px 0;
   width: 220px;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 500;
+  font-family: var(--font);
+  font-weight: var(--regular);
   color: white;
   text-align: center;
   text-decoration: none;
@@ -305,7 +308,7 @@ body {
   border: 2px solid rgba(0,0,0,0);
 }
 .aboutagapai strong {
-  font-weight: 800;
+  font-weight: var(--bold);
 }
 .aboutagapai:hover {
   background: none;
@@ -338,8 +341,8 @@ body {
   background: white;
 }
 .section-3 h1 {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 800;
+  font-family: var(--font);
+  font-weight: var(--bold);
   font-size: 40px;
   line-height: 40px;
   color: var(--color1);
@@ -352,8 +355,8 @@ body {
   margin: 40px 0 0 var(--between);
 }
 .section-3 p {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
+  font-family: var(--font);
+  font-weight: var(--regular);
   font-size: 18px;
   width: var(--4col);
   color: black;
@@ -365,8 +368,8 @@ body {
   margin: 40px var(--inside) 100px var(--between);
   padding: 25px 0 25px 0;
   width: 220px;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 500;
+  font-family: var(--font);
+  font-weight: var(--regular);
   color: white;
   text-align: center;
   text-decoration: none;
@@ -378,7 +381,7 @@ body {
   border: 3px solid rgba(0,0,0,0);
 }
 .findouthere strong {
-  font-weight: 800;
+  font-weight: var(--bold);
 }
 .findouthere:hover {
   color: var(--color1);
@@ -409,7 +412,7 @@ footer {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  font-family: 'Raleway', sans-serif;
+  font-family: var(--font);
 }
 .footer-section-1 {
   width: var(--3col);
@@ -443,12 +446,12 @@ footer {
 .footer-section-1 h1{
   margin: 0;
   padding: 0;
-  font-weight: 300;
+  font-weight: var(--regular);
   color: white;
   font-size: 30px;
 }
 .footer-section-1 h1 strong {
-  font-weight: 800;
+  font-weight: var(--bold);
 
 }
 .footer-section-1 hr {
@@ -457,7 +460,7 @@ footer {
   border: 0.5px solid white;
 }
 .footer-section-1 h2 {
-  font-weight: 300;
+  font-weight: var(--regular);
   color: white;
   margin: 0;
   padding: 0;
@@ -468,8 +471,8 @@ footer {
   margin: 20px 0 0 0;
   padding: 15px 0 15px 0;
   width: 200px;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
+  font-family: var(--font);
+  font-weight: var(--regular);
   color: white;
   text-align: center;
   text-decoration: none;
@@ -496,7 +499,7 @@ footer {
   align-items: flex-end;
 }
 .footer-section-2 h3 {
-  font-weight: 800;
+  font-weight: var(--bold);
   color: white;
   font-size: 20px;
   letter-spacing: 2px;
@@ -509,7 +512,7 @@ footer {
   border: 0.5px solid white;
 }
 .footer-section-2 ul {
-  font-weight: 300;
+  font-weight: var(--regular);
   font-size: 14px;
   letter-spacing: 2px;
   margin: 0;
@@ -610,7 +613,7 @@ RESPONSIVE
     margin: 40px 0 40px 0;
   }
   .section-3 p {
-    font-weight: 400;
+    font-weight: var(--regular);
     font-size: 18px;
     text-align: center;
     margin: 0;
