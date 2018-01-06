@@ -241,7 +241,7 @@ body {
   font-size: 16px;
   letter-spacing: 1px;
   line-height: 16px;
-  background: var(--color1); 
+  background: var(--color1);
   transition-duration: 200ms;
   border: 3px solid rgba(0,0,0,0);
 }
@@ -300,7 +300,7 @@ body {
   font-size: 16px;
   letter-spacing: 1px;
   line-height: 16px;
-  background: var(--color1); 
+  background: var(--color1);
   transition-duration: 200ms;
   border: 2px solid rgba(0,0,0,0);
 }
@@ -308,7 +308,7 @@ body {
   font-weight: 800;
 }
 .aboutagapai:hover {
-  background: none; 
+  background: none;
   color: var(--color1);
   border: 2px solid var(--color1);
 }
@@ -373,7 +373,7 @@ body {
   font-size: 16px;
   letter-spacing: 1px;
   line-height: 16px;
-  background: var(--color1); 
+  background: var(--color1);
   transition-duration: 200ms;
   border: 3px solid rgba(0,0,0,0);
 }
@@ -382,7 +382,7 @@ body {
 }
 .findouthere:hover {
   color: var(--color1);
-  background: none; 
+  background: none;
   border: 3px solid var(--color1);
 }
 .section-3-image-parent {
@@ -476,7 +476,7 @@ footer {
   font-size: 14px;
   letter-spacing: 1px;
   line-height: 14px;
-  background: var(--color1); 
+  background: var(--color1);
   transition-duration: 200ms;
   border-radius: 56px;
   border: 3px solid rgba(0,0,0,0);
@@ -555,7 +555,7 @@ PRELOADING
   left: 0;
   background: var(--color1);
   transition-duration: 1000ms;
-  transition-delay: 1000ms;
+  transition-delay: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -622,7 +622,7 @@ RESPONSIVE
     margin: 100px 0 0 0;
   }
   .section-3-image-parent {
-    display: none !important; 
+    display: none !important;
   }
   .section-3-image {
     display: none !important;
