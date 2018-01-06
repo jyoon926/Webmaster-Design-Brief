@@ -418,7 +418,7 @@ body {
 footer {
   height: 300px;
   width: 100vw;
-  background: linear-gradient(to top right, var(--color1), #26a0a3);
+  background: linear-gradient(to top right, #26a0a3, var(--color1));
 }
 .footer-wrap {
   width: var(--6col);
