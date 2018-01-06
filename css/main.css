@@ -185,37 +185,18 @@ body {
   justify-content: center;
   flex-direction: column;
 }
-.cover {
+#cover {
   position: absolute;
   height: 100vh;
   width: 100vw;
   top: 0;
-  background-image: url("../img/CARL.png");
-  background-size: cover;
-  background-position: top left;
-  background-attachment: fixed;
   z-index: -1;
 }
-.cover1 {
+#cover1 {
   position: absolute;
   height: 100vh;
   width: 100vw;
-  top: 0;
-  background-image: url("../img/home-lander2.svg");
-  background-size: cover;
-  background-position: top left;
-  background-attachment: fixed;
-  z-index: -1;
-}
-.cover2 {
-  position: absolute;
-  height: 100vh;
-  width: 100vw;
-  top: 0;
-  background-image: url("../img/home-lander3.svg");
-  background-size: cover;
-  background-position: top left;
-  background-attachment: fixed;
+  top: -100vh;
   z-index: -1;
 }
 .lander h1 {
@@ -336,7 +317,7 @@ body {
   width: var(--6col);
   height: 1px;
   background: linear-gradient(to right, var(--color2), var(--color1));
-  opacity: 01;
+  opacity: 1;
 }
 .section-3 {
   width: 100vw;
@@ -612,11 +593,6 @@ RESPONSIVE
 *
 *
 */
-@media screen and (max-width: 1700px) {
-  .section-3-image {
-    width: var(--3col);
-  }
-}
 @media screen and (max-width: 1400px) {
   .section-3 {
     flex-direction: column;
@@ -658,7 +634,11 @@ RESPONSIVE
     flex-direction: column;
   }
 }
-@media screen and (max-width: 1120px) {
-  .lander h1 {
+@media screen and (max-width: 1200px) {
+  #cover {
+    top: -100vh;
+  }
+  #cover1 {
+    top: 0;
   }
 }

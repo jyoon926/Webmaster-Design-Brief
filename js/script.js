@@ -536,7 +536,7 @@ $(window).on("scroll",function () {
     $('.header-button').css('margin', '45px var(--between) 0 0');
   }
 });
-
+/*
 //Parallax
 function simpleParallax() {
    //This variable is storing the distance scrolled
@@ -545,12 +545,8 @@ function simpleParallax() {
 
    if( winW >= 1000) {
        $('.cover').css('background-position', '0' + -(scrolled * 0.5) + 'px');
-       $('.cover1').css('background-position', '0' + -(scrolled * 0.7) + 'px');
-       $('.cover2').css('background-position', '0' + -(scrolled * 0.2) + 'px');
    } else {
        $('.cover').css('background-position', '0' + -(scrolled * 0) + 'px');
-       $('.cover1').css('background-position', '0' + -(scrolled * 0) + 'px');
-       $('.cover2').css('background-position', '0' + -(scrolled * 0) + 'px');
    }
 }
 //Everytime we scroll, it will fire the function
@@ -560,3 +556,4 @@ $(window).scroll(function (e) {
 var scwease = require('scroll-with-ease');
 scwease(element, 1500, [0.42, 0.0, 0.58, 1.0]);
 
+*/

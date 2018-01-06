@@ -5,13 +5,12 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i" rel="stylesheet">
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-        <script type="text/javascript" src="js/smoothscroll.js"></script>
-        <script src="js/jquery-3.2.1.js"></script>
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/hover.css">
         <link rel="stylesheet" href="css/animate.css">
         <script src="js/script.js"></script>
         <script src="js/wow.min.js"></script>
+        <script src="js/parallax.js"></script>
         <script>new WOW().init();</script>
         <script>
           $(document).ready(function(){
@@ -62,14 +61,13 @@
                     <hr class="">
                     <a href="#more" class=""wow fadeInUp"">LEARN MORE</a>
                 </div>
-                <div class="cover"></div>
+                <div id="cover" data-parallax="scroll" data-image-src="img/CARL.png" data-speed="0.5"></div>
+                <div id="cover1" data-parallax="scroll" data-image-src="img/CARL_MOBILE.png"></div>
                 <section class="section-1" id="more">
                     <img class="wow fadeIn" src="img/logo.svg" alt="">
                     <h1 class="wow fadeIn">We Are AgapAI</h1>
                     <p class="wow fadeIn">AgapAI is a world leader in artificial intelligence medical robotics and its application for positive impact. We are on a scientific mission to push the boundaries of AI, developing products that can perform complex tasks and surpass human abilities. As in all long-term research efforts there are many hurdles ahead, but our team of renowned scientists and engineers is making exciting progress.</p>
                     <a href="whoweare.html" class="wow aboutagapai fadeInUp">ABOUT <strong>AGAPAI</strong></a>
-                </section>
-                <section class="section-2">
                 </section>
                 <div class="section-divider"></div>
                 <section class="section-3">
@@ -119,6 +117,23 @@
                 overlay.style.top = '-100vh';
                 body.style.opacity = '1';
             })
+        </script>
+        <script>
+            window.addEventListener("DOMContentLoaded", scrollLoop, false);
+
+            var cover = document.querySelector("#cover");
+            var xScrollPosition;
+            var yScrollPosition;
+            function scrollLoop(e) {
+                xScrollPosition = window.scrollX;
+                yScrollPosition = window.scrolly;
+                setTranslate(0, yScrollPosition, cover);
+                requestAnimationFrame(scrollLoop);
+            }
+            function setTranslate(xPos, yPos, el) {
+                el.style.transform = "translate3d" + xPos + ", " +yPos + "px, 0";
+
+            }
         </script>
     </body>
 </html>
