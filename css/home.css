@@ -72,6 +72,14 @@
   color: var(--color1);
   border: 2px solid var(--color1);
 }
+.section-1 h2 {
+  position: absolute;
+  font-family: var(--font);
+  font-weight: var(--bold);
+  color: var(--color3);
+  text-align: center;
+  font-size: 40vw;
+}
 .section-2 {
   width: 100vw;
   display: flex;
