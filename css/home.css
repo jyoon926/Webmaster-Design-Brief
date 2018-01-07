@@ -21,6 +21,7 @@
   height: 200px;
   margin: 100px 0 40px 0;
   padding: 0 0 0 0;
+  z-index: 1;
 }
 .section-1 h1 {
   font-family: var(--font);
@@ -30,11 +31,13 @@
   text-align: center;
   width: var(--3col);
   margin: 0 0 0 0;
+  z-index: 1;
 }
 .section-1 hr {
   border: 2px solid var(--color1);
   width: 60px;
   margin: 40px 0 0 0;
+  z-index: 1;
 }
 .section-1 p {
   font-family: var(--font);
@@ -45,6 +48,18 @@
   line-height: 36px;
   text-align: center;
   margin: 40px 0 0 0;
+  z-index: 1;
+}
+.section-1 h2 {
+  font-family: var(--font);
+  font-weight: var(--bold);
+  font-size: 31vw;
+  color: rgba(0, 108, 120, 0.1);
+  line-height: 36px;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  z-index: 0;
 }
 .aboutagapai {
   margin: 40px 0 100px 0;
@@ -314,16 +329,6 @@ RESPONSIVE
   background-image: url("../img/CARL_MOBILE.png");
   background-position: center;
   background-size: cover;
-}
-#cover2 {
-  position: absolute;
-  height: 100vh;
-  width: 100vw;
-  top: 0;
-  z-index: -1;
-  background-image: url("../img/overlay-pattern.png");
-  background-position: center;
-  background-repeat: repeat;
 }
 @media screen and (max-width: 1200px) {
   #cover {

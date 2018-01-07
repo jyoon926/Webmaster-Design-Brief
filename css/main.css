@@ -226,6 +226,16 @@ body {
   margin: 0;
   padding: 0;
 }
+#cover2 {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  z-index: -1;
+  background-image: url("../img/overlay-pattern.png");
+  background-position: center;
+  background-repeat: repeat;
+}
 .lander {
   margin: 0;
   padding: 0;

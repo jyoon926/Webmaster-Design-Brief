@@ -43,6 +43,7 @@ body {
 }
 .lander h1 {
 	width: var(--5col);
+	font-size: 60px;
 }
 #cover {
   position: absolute;
