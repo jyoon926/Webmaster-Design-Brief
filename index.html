@@ -2,7 +2,7 @@
 <html class="js">
     <head>
         <title>AGAPAI</title>
-        <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+        <link rel="shortcut icon" href="img/logo.png"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Raleway:300,900" rel="stylesheet">
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -15,27 +15,16 @@
         <script>new WOW().init();</script>
         <script>
           $(document).ready(function(){
-            // Add smooth scrolling to all links
             $("a").on('click', function(event) {
-
-              // Make sure this.hash has a value before overriding default behavior
               if (this.hash !== "") {
-                // Prevent default anchor click behavior
                 event.preventDefault();
-
-                // Store hash
                 var hash = this.hash;
-
-                // Using jQuery's animate() method to add smooth page scroll
-                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
                 $('html, body').animate({
                   scrollTop: $(hash).offset().top
                 }, 800, function(){
-
-                  // Add hash (#) to URL when done scrolling (default click behavior)
                   window.location.hash = hash;
                 });
-              } // End if
+              }
             });
           });
         </script>
@@ -46,9 +35,9 @@
         <label for="checkbox" class="header-button">&#9776;</label>
         <label for="checkbox" class="header-button2">&#10005;</label>
         <ul class="header"><a href="index.html">
-            <li>Home</li></a><hr><a href="products.html">
-            <li>Products</li></a><hr><a href="aboutai.html">
-            <li>About AI</li></a><hr><a href="whoweare.html">
+            <li>Home</li></a><hr><a href="aboutai.html">
+            <li>About AI</li></a><hr><a href="products.html">
+            <li>Our Product</li></a><hr><a href="whoweare.html">
             <li>Who We Are</li></a>
         </ul>
         <div class="header-extended"></div>
@@ -67,14 +56,16 @@
                 <section class="section-1" id="more">
                     <img class="wow fadeIn" src="img/logo.svg" alt="">
                     <h1 class="wow fadeIn">We Are AgapAI</h1>
+                    <hr>
                     <p class="wow fadeIn">AgapAI is a world leader in artificial intelligence medical robotics and its application for positive impact. We are on a scientific mission to push the boundaries of AI, developing products that can perform complex tasks and surpass human abilities. As in all long-term research efforts there are many hurdles ahead, but our team of renowned scientists and engineers is making exciting progress.</p>
                     <a href="whoweare.html" class="wow aboutagapai fadeInUp">ABOUT <strong>AGAPAI</strong></a>
                 </section>
-                <div class="section-divider"></div>
                 <section class="section-2">
-                    
+                    <h1>Meet ARM</h1>
+                    <hr>
+                    <p>With four degrees of rotation and precision to the thousandth of a millimeter, ARM (Arthro-Robotic Mechanism) sets a formidable new standard for autonomous robotic arms. Its unique and completely reworked design enrich ARM’s accuracy and reliability.</p>
+                    <a href="products.html" class="wow reservenow fadeInUp">RESERVE <strong>NOW</strong></a>
                 </section>
-                <div class="section-divider"></div>
                 <section class="section-3">
                     <img src="img/section-2-image-2.svg" class="section-3-image-2" alt="">
                     <div class="section-3-text">

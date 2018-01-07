@@ -1,0 +1,45 @@
+:root {
+  --color1: #006c78;
+  --color2: #16868e;
+  --color3: #e3e3e3;
+  --color4: #a9bec3;
+  /*
+  --color2: #009688;
+  --color3: #CDDC39;
+  --color4: #90caf9;*/
+  --1col: 11.6666666667vw;
+  --2col: 25.333vw;
+  --3col: 39vw;
+  --4col: 52vw;
+  --5col: 65vw;
+  --6col: 80vw;
+  --between: 10vw;
+  --inside: 2vw;
+  --regular: 300;
+  --bold: 900;
+  --font: 'Roboto', sans-serif;
+}
+html {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+::-moz-selection {
+  color: white;
+  background: var(--color1);
+}
+::selection {
+  color: white;
+  background: var(--color1);
+}
+.lander {
+	height: 70vh;
+}
+.lander h1 {
+	width: var(--5col);
+}
