@@ -43,14 +43,17 @@ body {
 }
 .lander h1 {
 	width: var(--5col);
-	font-size: 60px;
+	font-size: 70px;
 }
 #cover {
   position: absolute;
-  height: 70vh;
+  height: 100vh;
   width: 100vw;
   top: 0;
-  z-index: -1;
+  z-index: -2;
+  background-image: url("../img/lander-image.png");
+  background-position: center;
+  background-size: cover;
 }
 @media screen and (max-width: 1200px) {
   #cover {

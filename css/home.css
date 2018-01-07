@@ -78,6 +78,7 @@
        -o-transition-duration: 200ms;
           transition-duration: 200ms;
   border: 2px solid rgba(0,0,0,0);
+  z-index: 1;
 }
 .aboutagapai strong {
   font-weight: var(--bold);
