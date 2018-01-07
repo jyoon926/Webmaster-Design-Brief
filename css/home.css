@@ -301,4 +301,7 @@ RESPONSIVE
   #cover1 {
     top: 0;
   }
+  #ut-animation-canvas {
+    display: none;
+  }
 }
