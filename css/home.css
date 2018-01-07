@@ -303,5 +303,6 @@ RESPONSIVE
   }
   #ut-animation-canvas {
     display: none;
+    z-index: -5;
   }
 }
