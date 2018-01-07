@@ -72,16 +72,6 @@
   color: var(--color1);
   border: 2px solid var(--color1);
 }
-.section-divider {
-  margin: 0 auto;
-  width: var(--6col);
-  height: 1px;
-  background: -webkit-gradient(linear, left top, right top, from(var(--color2)), to(var(--color1)));
-  background: -webkit-linear-gradient(left, var(--color2), var(--color1));
-  background: -o-linear-gradient(left, var(--color2), var(--color1));
-  background: linear-gradient(to right, var(--color2), var(--color1));
-  opacity: 1;
-}
 .section-2 {
   width: 100vw;
   display: flex;
