@@ -43,3 +43,8 @@ body {
 .lander h1 {
 	width: var(--5col);
 }
+@media screen and (max-width: 1200px) {
+  #cover {
+    top: 0;
+  }
+}
