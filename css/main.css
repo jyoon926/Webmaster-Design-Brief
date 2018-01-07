@@ -248,6 +248,9 @@ body {
   width: 100vw;
   top: 0;
   z-index: -2;
+  background-image: url("../img/CARL.png");
+  background-position: center;
+  background-size: cover;
 }
 #cover1 {
   position: absolute;
@@ -255,6 +258,9 @@ body {
   width: 100vw;
   top: -100vh;
   z-index: -2;
+  background-image: url("../img/CARL_MOBILE.png");
+  background-position: center;
+  background-size: cover;
 }
 .lander h1 {
   width: 80vw;
