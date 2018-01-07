@@ -40,3 +40,17 @@ body {
 .lander {
   height: 70vh;
 }
+.lander h1 {
+  width: var(--5col);
+  font-size: 70px;
+}
+#cover {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  z-index: -2;
+  background-image: url("../img/lander-image2.png");
+  background-position: center;
+  background-size: cover;
+}
