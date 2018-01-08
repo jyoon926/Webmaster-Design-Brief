@@ -42,7 +42,7 @@ body {
 	margin: 0;
 }
 .lander h1 {
-	width: var(--5col);
+	width: var(--4col);
 	font-size: 70px;
 }
 #cover {
@@ -51,7 +51,7 @@ body {
   width: 100vw;
   top: 0;
   z-index: -2;
-  background-image: url("../img/lander-image1.png");
+  background-image: url("../img/lander-image3.png");
   background-position: center;
   background-size: cover;
 }
