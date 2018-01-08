@@ -575,3 +575,8 @@ PRELOADING
   left: 0;
   z-index: -1;
 }
+@media screen and (max-width: 1200px) {
+  #ut-animation-canvas {
+    z-index: -5;
+  }
+}
