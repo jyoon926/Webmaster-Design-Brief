@@ -322,8 +322,3 @@ RESPONSIVE
   background-position: center;
   background-size: cover;
 }
-@media screen and (max-width: 1200px) {
-  #ut-animation-canvas {
-    z-index: -5;
-  }
-}
