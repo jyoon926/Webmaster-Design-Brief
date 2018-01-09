@@ -321,4 +321,5 @@ RESPONSIVE
   background-image: url("../img/lander-image1.png");
   background-position: center;
   background-size: cover;
+  filter: brightness(0.5);
 }
