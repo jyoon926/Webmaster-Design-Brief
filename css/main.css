@@ -36,10 +36,19 @@ body {
   padding: 0;
   height: 100vh;
   width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-image: url('../img/Blanket.png');
   background-size: cover;
   background-position: center;
@@ -61,7 +70,7 @@ body {
 .lander a {
   font-weight: var(--regular);
   color: white;
-  margin: 40px 0 0 0;
+  margin: 50px 0 0 0;
   padding: 20px 35px;
   border: 2px solid white;
   text-decoration: none;
@@ -69,7 +78,9 @@ body {
   line-height: 18px;
   border-radius: 62px;
   background: none;
-  transition-duration: 200ms;
+  -webkit-transition-duration: 200ms;
+       -o-transition-duration: 200ms;
+          transition-duration: 200ms;
 }
 .lander a:hover {
   background: white;
@@ -81,9 +92,15 @@ body {
   height: 100vh;
   width: 100vw;
   background: var(--color1);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .section-2 {
   margin: 0;
@@ -91,9 +108,15 @@ body {
   height: 100vh;
   width: 100vw;
   background: var(--color1);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .section-3 {
   margin: 0;
@@ -101,7 +124,13 @@ body {
   height: 100vh;
   width: 100vw;
   background: var(--color1);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
