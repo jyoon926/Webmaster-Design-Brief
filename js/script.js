@@ -512,7 +512,7 @@
 
 }).call(this);
 
-$(window).on("scroll",function () {
+/*$(window).on("scroll",function () {
   if ($(this).scrollTop() > 1) {
     $('.header-background').css('top', '0px');
     $('.logo').css('color', 'black');
@@ -536,7 +536,7 @@ $(window).on("scroll",function () {
     $('.header-button').css('margin', '45px var(--between) 0 0');
   }
 });
-/*
+
 //Parallax
 function simpleParallax() {
    //This variable is storing the distance scrolled
@@ -544,7 +544,7 @@ function simpleParallax() {
    var winW = window.innerWidth;
 
    if( winW >= 1000) {
-       $('.cover').css('background-position', '0' + -(scrolled * 0.5) + 'px');
+       $('.cover').css('background-position', '0' + -(scrolled * 0.1) + 'px');
    } else {
        $('.cover').css('background-position', '0' + -(scrolled * 0) + 'px');
    }
@@ -555,5 +555,5 @@ $(window).scroll(function (e) {
 });
 var scwease = require('scroll-with-ease');
 scwease(element, 1500, [0.42, 0.0, 0.58, 1.0]);
-
 */
+

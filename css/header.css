@@ -1,0 +1,238 @@
+.up-arrow {
+  margin: 0;
+  padding: 5px 15px 7px 15px;
+  border-radius: 10px;
+  background: rgba(0,0,0,0.4);
+  position: fixed;
+  bottom: 1.8vw;
+  right: 2vw;
+  z-index: 20;
+  font-size: 30px;
+  color: white;
+  -webkit-transition-duration: 400ms;
+       -o-transition-duration: 400ms;
+          transition-duration: 400ms;
+}
+.up-arrow:hover {
+  background: rgba(0,0,0,0.8);
+  border-radius: 40px;
+}
+.header-background {
+  width: 100vw;
+  height: 80px;
+  background: #fff;
+  position: fixed;
+  top: -80px;
+  left: 0;
+  -webkit-transition-duration: 200ms;
+       -o-transition-duration: 200ms;
+          transition-duration: 200ms;
+  z-index: 100;
+  -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.7);
+          box-shadow: 0 0 20px rgba(0,0,0,0.7);
+}
+.checkbox {
+  display: none;
+}
+.header-button {
+  margin: 35px 0 0 35px;
+  padding: 5px 13px 17px 13px;
+  border-radius: 50%;
+  background: var(--color1);
+  height: 30px;
+  left: 0;
+  font-size: 30px;
+  color: white;
+  display: fixed;
+  position: fixed;
+  z-index: 3;
+  transition-duration: 400ms;
+  opacity: 1;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+}
+.header-button:hover {
+  cursor: pointer;
+}
+.header-button2 {
+  margin: 35px 0 0 35px;
+  padding: 5px 13px 17px 13px;
+  border-radius: 50%;
+  background: var(--color1);
+  height: 30px;
+  left: 0;
+  font-size: 30px;
+  color: white;
+  display: fixed;
+  position: fixed;
+  z-index: 5;
+  transition-duration: 400ms;
+  opacity: 0;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
+.header-button2:hover {
+  cursor: pointer;
+}
+.header-button3 {
+  bottom: 0;
+  margin: 0 0 35px 35px;
+  padding: 5px 12px 17px 12px;
+  border-radius: 50%;
+  background: var(--color1);
+  height: 30px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  left: 0;
+  font-size: 30px;
+  color: white;
+  display: fixed;
+  position: fixed;
+  z-index: 3;
+  transition-duration: 400ms;
+  opacity: 1;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+  text-decoration: none;
+}
+.header-button3:hover {
+  cursor: pointer;
+  margin: 0 0 45px 35px;
+  box-shadow: 0 15px 20px rgba(0,0,0,0.3);
+}
+.header {
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 4;
+  -webkit-transition-duration: 800ms;
+       -o-transition-duration: 800ms;
+          transition-duration: 800ms;
+  opacity: 0;
+  top: -100vh;
+  background-image: url('../img/Splashes.png');
+}
+.header a {
+  height: 25%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: white;
+  list-style: none;
+  font-family: var(--font);
+  font-weight: var(--regular);
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: 2px;
+  -webkit-transition-duration: 800ms;
+       -o-transition-duration: 800ms;
+          transition-duration: 800ms;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+.arrow {
+  color: rgba(0,0,0,0);
+  transition-duration: 300ms;
+}
+.header a:hover .arrow  {
+  color: rgba(255,255,255,1);
+}
+.header hr {
+  width: 75vw;
+  border: 0.5px solid white;
+  margin: 0;
+  padding: 0;
+}
+.checkbox:checked ~ .header-button {
+  opacity: 0;
+}
+.checkbox:checked ~ .header-button2 {
+  opacity: 1;
+}
+.checkbox:checked ~ .header {
+  opacity: 1;
+  top: 0;
+}
+.checkbox:checked ~ .header a {
+  opacity: 1;
+}
+.header-left {
+  margin: 0;
+  padding: 0;
+  width: 120px;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  border-right: 1px solid rgba(255,255,255,1);
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-left p {
+  transform: rotate(270deg);
+  color: white;
+  font-size: 20px;
+  font-weight: var(--bold);
+  letter-spacing: 10px;
+}
+.header-right {
+  margin: 0;
+  padding: 0;
+  width: 120px;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  border-left: 1px solid rgba(255,255,255,1);
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header-button4 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0 0 35px 35px;
+  padding: 5px 12px 17px 12px;
+  border-radius: 50%;
+  background: var(--color1);
+  height: 30px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  left: 0;
+  font-size: 30px;
+  color: white;
+  z-index: 3;
+  transition-duration: 400ms;
+  opacity: 1;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+  text-decoration: none;
+}
+.header-button4:hover {
+  cursor: pointer;
+  margin: 0 0 45px 35px;
+  box-shadow: 0 15px 20px rgba(0,0,0,0.3);
+}
