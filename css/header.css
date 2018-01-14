@@ -36,10 +36,12 @@
 }
 .header-button {
   margin: 35px 0 0 35px;
-  padding: 5px 13px 17px 13px;
+  padding: 10px;
   border-radius: 50%;
   background: var(--color1);
   height: 30px;
+  width: 30px;
+  text-align: center;
   left: 0;
   font-size: 30px;
   color: white;
@@ -58,10 +60,12 @@
 }
 .header-button2 {
   margin: 35px 0 0 35px;
-  padding: 5px 13px 17px 13px;
+  padding: 10px;
   border-radius: 50%;
   background: var(--color1);
   height: 30px;
+  width: 30px;
+  text-align: center;
   left: 0;
   font-size: 30px;
   color: white;
@@ -191,7 +195,7 @@
   bottom: 0;
   right: 0;
   margin: 0 0 35px 35px;
-  padding: 5px 12px 17px 12px;
+  padding: 10px;
   border-radius: 50%;
   background: var(--color1);
   height: 30px;
@@ -257,7 +261,7 @@
   bottom: 0;
   right: 0;
   margin: 0 0 35px 35px;
-  padding: 5px 12px 17px 12px;
+  padding: 10px;
   border-radius: 50%;
   background: var(--color1);
   height: 30px;
