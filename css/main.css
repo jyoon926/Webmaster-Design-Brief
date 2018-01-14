@@ -15,7 +15,7 @@
   --6col: 80vw;
   --between: 10vw;
   --inside: 2vw;
-  --regular: 200;
+  --regular: 400;
   --bold: 700;
   --font: 'Raleway', sans-serif;
 }
@@ -28,8 +28,17 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: var(--color2);
+  background: white;
   font-family: 'Raleway', sans-serif;
+}
+.cover{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background: var(--color2);
+  z-index: -1;
 }
 .lander {
   margin: 0;
@@ -91,32 +100,92 @@ body {
   padding: 0;
   height: 100vh;
   width: 100vw;
-  background: var(--color1);
+  background-image: url('../img/Levels.png');
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-direction: row;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: white;
+}
+.section-1 img {
+  width: var(--2col);
+  margin: 0 var(--inside) 0 0;
+}
+.section-1-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.section-1-2 hr {
+  border: 2px solid white;
+  width: 60px;
+  margin: 0 0 40px 0;
+  padding: 0;
+}
+.section-1-2 h1 {
+  margin: 0 0 40px;
+  padding: 0;
+  width: var(--3col);
+  text-align: left;
+  font-size: 60px;
+}
+.section-1-2 p {
+  margin: 0;
+  padding: 0;
+  width: var(--3col);
+  text-align: left;
+  font-size: 20px;
+  line-height: 30px;
 }
 .section-2 {
   margin: 0;
   padding: 0;
   height: 100vh;
   width: 100vw;
-  background: var(--color1);
+  background: rgba(101, 52, 255,0.3);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: white;
+}
+.section-2 hr {
+  border: 2px solid var(--color1);
+  width: 60px;
+  margin: 0 0 40px 0;
+  padding: 0;
+}
+.section-2 h1 {
+  margin: 0 0 40px;
+  padding: 0;
+  width: var(--3col);
+  text-align: left;
+  font-size: 60px;
+  color: var(--color1);
+}
+.section-2 p {
+  margin: 0;
+  padding: 0;
+  width: var(--3col);
+  text-align: left;
+  font-size: 20px;
+  line-height: 30px;
+  color: black;
 }
 .section-3 {
   margin: 0;

@@ -103,7 +103,8 @@
           transition-duration: 800ms;
   opacity: 0;
   top: -100vh;
-  background-image: url('../img/Splashes.png');
+  background-image: url('../img/Tidal-Waves.png');
+  background-size: cover;
 }
 .header a {
   height: 25%;
