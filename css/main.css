@@ -95,8 +95,6 @@ body {
 .section-1 {
   margin: 0;
   padding: 0;
-  height: 100vh;
-  width: 100vw;
   background-image: url('../img/Levels.png');
   background-size: cover;
   display: -webkit-box;
@@ -128,19 +126,35 @@ body {
   width: 60px;
   margin: 0 0 40px 0;
   padding: 0;
+  display: none;
 }
 .section-1-2 h1 {
-  margin: 0 0 40px;
+  margin: 0 0 40px 0;
   padding: 0;
   width: var(--3col);
   text-align: left;
   font-size: 60px;
+  line-height: 60px;
 }
 .section-1-2 p {
   margin: 0;
   padding: 0;
   width: var(--3col);
   text-align: left;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 16px;
+  line-height: 26px;
+}
+.section-1-2 a{
+  color: white;
+  background: none;
+  font-size: 16px;
+  padding: 20px 30px;
+  border: 1px solid white;
+  text-decoration: none;
+  margin: 40px 0 0 0;
+  transition-duration: 300ms;
+}
+.section-1-2 a:hover {
+  background: white;
+  color: var(--color1);
 }
