@@ -11,10 +11,15 @@
     <script>
       $(document).ready(function() {
         $('#fullpage').fullpage({
-        css3: true,
-        verticalCentered: false
+            css3: true,
+            verticalCentered: false
         });
-      });
+        });
+        $(document).ready(function() {
+	$('#fullpage').fullpage({
+		anchors:['lander', 'section-1']
+	});
+});
     </script>
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -56,19 +61,19 @@
     <div class="header-extended"></div>
     <div class="header-left">
         <div><p>AGAPAI</p></div>
-        <a href="#bottom" class="header-button3"><i class="material-icons">&#xE5DB;</i></a>
+        <a data-menuanchor="section-1" href="#section-1" class="header-button3"><i class="material-icons">&#xE5DB;</i></a>
     </div>
     <div class="header-right">
-        <a href="#top" class="header-button4"><i class="material-icons">&#xE5D8;</i></a>
+        <a data-menuanchor="lander" href="#lander" class="header-button4"><i class="material-icons">&#xE5D8;</i></a>
     </div>
     <div class="cover"></div>
     <div id="fullpage" class="page-wrap">
-        <section class="section lander" id="top">
+        <section class="section lander" data-anchor="lander" id="lander">
             <h1>AGAPAI</h1>
             <hr>
             <a href="#section-1">LEARN MORE</a>
         </section>
-        <section class="section section-1" id="section-1 bottom">
+        <section class="section section-1" data-anchor="section-1" id="section-1">
             <img src="img/logo.svg">
             <div class="section-1-2">
                 <h1 class="wow fadeIn">We Are AgapAI</h1>
