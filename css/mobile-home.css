@@ -121,3 +121,7 @@
 .icon-scroll {
   display: none;
 }
+p,a {
+  font-size: 16px !important;
+  line-height: 20px !important;
+}
