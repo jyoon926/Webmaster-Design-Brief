@@ -15,40 +15,36 @@
   --6col: 80vw;
   --between: 10vw;
   --inside: 2vw;
-  --thin: 'gt_walsheim_pro_thin';
-  --regular: 'gt_walsheim_pro_regular';
-  --bold: 'gt_walsheim_pro_bold';
-  --black: 'gt_walsheim_pro_black';
-}
-::selection {
-  color: white;
-  background: var(--color1);
+  --regular: 400;
+  --bold: 700;
+  --font: 'Raleway', sans-serif;
 }
 html {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  font-family: 'Raleway', sans-serif;
+  overflow: hidden;
 }
 body {
   margin: 0;
   padding: 0;
-  background: var(--color1);
-  overflow-x: hidden;
-  transition-duration: 400ms;
-  font-family: var(--regular);
+  background: white;
+  font-family: 'Raleway', sans-serif;
 }
 .cover{
   position: absolute;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   margin: 0;
   padding: 0;
   background: var(--color2);
   z-index: -1;
 }
 .lander {
-  overflow-x: hidden !important;
   margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -67,7 +63,7 @@ body {
   background-position: center;
 }
 .lander h1 {
-  font-family: var(--regular);
+  font-weight: var(--regular);
   color: white;
   font-size: 200px;
   margin: 0;
@@ -80,24 +76,15 @@ body {
   width: 60px;
   border: 1px solid white;
 }
-.lander p {
-  color: white;
-  margin: 40px 0 0 0;
-  padding: 0;
-  width: var(--3col);
-  text-align: center;
-  font-size: 22px;
-  line-height: 36px;
-  font-family: var(--regular);
-}
 .lander a {
-  font-family: var(--regular);
+  font-weight: var(--regular);
   color: white;
   margin: 50px 0 0 0;
   padding: 20px 35px;
   border: 2px solid white;
   text-decoration: none;
-  font-size: 22px;
+  font-size: 18px;
+  line-height: 18px;
   border-radius: 62px;
   background: none;
   -webkit-transition-duration: 200ms;
@@ -108,81 +95,12 @@ body {
   background: white;
   color: var(--color1);
 }
-.icon-scroll,
-.icon-scroll:before {
-	position: absolute;
-	left: 50%;
-}
-
-.icon-scroll {
-	width: 35px;
-	height: 60px;
-  margin: 0 0 40px -20px;
-  position: absolute;
-  bottom: 0;
-	box-shadow: inset 0 0 0 1px #fff;
-	border-radius: 25px;
-}
-
-.icon-scroll:before {
-	content: '';
-	width: 8px;
-	height: 8px;
-	background: #fff;
-	margin-left: -4px;
-	top: 8px;
-	border-radius: 4px;
-	animation-duration: 1.5s;
-	animation-iteration-count: infinite;
-	animation-name: scroll;
-}
-
-@-moz-keyframes scroll {
-	0% {
-		opacity: 1;
-	}
-
-	100% {
-		opacity: 0;
-		transform: translateY(46px);
-	}
-}
-
-@-webkit-keyframes scroll {
-	0% {
-		opacity: 1;
-	}
-
-	100% {
-		opacity: 0;
-		transform: translateY(46px);
-	}
-}
-
-@-o-keyframes scroll {
-	0% {
-		opacity: 1;
-	}
-
-	100% {
-		opacity: 0;
-		transform: translateY(46px);
-	}
-}
-
-@keyframes scroll {
-	0% {
-		opacity: 1;
-	}
-
-	100% {
-		opacity: 0;
-		transform: translateY(46px);
-	}
-}
 .section-1 {
   margin: 0;
   padding: 0;
+  height: 100vh;
+  width: 100vw;
+  background-image: url('../img/Levels.png');
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -194,7 +112,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
   color: white;
-  border-top: 1px solid white;
 }
 .section-1 img {
   width: var(--2col);
@@ -209,48 +126,32 @@ body {
   align-items: flex-start;
 }
 .section-1-2 hr {
-  border: 1px solid white;
+  border: 2px solid white;
   width: 60px;
   margin: 0 0 40px 0;
   padding: 0;
-  display: none;
 }
 .section-1-2 h1 {
-  margin: 0 0 40px 0;
+  margin: 0 0 40px;
   padding: 0;
   width: var(--3col);
   text-align: left;
   font-size: 60px;
-  line-height: 60px;
 }
 .section-1-2 p {
   margin: 0;
   padding: 0;
   width: var(--3col);
   text-align: left;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 30px;
-  font-family: var(--regular);
-  letter-spacing: 0px;
-}
-.section-1-2 a{
-  color: white;
-  background: none;
-  font-size: 22px;
-  padding: 20px 30px;
-  border: 2px solid white;
-  text-decoration: none;
-  margin: 40px 0 0 0;
-  transition-duration: 300ms;
-  border-radius: 62px;
-}
-.section-1-2 a:hover {
-  background: white;
-  color: var(--color1);
 }
 .section-2 {
   margin: 0;
   padding: 0;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(101, 52, 255,0.3);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -262,99 +163,43 @@ body {
       -ms-flex-align: center;
           align-items: center;
   color: white;
-  border-top: 1px solid white;
-}
-.section-2 h1 {
-  margin: 0 0 40px 0;
-  padding: 0;
-  width: var(--5col);
-  text-align: center;
-  font-size: 60px;
-  line-height: 60px;
 }
 .section-2 hr {
-  border: 1px solid white;
+  border: 2px solid var(--color1);
   width: 60px;
   margin: 0 0 40px 0;
   padding: 0;
+}
+.section-2 h1 {
+  margin: 0 0 40px;
+  padding: 0;
+  width: var(--3col);
+  text-align: left;
+  font-size: 60px;
+  color: var(--color1);
 }
 .section-2 p {
   margin: 0;
   padding: 0;
-  width: var(--5col);
-  text-align: center;
-  font-size: 22px;
+  width: var(--3col);
+  text-align: left;
+  font-size: 20px;
   line-height: 30px;
-  font-family: var(--regular);
-}
-.section-2 a{
-  color: white;
-  background: none;
-  font-size: 22px;
-  padding: 20px 30px;
-  border: 2px solid white;
-  text-decoration: none;
-  margin: 40px 0 0 0;
-  transition-duration: 300ms;
-  font-family: var(--regular);
-  border-radius: 62px;
-}
-.section-2 a:hover {
-  background: white;
-  color: var(--color1);
+  color: black;
 }
 .section-3 {
   margin: 0;
   padding: 0;
+  height: 100vh;
+  width: 100vw;
+  background: var(--color1);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: white;
-  border-top: 1px solid white;
-}
-.section-3 h1 {
-  margin: 0 0 40px 0;
-  padding: 0;
-  width: var(--5col);
-  text-align: center;
-  font-size: 60px;
-  line-height: 60px;
-}
-.section-3 hr {
-  border: 1px solid white;
-  width: 60px;
-  margin: 0 0 40px 0;
-  padding: 0;
-}
-.section-3 p {
-  margin: 0;
-  padding: 0;
-  width: var(--5col);
-  text-align: center;
-  font-size: 22px;
-  line-height: 30px;
-  font-family: var(--regular);
-}
-.section-3 a{
-  color: white;
-  background: none;
-  font-size: 22px;
-  padding: 20px 30px;
-  border: 2px solid white;
-  text-decoration: none;
-  margin: 40px 0 0 0;
-  transition-duration: 300ms;
-  font-family: var(--regular);
-  border-radius: 62px;
-}
-.section-3 a:hover {
-  background: white;
-  color: var(--color1);
 }

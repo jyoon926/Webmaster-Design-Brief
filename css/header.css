@@ -36,12 +36,10 @@
 }
 .header-button {
   margin: 35px 0 0 35px;
-  padding: 10px;
+  padding: 5px 13px 17px 13px;
   border-radius: 50%;
-  background: var(--color2);
+  background: var(--color1);
   height: 30px;
-  width: 30px;
-  text-align: center;
   left: 0;
   font-size: 30px;
   color: white;
@@ -54,21 +52,16 @@
   opacity: 1;
   -webkit-box-shadow: 0 5px 20px rgba(0,0,0,0.3);
           box-shadow: 0 5px 20px rgba(0,0,0,0.3);
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .header-button:hover {
   cursor: pointer;
 }
 .header-button2 {
   margin: 35px 0 0 35px;
-  padding: 10px;
+  padding: 5px 13px 17px 13px;
   border-radius: 50%;
-  background: var(--color2);
+  background: var(--color1);
   height: 30px;
-  width: 30px;
-  text-align: center;
   left: 0;
   font-size: 30px;
   color: white;
@@ -81,9 +74,6 @@
   opacity: 0;
   -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.3);
           box-shadow: 0 5px 10px rgba(0,0,0,0.3);
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .header-button2:hover {
   cursor: pointer;
@@ -122,15 +112,16 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
-  color: rgba(255,255,255,0.3);
+  color: white;
   list-style: none;
-  font-family: var(--regular);
+  font-family: var(--font);
+  font-weight: var(--regular);
   font-size: 30px;
   line-height: 30px;
   letter-spacing: 2px;
-  -webkit-transition-duration: 400ms;
-       -o-transition-duration: 400ms;
-          transition-duration: 400ms;
+  -webkit-transition-duration: 800ms;
+       -o-transition-duration: 800ms;
+          transition-duration: 800ms;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -147,10 +138,13 @@
           align-items: center;
   opacity: 0;
 }
-.header a:first-child {
-  color: rgba(255,255,255,1);
+.arrow {
+  color: rgba(0,0,0,0);
+  -webkit-transition-duration: 300ms;
+       -o-transition-duration: 300ms;
+          transition-duration: 300ms;
 }
-.header a:hover {
+.header a:hover .arrow  {
   color: rgba(255,255,255,1);
 }
 .header hr {
@@ -197,14 +191,15 @@
   bottom: 0;
   right: 0;
   margin: 0 0 35px 35px;
-  padding: 10px;
+  padding: 5px 12px 17px 12px;
   border-radius: 50%;
-  background: var(--color2);
+  background: var(--color1);
   height: 30px;
   font-size: 30px;
   width: 30px;
   text-align: center;
   left: 0;
+  font-size: 30px;
   color: white;
   z-index: 3;
   -webkit-transition-duration: 400ms;
@@ -214,9 +209,6 @@
   -webkit-box-shadow: 0 5px 20px rgba(0,0,0,0.3);
           box-shadow: 0 5px 20px rgba(0,0,0,0.3);
   text-decoration: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .header-button3:hover {
   cursor: pointer;
@@ -229,8 +221,8 @@
       -ms-transform: rotate(270deg);
           transform: rotate(270deg);
   color: white;
-  font-size: 22px;
-  font-family: var(--regular);
+  font-size: 20px;
+  font-weight: var(--bold);
   letter-spacing: 10px;
 }
 .header-left div {
@@ -259,21 +251,21 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  overflow-x: hidden;
 }
 .header-button4 {
   position: absolute;
   bottom: 0;
   right: 0;
   margin: 0 0 35px 35px;
-  padding: 10px;
+  padding: 5px 12px 17px 12px;
   border-radius: 50%;
-  background: var(--color2);
+  background: var(--color1);
   height: 30px;
   font-size: 30px;
   width: 30px;
   text-align: center;
   left: 0;
+  font-size: 30px;
   color: white;
   z-index: 3;
   -webkit-transition-duration: 400ms;
@@ -283,9 +275,6 @@
   -webkit-box-shadow: 0 5px 20px rgba(0,0,0,0.3);
           box-shadow: 0 5px 20px rgba(0,0,0,0.3);
   text-decoration: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .header-button4:hover {
   cursor: pointer;
@@ -295,10 +284,10 @@
 }
 .header-button5 {
   margin: 35px 35px 0 0;
-  padding: 10px;
+  padding: 7px 10px 11px 10px;
   text-decoration: none;
   border-radius: 50%;
-  background: var(--color2);
+  background: var(--color1);
   height: 30px;
   width: 30px;
   text-align: center;
@@ -314,10 +303,7 @@
   opacity: 1;
   -webkit-box-shadow: 0 5px 20px rgba(0,0,0,0.3);
           box-shadow: 0 5px 20px rgba(0,0,0,0.3);
-  font-family: var(--regular);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-family: 'Raleway', sans-serif;
 }
 .header-button5:hover {
   cursor: pointer;
@@ -363,7 +349,7 @@
   right: 0;
   margin: 0 20px 0 0;
   padding: 0;
-  font-family: var(--regular);
+  font-weight: var(--regular);
   color: white;
   font-size: 20px;
   line-height: 20px;
