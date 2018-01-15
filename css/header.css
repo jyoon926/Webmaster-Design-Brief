@@ -54,9 +54,15 @@
   opacity: 1;
   -webkit-box-shadow: 0 5px 20px rgba(0,0,0,0.3);
           box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .header-button:hover {
   cursor: pointer;
@@ -80,9 +86,15 @@
   opacity: 0;
   -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.3);
           box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .header-button2:hover {
   cursor: pointer;
@@ -213,9 +225,15 @@
   -webkit-box-shadow: 0 5px 20px rgba(0,0,0,0.3);
           box-shadow: 0 5px 20px rgba(0,0,0,0.3);
   text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .header-button3:hover {
   cursor: pointer;
@@ -229,7 +247,7 @@
           transform: rotate(270deg);
   color: white;
   font-size: 22px;
-  font-family: var(--regular);
+  font-family: var(--bold);
   letter-spacing: 10px;
 }
 .header-left div {
@@ -282,9 +300,15 @@
   -webkit-box-shadow: 0 5px 20px rgba(0,0,0,0.3);
           box-shadow: 0 5px 20px rgba(0,0,0,0.3);
   text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .header-button4:hover {
   cursor: pointer;
@@ -314,9 +338,15 @@
   -webkit-box-shadow: 0 5px 20px rgba(0,0,0,0.3);
           box-shadow: 0 5px 20px rgba(0,0,0,0.3);
   font-family: var(--regular);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .header-button5:hover {
   cursor: pointer;
