@@ -26,6 +26,7 @@
   padding: 0;
   line-height: 200px;
   text-align: center;
+  text-shadow: 10px 10px 0 rgba(0,0,0,0.4);
 }
 .lander hr { 
   margin: 30px 0 0 0;
