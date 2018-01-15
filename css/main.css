@@ -263,6 +263,9 @@ body {
           align-items: center;
   color: white;
   border-top: 1px solid white;
+  background-image: url('../img/robot.png');
+  background-size: cover;
+  background-position: center;
 }
 .section-2 h1 {
   margin: 0 0 40px 0;
@@ -279,7 +282,7 @@ body {
   padding: 0;
 }
 .section-2 p {
-  margin: 0;
+  margin: 0 0 10px 0;
   padding: 0;
   width: var(--5col);
   text-align: center;
@@ -294,7 +297,7 @@ body {
   padding: 20px 30px;
   border: 2px solid white;
   text-decoration: none;
-  margin: 40px 0 0 0;
+  margin: 30px 0 0 0;
   transition-duration: 300ms;
   font-family: var(--regular);
   border-radius: 62px;
@@ -309,7 +312,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -319,11 +322,20 @@ body {
   color: white;
   border-top: 1px solid white;
 }
+.section-3-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0 0 0 4vw;
+}
 .section-3 h1 {
   margin: 0 0 40px 0;
   padding: 0;
-  width: var(--5col);
-  text-align: center;
+  width: var(--3col);
+  text-align: left;
   font-size: 60px;
   line-height: 60px;
 }
@@ -336,8 +348,8 @@ body {
 .section-3 p {
   margin: 0;
   padding: 0;
-  width: var(--5col);
-  text-align: center;
+  width: var(--3col);
+  text-align: left;
   font-size: 22px;
   line-height: 30px;
   font-family: var(--regular);
@@ -357,4 +369,8 @@ body {
 .section-3 a:hover {
   background: white;
   color: var(--color1);
+}
+.section-3 img {
+  width: var(--2col);
+  margin: 0 0 40px 0;
 }

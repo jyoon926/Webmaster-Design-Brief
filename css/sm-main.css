@@ -3,6 +3,10 @@
   line-height: 150px;
   margin: 0;
 }
+p {
+  font-size: 18px !important;
+  line-height: 26px !important;
+}
 .section-1 {
   flex-direction: column;
 }
@@ -19,6 +23,26 @@
   text-align: center;
 }
 .section-1-2 p {
+  width: var(--5col);
+  text-align: center;
+}
+.section-3 {
+  flex-direction: column;
+}
+.section-3 img {
+  width: var(--3col);
+  margin: 0 0 40px 0;
+}
+.section-3-2 {
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.section-3-2 h1 {
+  width: var(--5col);
+  text-align: center;
+}
+.section-3-2 p {
   width: var(--5col);
   text-align: center;
 }
