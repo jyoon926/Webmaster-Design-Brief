@@ -1,12 +1,14 @@
-/*$(window).on("scroll",function () {
-  if ($(this).scrollTop() > 1000) {
-    $('.body').css('background', 'var(--color1)');
+$(window).on("scroll",function () {
+  if ($(this).scrollTop() > 10) {
+    $('.header-left').css('background', 'var(--color1)');
+    $('.header-left').css('box-shadow', '0 0 20px rgba(0,0,0,0.4)');
   }
   else {
-    $('.body').css('background', 'var(--color2)');
+    $('.header-left').css('background', 'rgba(0,0,0,0)');
+    $('.header-left').css('box-shadow', '0 0 20px rgba(0,0,0,0)');
   }
 });
-
+/*
 //Parallax
 function simpleParallax() {
    //This variable is storing the distance scrolled

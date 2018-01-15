@@ -124,7 +124,7 @@
           transition-duration: 800ms;
   opacity: 0;
   top: -100vh;
-  background-image: url('../img/Tidal-Waves.png');
+  background-image: url('../img/Tidal-Waves.jpg');
   background-size: cover;
 }
 .header a {
@@ -136,8 +136,8 @@
   color: rgba(255,255,255,0.3);
   list-style: none;
   font-family: var(--regular);
-  font-size: 30px;
-  line-height: 30px;
+  font-size: 40px;
+  line-height: 40px;
   letter-spacing: 2px;
   -webkit-transition-duration: 400ms;
        -o-transition-duration: 400ms;
@@ -186,16 +186,18 @@
 .header-left {
   margin: 0;
   padding: 0;
-  width: 120px;
+  height: 120px;
+  width: 100vw;
   left: 0;
   top: 0;
-  height: 100vh;
-  border-right: 1px solid rgba(255,255,255,1);
+  background: rgba(0,0,0,0);
+  box-shadow: 0 0 10px rgba(0,0,0,0);
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  transition-duration: 400ms;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -204,7 +206,7 @@
           align-items: center;
 }
 .header-button3 {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   right: 0;
   margin: 0 0 35px 35px;
@@ -241,78 +243,39 @@
   -webkit-box-shadow: 0 15px 20px rgba(0,0,0,0.3);
           box-shadow: 0 15px 20px rgba(0,0,0,0.3);
 }
-.header-left p {
-  -webkit-transform: rotate(270deg);
-      -ms-transform: rotate(270deg);
-          transform: rotate(270deg);
+.header-left div {
+  margin: 0;
+  padding: 0;
+}
+.header-left a {
   color: white;
   font-size: 22px;
   font-family: var(--bold);
   letter-spacing: 10px;
-}
-.header-left div {
-  mix-blend-mode: exclusion;
-}
-.header-right {
-  margin: 0;
-  padding: 0;
-  width: 120px;
-  right: 0;
-  top: 0;
-  height: 100vh;
-  border-left: 1px solid rgba(255,255,255,1);
-  position: fixed;
-  z-index: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  overflow-x: hidden;
+  text-decoration: none;
 }
 .header-button4 {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  margin: 0 0 35px 35px;
-  padding: 10px;
-  border-radius: 50%;
-  background: var(--color2);
+  position: fixed;
+  bottom: 35px;
+  right: 35px;
   height: 30px;
-  font-size: 30px;
   width: 30px;
-  text-align: center;
-  left: 0;
   color: white;
-  z-index: 3;
-  -webkit-transition-duration: 400ms;
-       -o-transition-duration: 400ms;
-          transition-duration: 400ms;
-  opacity: 1;
+  background: var(--color2);
+  padding: 10px;
+  transition-duration: 400ms;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 50%;
   -webkit-box-shadow: 0 5px 20px rgba(0,0,0,0.3);
           box-shadow: 0 5px 20px rgba(0,0,0,0.3);
-  text-decoration: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  z-index: 3;
 }
 .header-button4:hover {
   cursor: pointer;
-  margin: 0 0 45px 35px;
+  bottom: 45px;
   -webkit-box-shadow: 0 15px 20px rgba(0,0,0,0.3);
           box-shadow: 0 15px 20px rgba(0,0,0,0.3);
 }
