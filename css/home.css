@@ -155,7 +155,6 @@
   background-image: url('../img/robot.jpg');
   background-size: cover;
   background-position: center;
-  border-top: 1px solid rgba(255,255,255,0.5);
 }
 .section-2 h1 {
   margin: 0 0 40px 0;
@@ -215,7 +214,6 @@
       -ms-flex-align: center;
           align-items: center;
   color: white;
-  border-top: 1px solid rgba(255,255,255,0.5);
 }
 .section-3-2 {
   display: -webkit-box;

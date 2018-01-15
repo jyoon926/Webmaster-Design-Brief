@@ -1,11 +1,9 @@
 $(window).on("scroll",function () {
   if ($(this).scrollTop() > 10) {
-    $('.header-left').css('background', 'var(--color1)');
-    $('.header-left').css('box-shadow', '0 0 20px rgba(0,0,0,0.4)');
+    $('.header-left').css('background', 'rgba(0,0,0,0.3)');
   }
   else {
     $('.header-left').css('background', 'rgba(0,0,0,0)');
-    $('.header-left').css('box-shadow', '0 0 20px rgba(0,0,0,0)');
   }
 });
 /*
