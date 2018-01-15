@@ -1,12 +1,18 @@
 /*$(window).on("scroll",function () {
-  if ($(this).scrollTop() > 1000) {
-    $('.body').css('background', 'var(--color1)');
+  if ($(this).scrollTop() > 500) {
+    $('.body').css('background-position', '50% 100%');
   }
-  else {
-    $('.body').css('background', 'var(--color2)');
+  if ($(this).scrollTop() < 500) {
+    $('.body').css('background-position', '50% 50%');
+  }
+  if ($(this).scrollTop() > 1500) {
+    $('.body').css('background-position', '50% 150%');
+  }
+  if ($(this).scrollTop() > 2500) {
+    $('.body').css('background-position', '50% 200%');
   }
 });
-
+/*
 //Parallax
 function simpleParallax() {
    //This variable is storing the distance scrolled
