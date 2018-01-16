@@ -51,6 +51,8 @@
 }
 .section-1-2 a{
   margin: 20px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding: 12px 30px;
   padding: 15px 30px !important;
@@ -74,6 +76,8 @@
   padding: 12px 30px;
   font-size: 13px;
   line-height: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 .section-3 {
@@ -112,6 +116,8 @@
   margin: 0 0 20px 0;
 }
 .section-3-2 a {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 0;
   padding: 12px 30px;
@@ -229,7 +235,6 @@ p,a {
   text-decoration: none;
   margin: 20px 0 0 0;
   -webkit-transition-duration: 300ms;
-       -o-transition-duration: 300ms;
           transition-duration: 300ms;
   border-radius: 62px;
   letter-spacing: 1px;
@@ -284,7 +289,6 @@ p,a {
 .footer-section-2 ul a li {
   padding: 5px 0 0 0;
   -webkit-transition-duration: 200ms;
-       -o-transition-duration: 200ms;
           transition-duration: 200ms;
 }
 .footer-section-2 ul a li:hover {
