@@ -122,6 +122,180 @@
   display: none;
 }
 p,a {
-  font-size: 16px !important;
-  line-height: 20px !important;
+  font-size: 16px;
+  line-height: 20px;
+}
+.footer-wrap {
+  width: var(--6col);
+  margin: auto auto;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: var(--font);
+}
+.footer-section-1 {
+  width: var(--4col);
+  margin: 0 2vw 0 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  height: 300px;
+}
+.footer-section-1-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer-section-1-2 {
+  margin: 0 0 0 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.footer-section-1 img {
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  display: none;
+}
+.footer-section-1 h1{
+  margin: 0;
+  padding: 0;
+  font-family: var(--bold);
+  color: white;
+  font-size: 30px;
+}
+.footer-section-1 hr {
+  width: 60px;
+  margin: 8px 0 10px 0;
+  border: 0.5px solid white;
+}
+.footer-section-1-2 p {
+  font-family: var(--regular);
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+}
+.footer-section-1 a {
+  color: white;
+  background: none;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: 2px solid white;
+  text-decoration: none;
+  margin: 20px 0 0 0;
+  -webkit-transition-duration: 300ms;
+       -o-transition-duration: 300ms;
+          transition-duration: 300ms;
+  border-radius: 62px;
+  letter-spacing: 1px;
+  font-family: var(--regular);
+  font-size: 16px;
+}
+.footer-section-1 a:hover {
+  background: none;
+  background: white;
+  color: var(--color1);
+}
+.footer-section-2 {
+  margin: 0 0 0 2vw;
+  padding: 0;
+  width: var(--2col);
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.footer-section-2 h3 {
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  line-height: 30px;
+  font-family: var(--bold);
+  letter-spacing: 0px;
+}
+.footer-section-2 hr {
+  width: 60px;
+  margin: 10px 0 10px 0;
+  border: 0.5px solid white;
+}
+.footer-section-2 a  {
+  color: white;
+  text-decoration: none;
+  text-align: right;
+}
+.footer-section-2 ul a:hover {
+  padding-bottom: 0;
+}
+.footer-section-2 ul a li {
+  padding: 5px 0 0 0;
+  -webkit-transition-duration: 200ms;
+       -o-transition-duration: 200ms;
+          transition-duration: 200ms;
+}
+.footer-section-2 ul a li:hover {
+  padding: 5px 5px 0 0;
+}
+.footer-section-2 ul {
+  font-size: 16px;
+  line-height: 16px !important;
+  font-family: var(--regular);
+  letter-spacing: 0px;
+  padding: 0;
+  list-style: none;
 }
