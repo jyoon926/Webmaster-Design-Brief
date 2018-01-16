@@ -122,8 +122,8 @@
   display: none;
 }
 p,a {
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 16px !important;
+  line-height: 20px !important;
 }
 .footer-wrap {
   width: var(--6col);
