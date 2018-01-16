@@ -49,7 +49,6 @@
   border-radius: 62px;
   background: none;
   -webkit-transition-duration: 200ms;
-       -o-transition-duration: 200ms;
           transition-duration: 200ms;
 }
 .lander a:hover {
@@ -127,7 +126,6 @@
   text-decoration: none;
   margin: 40px 0 0 0;
   -webkit-transition-duration: 300ms;
-       -o-transition-duration: 300ms;
           transition-duration: 300ms;
   border-radius: 62px;
 }
@@ -188,7 +186,6 @@
   text-decoration: none;
   margin: 30px 0 0 0;
   -webkit-transition-duration: 300ms;
-       -o-transition-duration: 300ms;
           transition-duration: 300ms;
   font-family: var(--regular);
   border-radius: 62px;
@@ -263,7 +260,6 @@
   text-decoration: none;
   margin: 40px 0 0 0;
   -webkit-transition-duration: 300ms;
-       -o-transition-duration: 300ms;
           transition-duration: 300ms;
   font-family: var(--regular);
   border-radius: 62px;
