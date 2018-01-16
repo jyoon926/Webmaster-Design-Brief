@@ -207,41 +207,28 @@
 }
 .header-button3 {
   position: fixed;
-  bottom: 0;
-  right: 0;
-  margin: 0 0 15px 15px;
-  padding: 10px;
-  border-radius: 50%;
-  background: var(--color2);
+  bottom: 15px;
+  left: 15px;
   height: 30px;
-  font-size: 30px;
   width: 30px;
-  text-align: center;
-  left: 0;
   color: white;
-  z-index: 3;
-  -webkit-transition-duration: 400ms;
-       -o-transition-duration: 400ms;
-          transition-duration: 400ms;
-  opacity: 1;
+  background: var(--color2);
+  padding: 10px;
+  transition-duration: 400ms;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 50%;
   -webkit-box-shadow: 0 5px 20px rgba(0,0,0,0.3);
           box-shadow: 0 5px 20px rgba(0,0,0,0.3);
-  text-decoration: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  z-index: 3;
 }
 .header-button3:hover {
   cursor: pointer;
-  margin: 0 0 45px 35px;
-  -webkit-box-shadow: 0 15px 20px rgba(0,0,0,0.3);
-          box-shadow: 0 15px 20px rgba(0,0,0,0.3);
+  bottom: 25px;
+  -webkit-box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+          box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
 .header-left div {
   margin: 0;
@@ -275,9 +262,9 @@
 }
 .header-button4:hover {
   cursor: pointer;
-  bottom: 45px;
-  -webkit-box-shadow: 0 15px 20px rgba(0,0,0,0.3);
-          box-shadow: 0 15px 20px rgba(0,0,0,0.3);
+  bottom: 25px;
+  -webkit-box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+          box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
 .header-button5 {
   margin: 15px 15px 0 0;

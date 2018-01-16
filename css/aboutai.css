@@ -25,6 +25,7 @@
   padding: 0;
   line-height: 150px;
   text-align: center;
+  width: var(--5col);
 }
 .section-1 {
   width: 100vw;
@@ -61,16 +62,23 @@
   width: 100vw;
   border-top: 1px solid rgba(255,255,255,0.5);
   display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--regular);
+  flex-direction: row;
+  color: white;
+}
+.section-2 div {
+  display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   font-family: var(--regular);
   flex-direction: column;
-  color: white;
 }
 .section-2 h1 {
   margin: 100px 0 40px var(--between);
   padding: 0;
-  width: var(--6col);
+  width: var(--5col);
   text-align: left;
   font-size: 60px;
   line-height: 60px;
@@ -83,7 +91,7 @@
 .section-2 p {
   margin: 0 0 40px var(--between);
   padding: 0;
-  width: var(--6col);
+  width: var(--5col);
   text-align: left;
   font-size: 22px;
   line-height: 30px;
@@ -92,6 +100,10 @@
 }
 .section-2 p:last-child {
   margin: 0 0 100px var(--between);
+}
+.section-2 img {
+  width: var(--1col);
+  margin: 0 var(--between) 0 var(--inside);
 }
 .section-3 {
   margin: 0;
