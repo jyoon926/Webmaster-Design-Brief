@@ -286,6 +286,6 @@ footer {
   left: 0;
   margin: 0;
   padding: 0;
-  -webkit-filter: brightness(160%); /* Safari */
-    filter: brightness(160%);
+  -webkit-filter: brightness(190%); /* Safari */
+    filter: brightness(190%);
  }
