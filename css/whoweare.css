@@ -29,11 +29,20 @@
 .section-1 {
   width: 100vw;
   border-top: 1px solid rgba(255,255,255,0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   font-family: var(--regular);
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   color: white;
 }
 .section-1 h1 {
@@ -60,11 +69,20 @@
 .section-2 {
   width: 100vw;
   border-top: 1px solid rgba(255,255,255,0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   font-family: var(--regular);
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   color: white;
 }
 .section-2 h1 {
@@ -128,15 +146,18 @@
   width: var(--6col);
   height: 1px;
   background: -webkit-gradient(linear, left top, right top, from(var(--color2)), to(var(--color1)));
-  background: -webkit-linear-gradient(left, var(--color2), var(--color1));
-  background: -o-linear-gradient(left, var(--color2), var(--color1));
   background: linear-gradient(to right, var(--color2), var(--color1));
   opacity: 1;
 }
 .benefits-risks {
   width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   margin: 0 0 0 0;
   padding: 0;
 }
@@ -170,7 +191,10 @@
 }
 @media screen and (max-width: 1200px) {
   .benefits-risks {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .benefits {
     width: var(--6col);

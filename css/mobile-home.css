@@ -1,7 +1,7 @@
 
 .header-left div a {
-  font-size: 18px !important;
-  line-height: 18px !important;
+  font-size: 13px !important;
+  line-height: 13px !important;
 }
 .lander h1 {
   font-size: 80px !important;
@@ -16,8 +16,8 @@
 .lander a {
   margin: 20px 0 0 0;
   padding: 12px 30px;
-  font-size: 16px;
-  line-height: 16px;
+  font-size: 13px;
+  line-height: 13px;
 }
 .section-1 {
   -webkit-box-orient: vertical;
@@ -51,11 +51,13 @@
 }
 .section-1-2 a{
   margin: 20px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding: 12px 30px;
   padding: 15px 30px !important;
-  font-size: 16px;
-  line-height: 16px;
+  font-size: 13px;
+  line-height: 13px;
 }
 .section-2 h1 {
   margin-bottom: 20px;
@@ -72,8 +74,10 @@
 .section-2 a {
   margin-top: 20px;
   padding: 12px 30px;
-  font-size: 16px;
-  line-height: 16px;
+  font-size: 13px;
+  line-height: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 .section-3 {
@@ -112,17 +116,19 @@
   margin: 0 0 20px 0;
 }
 .section-3-2 a {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 0;
   padding: 12px 30px;
-  font-size: 16px;
-  line-height: 16px;
+  font-size: 13px;
+  line-height: 13px;
 }
 .icon-scroll {
   display: none;
 }
 p,a {
-  font-size: 16px !important;
+  font-size: 13px !important;
   line-height: 20px !important;
 }
 .footer-wrap {
@@ -218,23 +224,21 @@ p,a {
   color: white;
   margin: 0;
   padding: 0;
-  font-size: 22px;
+  font-size: 13px;
 }
 .footer-section-1 a {
   color: white;
   background: none;
-  font-size: 20px;
+  font-size: 13px;
   padding: 10px 20px;
   border: 2px solid white;
   text-decoration: none;
   margin: 20px 0 0 0;
   -webkit-transition-duration: 300ms;
-       -o-transition-duration: 300ms;
           transition-duration: 300ms;
   border-radius: 62px;
   letter-spacing: 1px;
   font-family: var(--regular);
-  font-size: 16px;
 }
 .footer-section-1 a:hover {
   background: none;
@@ -285,14 +289,13 @@ p,a {
 .footer-section-2 ul a li {
   padding: 5px 0 0 0;
   -webkit-transition-duration: 200ms;
-       -o-transition-duration: 200ms;
           transition-duration: 200ms;
 }
 .footer-section-2 ul a li:hover {
   padding: 5px 5px 0 0;
 }
 .footer-section-2 ul {
-  font-size: 16px;
+  font-size: 13px;
   line-height: 16px !important;
   font-family: var(--regular);
   letter-spacing: 0px;
