@@ -26,10 +26,9 @@
   padding: 0;
   line-height: 200px;
   text-align: center;
-  text-shadow: 10px 10px 0 rgba(0,0,0,0.4);
 }
 .lander p {
-  color: white;
+  color: var(--color4);
   margin: 40px 0 0 0;
   padding: 0;
   width: var(--3col);
@@ -72,6 +71,7 @@
       -ms-flex-align: center;
           align-items: center;
   color: white;
+  background: var(--color5);
 }
 .section-1 img {
   width: var(--2col);
@@ -116,6 +116,8 @@
   line-height: 30px;
   font-family: var(--regular);
   letter-spacing: 0px;
+  color: var(--color4);
+
 }
 .section-1-2 a{
   color: white;

@@ -1,6 +1,5 @@
 $(window).on("scroll",function () {
   if ($(this).scrollTop() > 10) {
-    $('.header-left').css('background', 'rgba(0,0,0,0.3)');
   }
   else {
     $('.header-left').css('background', 'rgba(0,0,0,0)');
