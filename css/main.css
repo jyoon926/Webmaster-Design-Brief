@@ -276,3 +276,14 @@ footer {
 .footer-section-2 ul a li:hover {
   padding: 5px 5px 0 0;
 }
+
+.nokey-wrap {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+ }
