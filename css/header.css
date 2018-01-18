@@ -33,10 +33,10 @@
   display: none;
 }
 .header-button {
-  margin: 35px 0 0 35px;
+  margin: 15px 0 0 15px;
   padding: 10px;
   border-radius: 50%;
-  background: var(--color4);
+  background: var(--color2);
   height: 30px;
   width: 30px;
   text-align: center;
@@ -60,16 +60,15 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: var(--color1);
 }
 .header-button:hover {
   cursor: pointer;
 }
 .header-button2 {
-  margin: 35px 0 0 35px;
+  margin: 15px 0 0 15px;
   padding: 10px;
   border-radius: 50%;
-  background: var(--color4);
+  background: var(--color2);
   height: 30px;
   width: 30px;
   text-align: center;
@@ -92,7 +91,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: var(--color1);
 }
 .header-button2:hover {
   cursor: pointer;
@@ -203,7 +201,7 @@
       -ms-flex-align: center;
           align-items: center;
 }
-/*.header-button3 {
+.header-button3 {
   position: fixed;
   bottom: 15px;
   left: 15px;
@@ -234,7 +232,7 @@
   bottom: 25px;
   -webkit-box-shadow: 0 10px 20px rgba(0,0,0,0.3);
           box-shadow: 0 10px 20px rgba(0,0,0,0.3);
-}*/
+}
 .header-left div {
   margin: 0;
   padding: 0;
@@ -246,7 +244,7 @@
   letter-spacing: 10px;
   text-decoration: none;
 }
-/*.header-button4 {
+.header-button4 {
   position: fixed;
   bottom: 15px;
   right: 15px;
@@ -277,13 +275,13 @@
   bottom: 25px;
   -webkit-box-shadow: 0 10px 20px rgba(0,0,0,0.3);
           box-shadow: 0 10px 20px rgba(0,0,0,0.3);
-}*/
+}
 .header-button5 {
-  margin: 35px 35px 0 0;
+  margin: 15px 15px 0 0;
   padding: 10px;
   text-decoration: none;
   border-radius: 50%;
-  background: var(--color4);
+  background: var(--color2);
   height: 30px;
   width: 30px;
   text-align: center;
@@ -308,7 +306,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: var(--color1);
 }
 .header-button5:hover {
   cursor: pointer;
@@ -317,9 +314,9 @@
   opacity: 1;
 }
 .ihstsa {
-  margin: 35px 37px 0 0;
+  margin: 15px 17px 0 0;
   padding: 0;
-  background: var(--color4);
+  background: var(--color2);
   height: 49px;
   width: 150px;
   position: fixed;
@@ -349,10 +346,10 @@
 .header-button5-text {
   top: 0;
   right: 0;
-  margin: 4px 20px 0 0;
+  margin: 0 20px 0 0;
   padding: 0;
   font-family: var(--regular);
-  color: var(--color1);
+  color: white;
   font-size: 20px;
   line-height: 20px;
 }
