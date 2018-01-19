@@ -14,9 +14,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url('../img/Blanket.jpg');
-  background-size: cover;
-  background-position: center;
 }
 .lander h1 {
   font-family: var(--regular);
@@ -71,7 +68,6 @@
       -ms-flex-align: center;
           align-items: center;
   color: white;
-  background: var(--color2);
 }
 .section-1 img {
   width: var(--2col);
@@ -152,7 +148,6 @@
       -ms-flex-align: center;
           align-items: center;
   color: white;
-  background-image: url('../img/robot.jpg');
   background-size: cover;
   background-position: center;
 }
