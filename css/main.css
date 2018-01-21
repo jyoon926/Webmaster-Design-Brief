@@ -143,6 +143,7 @@ i {
 }
 .space {
 	height: 100vh;
+	z-index: -2;
 }
 .section-1 {
 	width: 100%;
