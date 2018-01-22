@@ -122,9 +122,10 @@ body {
 	transition-duration: 400ms;
 	z-index: 1;
 	letter-spacing: 1px;
+	background: var(--color);
 }
 .lander a:hover {
-	background: var(--color);
+	background: none;
 }
 .section-1 {
 	width: 100vw;
@@ -166,7 +167,6 @@ body {
 	transition-duration: 400ms;
 	letter-spacing: 1px;
 	z-index: 1;
-	box-shadow: 5px 5px 50px rgba(0,0,0,0.3);
 }
 .section-1 a:hover {
 	background: var(--color);
@@ -232,7 +232,6 @@ body {
 	transition-duration: 400ms;
 	letter-spacing: 1px;
 	z-index: 1;
-	box-shadow: 5px 5px 50px rgba(0,0,0,0.3);
 }
 .section-2 a:hover {
 	background: var(--color);
@@ -278,7 +277,6 @@ body {
 	transition-duration: 400ms;
 	letter-spacing: 1px;
 	z-index: 1;
-	box-shadow: 5px 5px 50px rgba(0,0,0,0.3);
 }
 .section-3 a:hover {
 	background: var(--color);
