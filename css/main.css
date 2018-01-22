@@ -40,7 +40,7 @@ body {
 	width: 100%;
 	background: #060a14;
 	transition-duration: 400ms;
-	transform-origin: 50% 20%;
+	transform-origin: 50% 10%;
 	box-shadow: 0 0 50px rgba(0,0,0,0.5);
 }
 .lander {

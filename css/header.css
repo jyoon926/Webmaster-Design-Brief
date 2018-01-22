@@ -103,6 +103,4 @@ ul a:hover {
 }
 .checkbox:checked ~ .page-wrap {
 	margin-top: 300px;
-	overflow: hidden;
-	transform: rotateX(2deg);
 }
