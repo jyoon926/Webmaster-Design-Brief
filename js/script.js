@@ -1,3 +1,25 @@
+$(document).ready(function() {
+  var floater = false;
+  $('#checkbox').click(function(){
+    var top = $(window).scrollTop();
+    var left = $(window).scrollLeft()
+    if(!floater){
+      $('body').css('overflow-y', 'hidden');
+      $(window).scroll(function(){
+        $(this).scrollTop(top).scrollLeft(left);
+      });
+    } else {
+      $('body').css('overflow-y', 'scroll');
+      $(window).unbind('scroll');
+    }
+    
+    $('#slider').css({top: top, left : left}).animate({
+      'margin-left' : (floater ? -400 : 0)
+    }, 500);
+    floater = !floater;
+  });
+});
+
 $(window).on("scroll",function () {
   if ($(this).scrollTop() > 500) {
     $('.section-1').css('opacity', '1');
