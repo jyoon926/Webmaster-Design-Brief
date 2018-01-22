@@ -6,49 +6,64 @@
     <link rel="shortcut icon" href="img/logo.png"/>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300, 400,800" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Prata" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     <link rel="stylesheet" type="text/css" href="css/aos.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
     <link rel="stylesheet" href="css/animate.css">
     <script src="js/script.js"></script>
     <script src="js/aos.js"></script>
 </head>
 <body>
-	<p class="logo">AGAPAI</p>
-    <i class="material-icons">&#xE5D2;</i>
+	<input type="checkbox" id="checkbox" class="checkbox">
+    <label for="checkbox" class="header-button"><i class="material-icons">&#xE5D2;</i></label>
+    <label for="checkbox" class="header-button2"><i class="material-icons">&#xE5CE;</i></label>
+	<ul class="header">
+		<a href="index.html">
+			<li>Home</li>
+		</a>
+		<a href="aboutai.html">
+			<li>About AI</li>
+		</a>
+		<a href="products.html">
+			<li>Our Product</li>
+		</a>
+		<a href="whoweare.html">
+			<li>Who We Are</li>
+		</a>
+    </ul>
     <div class="page-wrap">
+		<a href="index.html" class="logo">AGAPAI</a>
         <section class="lander">
-			<img src="img/CARL.png" alt="">
-            <h2 class="logo-2">AGAPAI</h2>
             <h1>The <strong>future</strong> of medicine.</h1>
-			<hr>
             <p>A company that began with the idea to mechanically improve medicine, AgapAI is on the road to creating robotic surgical systems powered by advanced AI technologies.</p>
+			<img src="img/CARL.jpg" alt="">
             <a href="#more">Learn More</a>
 			<div class="nokey-wrap">
 		  		<canvas id="nokey" width="800" height="800"></canvas>
 			</div>
         </section>
-		<div class="space"></div>
 		<section class="section-1" id="more">
-			<img src="http://agapai.us/img/logo.svg" alt="">
             <h1>We are AgapAI</h1>
 			<p>AgapAI is a world leader in artificial intelligence medical robotics and its application for positive impact. We are on a scientific mission to push the boundaries of AI, developing products that can perform complex tasks and surpass human abilities. As in all long-term research efforts there are many hurdles ahead, but our team of renowned scientists and engineers is making exciting progress.</p>
 			<a href="#">Who We Are</a>
         </section>
-		<section class="section-1">
+		<section class="section-2">
             <h1>Meet ARM</h1>
-			<p>With four degrees of rotation and precision to the thousandth of a millimeter, Arthro-Robotic Mechanism (ARM) sets a formidable new standard for autonomous robotic arms. Its unique design enrich ARM’s accuracy and reliability.</p>
-			<a href="#">Reserve Now</a>
+			<div class="part">
+				<div class="part1">
+					<p>With four degrees of rotation and precision to the thousandth of a millimeter, Arthro-Robotic Mechanism (ARM) sets a formidable new standard for autonomous robotic arms. Its unique design enrich ARM’s accuracy and reliability.</p>
+					<a href="#">Reserve Now</a>
+				</div>
+				<img src="img/CARL.jpg" alt="" class="part2">
+			</div>
         </section>
-		<section class="section-1">
-			<img src="http://agapai.us/img/ai.svg" alt="">
+		<section class="section-3">
             <h1>Artificial Intelligence</h1>
 			<p>Our team is proud to showcase what we have accomplished with our artificial intelligence in our robots. But what is AI? How does a machine mimic cognitive functions that humans associate with other human minds, such as learning and problem solving? What are the benefits, safety concerns, and potential future uses of machine intelligence?</p>
 			<a href="#">Learn More</a>
         </section>
-    </div>
     <script>
 		var canvas = document.getElementById('nokey'),
 		   can_w = parseInt(canvas.getAttribute('width')),
@@ -323,5 +338,6 @@
 			// console.log(mouse_ball);
 		});
 	</script>
+    </div>
 </body>
 </html>

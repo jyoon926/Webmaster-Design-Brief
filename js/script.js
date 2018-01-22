@@ -1,8 +1,9 @@
 $(window).on("scroll",function () {
-  if ($(this).scrollTop() > 10) {
+  if ($(this).scrollTop() > 500) {
+    $('.section-1').css('opacity', '1');
   }
   else {
-    $('.header-left').css('background', 'rgba(0,0,0,0)');
+    $('.section-1').css('opacity', '1');
   }
 });
 /*

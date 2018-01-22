@@ -1,0 +1,108 @@
+.checkbox {
+  display: none;
+}
+.logo {
+	z-index: 2;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 60px;
+	color: white;
+	left: 60px;
+	font-size: 18px;
+	height: 30px;
+	letter-spacing: 2px;
+	text-decoration: none;
+	text-align: center;
+	transition-duration: 400ms;
+	font-family: var(--font);
+}
+.logo:hover {
+	
+}
+.header-button {
+	position: absolute;
+	top: 60px;
+	right: 60px;
+	z-index: 2;
+	color: white;
+	height: 30px;
+	width: 30px;
+	padding: 10px;
+	background: var(--color1);
+	border-radius: 25px;
+	transition-duration: 400ms;
+	opacity: 1;
+}
+.header-button2 {
+	position: absolute;
+	top: 60px;
+	right: 60px;
+	z-index: 5;
+	color: white;
+	height: 30px;
+	width: 30px;
+	padding: 10px;
+	background: var(--color1);
+	border-radius: 25px;
+	opacity: 0;
+	top: -240px;
+	transition-duration: 400ms;
+}
+.material-icons {
+	font-size: 30px;
+}
+.header-button, .header-button2:hover {
+  cursor: pointer;
+}
+ul {
+	position: fixed;
+	top: 0;
+	height: 340px;
+	width: 100%;
+	opacity: 1;
+	transition-duration: 400ms;
+	background: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	z-index: -2;
+}
+ul a {
+	color: rgba(255,255,255,0.5);
+	font-family: var(--font);
+	text-decoration: none;
+	list-style: none;
+	font-size: 30px;
+	width: 100vw;
+	height: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: none;
+	transition-duration: 400ms;
+}
+ul a:first-child{
+	color: white;
+}
+ul a:hover {
+	color: white;
+}
+.checkbox:checked ~ ul {
+	top: -300px;
+}
+.checkbox:checked ~ .header-button2 {
+	opacity: 1;
+}
+.checkbox:checked ~ .header-button {
+	opacity: 0;
+}
+.checkbox:checked ~ .page-wrap {
+	margin-top: 300px;
+	overflow: hidden;
+	transform: rotateX(2deg);
+}

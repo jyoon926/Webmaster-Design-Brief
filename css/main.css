@@ -1,7 +1,4 @@
 :root {
-	--bold: 'gt_walsheim_pro_bold';
-	--regular: 'gt_walsheim_pro_regular';
-	--thin: 'gt_walsheim_pro_thin';
 	--1col: 13.333vw;
 	--2col: 26.666vw;
 	--3col: 40vw;
@@ -10,52 +7,41 @@
 	--6col: 80vw;
 	--between: 10vw;
 	--color: #1960f1;
-} 
+	--color1: #091021;
+	--font: 'Lato', sans-serif;
+}
 html { 
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
+	background: var(--color);
 }
 body {
 	margin: 0;
 	padding: 0;
-	font-family: 'Raleway';
+	font-family: 'Prata', serif;
+	font-weight: 400;
+	perspective: 500px;
 }
 .nokey-wrap {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  margin: 0;
-  padding: 0;
-  -webkit-filter: brightness(100%); /* Safari */
-    filter: brightness(100%);
- }
-.logo {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
 	margin: 0;
 	padding: 0;
-	position: fixed;
-	top: 60px;
-	color: white;
-	left: 60px;
-	font-family: var(--regular);
-	font-size: 22px;
-	letter-spacing: 5px;
-}
-i {
-	width: 30px;
-	height: 30px;
-	font-size: 30px;
-	position: fixed;
-	top: 60px;
-	color: white;
-	right: 60px;
-}
+	-webkit-filter: brightness(100%); /* Safari */
+	filter: brightness(100%);
+	position: absolute;
+ }
 .page-wrap {
 	margin: 0;
 	padding: 0;
 	width: 100%;
+	background: #060a14;
+	transition-duration: 400ms;
+	transform-origin: 50% 20%;
+	box-shadow: 0 0 50px rgba(0,0,0,0.5);
 }
 .lander {
 	margin: 0;
@@ -67,26 +53,21 @@ i {
 	justify-content: center;
 	align-items: center;
 	color: white;
-	position: fixed;
-	z-index: -1;
 }
 .lander img {
-	height: 100vh;
-	width: 100%;
+	width: 100vw;
 	position: absolute;
-	z-index: -1;
-	filter: brightness(0.5);
+	display: none;
 }
 .logo-2 {
-	font-family: var(--regular);
-	font-size: 20px;
+	font-size: 16px;
 	width: var(--4col);
 	text-align: center;
 	line-height: 22px;
 	margin: 0 0 10px 0;
 	padding: 0;
 	letter-spacing: 20px;
-	z-index: 1;
+	font-family: var(--font);
 }
 .lander h1 {
 	font-size: 100px;
@@ -95,55 +76,49 @@ i {
 	margin: 0 0 30px 0;
 	padding: 0;
 	line-height: 100px;
-	font-family: 'EB Garamond';
-	z-index: 1;
 	font-weight: 400;
+	z-index: 1;
 } 
 .lander h1 strong {
-	font-size: 100px;
 	width: var(--6col);
 	text-align: center;
 	margin: 0 0 30px 0;
 	padding: 0;
-	line-height: 100px;
 	font-weight: 400;
-	font-family: 'EB Garamond', serif;
-	z-index: 1;
 	color: var(--color);
+	z-index: 1;
 }
 .lander hr {
 	width: 120px;
 	margin: 0 0 40px 0;
 	padding: 0;
-	z-index: 1;
 	border: 1px solid white;
+	z-index: 1;
 }
 .lander p {
-	font-family: var(--thin);
-	font-size: 20px;
+	font-family: var(--font);
+	font-size: 16px;
 	width: var(--4col);
 	text-align: center;
 	line-height: 30px;
 	margin: 0 0 40px 0;
 	padding: 0;
 	z-index: 1;
+	letter-spacing: 1px;
 }
 .lander a {
-	font-family: var(--thin);
+	font-family: var(--font);
 	color: white;
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 16px;
 	padding: 20px 40px;
-	border: 2px solid var(--color);
+	border: 3px solid var(--color);
 	transition-duration: 400ms;
 	z-index: 1;
+	letter-spacing: 1px;
 }
 .lander a:hover {
 	background: var(--color);
-}
-.space {
-	height: 100vh;
-	z-index: -2;
 }
 .section-1 {
 	width: 100%;
@@ -151,41 +126,148 @@ i {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background: linear-gradient(to top right, var(--color), #0d47a1);
-}
-.section-1 img {
-	width: 20vw;
-	margin: 100px 0 0 0;
+	top: 100vh;
+	background: white;
 }
 .section-1 h1 {
 	width: var(--4col);
-	color: white;
-	font-family: var(--regular);
 	font-size: 60px;
 	text-align: center;
-	margin: 60px 0 40px 0;
+	margin: 100px 0 40px 0;
+	font-weight: 400;
+	color: var(--color1);
 }
 .section-1 p {
-	color: white;
-	font-family: var(--regular);
-	font-size: 22px;
+	color: var(--color1);
+	font-size: 16px;
 	margin: 0 0 40px 0;
 	text-align: center;
 	width: var(--4col);
 	line-height: 30px;
+	letter-spacing: 1px;
+	font-family: var(--font);
 }
 .section-1 a {
-	color: white;
-	font-family: var(--regular);
-	font-size: 22px;
+	color: var(--color1);
+	font-size: 16px;
 	margin: 0 0 100px 0;
 	padding: 20px 40px;
-	border: 2px solid white;
+	border: 3px solid var(--color1);
 	text-decoration: none;
 	text-align: center;
 	transition-duration: 400ms;
+	letter-spacing: 1px;
+	font-family: var(--font);
+	box-shadow: 7px 7px 0 var(--color);
 }
 .section-1 a:hover {
+	background: var(--color1);
+	color: white;
+}
+.section-2 {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #eee;
+}
+.section-2 h1 {
+	width: var(--4col);
+	font-size: 60px;
+	text-align: center;
+	margin: 100px 0 40px 0;
+	font-weight: 400;
+	color: var(--color1);
+}
+.part {
+	width: 100vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 100px;
+}
+.part1 {
+	width: 50vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.part2 {
+	width: 40vw;
+	margin: 0 5vw 0 0;
+	box-shadow: 10px 10px 0 var(--color);
+}
+.section-2 p {
+	color: var(--color1);
+	font-size: 16px;
+	margin: 0 0 40px 0;
+	text-align: center;
+	width: var(--2col);
+	line-height: 30px;
+	letter-spacing: 1px;
+	font-family: var(--font);
+}
+.section-2 a {
+	color: var(--color1);
+	font-size: 16px;
+	margin: 0 0 0 0;
+	padding: 20px 40px;
+	border: 3px solid var(--color1);
+	text-decoration: none;
+	text-align: center;
+	transition-duration: 400ms;
+	letter-spacing: 1px;
+	font-family: var(--font);
+	box-shadow: 7px 7px 0 var(--color);
+}
+.section-2 a:hover {
+	background: var(--color1);
+	color: white;
+}
+.section-3 {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	top: 100vh;
 	background: white;
-	color: var(--color);
+}
+.section-3 h1 {
+	width: var(--4col);
+	font-size: 60px;
+	text-align: center;
+	margin: 100px 0 40px 0;
+	font-weight: 400;
+	color: var(--color1);
+}
+.section-3 p {
+	color: var(--color1);
+	font-size: 16px;
+	margin: 0 0 40px 0;
+	text-align: center;
+	width: var(--4col);
+	line-height: 30px;
+	letter-spacing: 1px;
+	font-family: var(--font);
+}
+.section-3 a {
+	color: var(--color1);
+	font-size: 16px;
+	margin: 0 0 100px 0;
+	padding: 20px 40px;
+	border: 3px solid var(--color1);
+	text-decoration: none;
+	text-align: center;
+	transition-duration: 400ms;
+	letter-spacing: 1px;
+	font-family: var(--font);
+	box-shadow: 7px 7px 0 var(--color);
+}
+.section-3 a:hover {
+	background: var(--color1);
+	color: white;
 }
