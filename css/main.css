@@ -6,9 +6,10 @@
 	--5col: 66.666vw;
 	--6col: 80vw;
 	--between: 10vw;
-	--color: #1960f1;
-	--color1: #091021;
-	--font: 'Lato', sans-serif;
+	--color: #6534ff;
+	--color1: #130e23;
+	--bold: 'avantgarde-demiregular';
+	--regular: 'avantgarde_mediummedium';
 }
 .html { 
 	margin: 0;
@@ -19,7 +20,7 @@ body {
 	margin: 0;
 	background: var(--color);
 	padding: 0;
-	font-family: 'Prata', serif;
+	font-family: var(--regular);
 	font-weight: 400;
 	perspective: 500px;
 	overflow-x: hidden;
@@ -40,7 +41,7 @@ body {
 	margin: 0;
 	padding: 0;
 	width: 100vw;
-	background: #060a14;
+	background: var(--color1);
 	transition-duration: 400ms;
 	transform-origin: 50% 30%;
 	box-shadow: 0 0 50px rgba(0,0,0,0.5);
@@ -69,7 +70,6 @@ body {
 	margin: 0 0 10px 0;
 	padding: 0;
 	letter-spacing: 20px;
-	font-family: var(--font);
 }
 .lander h1 {
 	font-size: 100px;
@@ -80,6 +80,7 @@ body {
 	line-height: 100px;
 	font-weight: 400;
 	z-index: 1;
+	font-family: var(--bold);
 } 
 .lander h1 strong {
 	width: var(--6col);
@@ -89,6 +90,11 @@ body {
 	font-weight: 400;
 	color: var(--color);
 	z-index: 1;
+	font-family: var(--bold);
+}
+.period {
+	font-family: var(--regular);
+	color: white !important;
 }
 .lander hr {
 	width: 120px;
@@ -98,7 +104,6 @@ body {
 	z-index: 1;
 }
 .lander p {
-	font-family: var(--font);
 	font-size: 16px;
 	width: var(--4col);
 	text-align: center;
@@ -109,7 +114,6 @@ body {
 	letter-spacing: 1px;
 }
 .lander a {
-	font-family: var(--font);
 	color: white;
 	text-decoration: none;
 	font-size: 16px;
@@ -139,6 +143,7 @@ body {
 	font-weight: 400;
 	color: var(--color1);
 	z-index: 1;
+	font-family: var(--bold);
 }
 .section-1 p {
 	color: var(--color1);
@@ -148,24 +153,23 @@ body {
 	width: var(--4col);
 	line-height: 30px;
 	letter-spacing: 1px;
-	font-family: var(--font);
 	z-index: 1;
 }
 .section-1 a {
-	color: var(--color1);
+	color: var(--color);
 	font-size: 16px;
 	margin: 0 0 100px 0;
 	padding: 20px 40px;
-	border: 3px solid var(--color1);
+	border: 3px solid var(--color);
 	text-decoration: none;
 	text-align: center;
 	transition-duration: 400ms;
 	letter-spacing: 1px;
-	font-family: var(--font);
 	z-index: 1;
+	box-shadow: 5px 5px 50px rgba(0,0,0,0.3);
 }
 .section-1 a:hover {
-	background: var(--color1);
+	background: var(--color);
 	color: white;
 }
 .section-2 {
@@ -184,6 +188,7 @@ body {
 	font-weight: 400;
 	color: var(--color1);
 	z-index: 1;
+	font-family: var(--bold);
 }
 .part {
 	width: 100vw;
@@ -203,7 +208,7 @@ body {
 .part2 {
 	width: 40vw;
 	margin: 0 5vw 0 0;
-	box-shadow: 10px 10px 0 rgba(0,0,0,0.5);
+	box-shadow: 5px 5px 50px rgba(0,0,0,0.5);
 	z-index: 1;
 }
 .section-2 p {
@@ -214,24 +219,23 @@ body {
 	width: var(--2col);
 	line-height: 30px;
 	letter-spacing: 1px;
-	font-family: var(--font);
 	z-index: 1;
 }
 .section-2 a {
-	color: var(--color1);
+	color: var(--color);
 	font-size: 16px;
 	margin: 0 0 0 0;
 	padding: 20px 40px;
-	border: 3px solid var(--color1);
+	border: 3px solid var(--color);
 	text-decoration: none;
 	text-align: center;
 	transition-duration: 400ms;
 	letter-spacing: 1px;
-	font-family: var(--font);
 	z-index: 1;
+	box-shadow: 5px 5px 50px rgba(0,0,0,0.3);
 }
 .section-2 a:hover {
-	background: var(--color1);
+	background: var(--color);
 	color: white;
 }
 .section-3 {
@@ -251,6 +255,7 @@ body {
 	font-weight: 400;
 	color: var(--color1);
 	z-index: 1;
+	font-family: var(--bold);
 }
 .section-3 p {
 	color: var(--color1);
@@ -260,23 +265,22 @@ body {
 	width: var(--4col);
 	line-height: 30px;
 	letter-spacing: 1px;
-	font-family: var(--font);
 	z-index: 1;
 }
 .section-3 a {
-	color: var(--color1);
+	color: var(--color);
 	font-size: 16px;
 	margin: 0 0 100px 0;
 	padding: 20px 40px;
-	border: 3px solid var(--color1);
+	border: 3px solid var(--color);
 	text-decoration: none;
 	text-align: center;
 	transition-duration: 400ms;
 	letter-spacing: 1px;
-	font-family: var(--font);
 	z-index: 1;
+	box-shadow: 5px 5px 50px rgba(0,0,0,0.3);
 }
 .section-3 a:hover {
-	background: var(--color1);
+	background: var(--color);
 	color: white;
 }
