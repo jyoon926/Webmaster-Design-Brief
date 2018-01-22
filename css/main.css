@@ -158,7 +158,6 @@ body {
 	transition-duration: 400ms;
 	letter-spacing: 1px;
 	font-family: var(--font);
-	box-shadow: 7px 7px 0 var(--color);
 }
 .section-1 a:hover {
 	background: var(--color1);
@@ -198,7 +197,7 @@ body {
 .part2 {
 	width: 40vw;
 	margin: 0 5vw 0 0;
-	box-shadow: 10px 10px 0 var(--color);
+	box-shadow: 10px 10px 0 rgba(0,0,0,0.5);
 }
 .section-2 p {
 	color: var(--color1);
@@ -221,7 +220,6 @@ body {
 	transition-duration: 400ms;
 	letter-spacing: 1px;
 	font-family: var(--font);
-	box-shadow: 7px 7px 0 var(--color);
 }
 .section-2 a:hover {
 	background: var(--color1);
@@ -265,7 +263,6 @@ body {
 	transition-duration: 400ms;
 	letter-spacing: 1px;
 	font-family: var(--font);
-	box-shadow: 7px 7px 0 var(--color);
 }
 .section-3 a:hover {
 	background: var(--color1);
