@@ -36,6 +36,7 @@ body {
 	-webkit-filter: brightness(100%); /* Safari */
 	filter: brightness(100%);
 	position: absolute;
+	display: none;
  }
 .page-wrap {
 	margin: 0;
