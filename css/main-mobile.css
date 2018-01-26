@@ -63,12 +63,12 @@ body {
 	display: none;
 }
 .lander h1 {
-	font-size: 100px;
+	font-size: 60px;
 	width: var(--6col);
 	text-align: center;
 	margin: 0 0 30px 0;
 	padding: 0;
-	line-height: 100px;
+	line-height: 60px;
 	font-weight: 400;
 	z-index: 1;
 	font-family: var(--bold);
@@ -96,7 +96,7 @@ body {
 }
 .lander p {
 	font-size: 18px;
-	width: var(--4col);
+	width: var(--6col);
 	text-align: center;
 	line-height: 30px;
 	margin: 0 0 40px 0;
@@ -126,7 +126,7 @@ body {
 	background: white;
 }
 .section-1 h1 {
-	width: var(--4col);
+	width: var(--6col);
 	font-size: 60px;
 	text-align: center;
 	margin: 100px 0 40px 0;
@@ -140,7 +140,7 @@ body {
 	font-size: 18px;
 	margin: 0 0 40px 0;
 	text-align: center;
-	width: var(--4col);
+	width: var(--6col);
 	line-height: 30px;
 	z-index: 1;
 }
@@ -168,7 +168,7 @@ body {
 	background: #eee;
 }
 .section-2 h1 {
-	width: var(--4col);
+	width: var(--6col);
 	font-size: 60px;
 	text-align: center;
 	margin: 100px 0 40px 0;
@@ -180,21 +180,21 @@ body {
 .part {
 	width: 100vw;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column-reverse;
 	justify-content: center;
 	align-items: center;
 	margin-bottom: 100px;
 }
 .part1 {
-	width: 50vw;
+	width: 100vw;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
 .part2 {
-	width: 40vw;
-	margin: 0 5vw 0 0;
+	width: var(--6col);
+	margin: 0 0 40px 0;
 	box-shadow: 5px 5px 50px rgba(0,0,0,0.5);
 	z-index: 1;
 }
@@ -203,7 +203,7 @@ body {
 	font-size: 18px;
 	margin: 0 0 40px 0;
 	text-align: center;
-	width: var(--2col);
+	width: var(--6col);
 	line-height: 30px;
 	z-index: 1;
 }
@@ -232,7 +232,7 @@ body {
 	background: white;
 }
 .section-3 h1 {
-	width: var(--4col);
+	width: var(--6col);
 	font-size: 60px;
 	text-align: center;
 	margin: 100px 0 40px 0;
@@ -246,7 +246,7 @@ body {
 	font-size: 18px;
 	margin: 0 0 40px 0;
 	text-align: center;
-	width: var(--4col);
+	width: var(--6col);
 	line-height: 30px;
 	z-index: 1;
 }
