@@ -95,10 +95,10 @@ body {
 	z-index: 1;
 }
 .lander p {
-	font-size: 18px;
+	font-size: 16px;
 	width: var(--6col);
 	text-align: center;
-	line-height: 30px;
+	line-height: 26px;
 	margin: 0 0 40px 0;
 	padding: 0;
 	z-index: 1;
@@ -106,7 +106,7 @@ body {
 .lander a {
 	color: white;
 	text-decoration: none;
-	font-size: 18px;
+	font-size: 16px;
 	padding: 20px 40px;
 	border: 3px solid var(--color);
 	transition-duration: 400ms;
@@ -127,26 +127,27 @@ body {
 }
 .section-1 h1 {
 	width: var(--6col);
-	font-size: 60px;
+	font-size: 50px;
 	text-align: center;
 	margin: 100px 0 40px 0;
 	font-weight: 400;
 	color: var(--color1);
 	z-index: 1;
 	font-family: var(--bold);
+	line-height: 50px;
 }
 .section-1 p {
 	color: var(--color1);
-	font-size: 18px;
+	font-size: 16px;
 	margin: 0 0 40px 0;
 	text-align: center;
 	width: var(--6col);
-	line-height: 30px;
+	line-height: 26px;
 	z-index: 1;
 }
 .section-1 a {
 	color: var(--color);
-	font-size: 18px;
+	font-size: 16px;
 	margin: 0 0 100px 0;
 	padding: 20px 40px;
 	border: 3px solid var(--color);
@@ -169,13 +170,14 @@ body {
 }
 .section-2 h1 {
 	width: var(--6col);
-	font-size: 60px;
+	font-size: 50px;
 	text-align: center;
 	margin: 100px 0 40px 0;
 	font-weight: 400;
 	color: var(--color1);
 	z-index: 1;
 	font-family: var(--bold);
+	line-height: 50px;
 }
 .part {
 	width: 100vw;
@@ -200,16 +202,16 @@ body {
 }
 .section-2 p {
 	color: var(--color1);
-	font-size: 18px;
+	font-size: 16px;
 	margin: 0 0 40px 0;
 	text-align: center;
 	width: var(--6col);
-	line-height: 30px;
+	line-height: 26px;
 	z-index: 1;
 }
 .section-2 a {
 	color: var(--color);
-	font-size: 18px;
+	font-size: 16px;
 	margin: 0 0 0 0;
 	padding: 20px 40px;
 	border: 3px solid var(--color);
@@ -233,26 +235,27 @@ body {
 }
 .section-3 h1 {
 	width: var(--6col);
-	font-size: 60px;
+	font-size: 50px;
 	text-align: center;
 	margin: 100px 0 40px 0;
 	font-weight: 400;
 	color: var(--color1);
 	z-index: 1;
 	font-family: var(--bold);
+	line-height: 50px;	
 }
 .section-3 p {
 	color: var(--color1);
-	font-size: 18px;
+	font-size: 16px;
 	margin: 0 0 40px 0;
 	text-align: center;
 	width: var(--6col);
-	line-height: 30px;
+	line-height: 26px;
 	z-index: 1;
 }
 .section-3 a {
 	color: var(--color);
-	font-size: 18px;
+	font-size: 16px;
 	margin: 0 0 100px 0;
 	padding: 20px 40px;
 	border: 3px solid var(--color);
