@@ -16,6 +16,21 @@
     <link rel="stylesheet" href="css/animate.css">
     <script src="js/script.js"></script>
     <script src="js/aos.js"></script>
+		<script>
+			$(document).ready(function(){
+				$("a").on('click', function(event) {
+					if (this.hash !== "") {
+						event.preventDefault();
+						var hash = this.hash;
+						$('html, body').animate({
+							scrollTop: $(hash).offset().top
+						}, 800, function(){
+							window.location.hash = hash;
+						});
+					}
+				});
+			});
+		</script>
 </head>
 <body class="body">
 	<input type="checkbox" id="checkbox" class="checkbox" id="checkbox">
