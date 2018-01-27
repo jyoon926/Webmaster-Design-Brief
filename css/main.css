@@ -8,8 +8,8 @@
   --between: 10vw;
   --color: #6534ff;
   --color1: #130e23;
-  --bold: 'medium';
-  --regular: 'light';
+  --bold: 700;
+  --regular: 400;
 }
 .html { 
   margin: 0;
@@ -20,7 +20,7 @@ body {
   margin: 0;
   background: var(--color);
   padding: 0;
-  font-family: var(--regular);
+  font-family: 'Montserrat', sans-serif;  
   font-weight: 400;
   -webkit-perspective: 500px;
           perspective: 500px;
@@ -84,23 +84,17 @@ body {
   margin: 0 0 30px 0;
   padding: 0;
   line-height: 100px;
-  font-weight: 400;
+  font-weight: var(--bold);
   z-index: 1;
-  font-family: var(--bold);
 } 
 .lander h1 strong {
   width: var(--6col);
   text-align: center;
   margin: 0 0 30px 0;
   padding: 0;
-  font-weight: 400;
   color: var(--color);
   z-index: 1;
-  font-family: var(--bold);
-}
-.period {
-  font-family: var(--regular);
-  color: white !important;
+  font-weight: var(--bold);
 }
 .lander hr {
   width: 120px;
@@ -159,7 +153,7 @@ body {
   font-weight: 400;
   color: var(--color);
   z-index: 1;
-  font-family: var(--bold);
+  font-weight: var(--bold);
 }
 .section-1 p {
   color: var(--color1);
@@ -212,7 +206,7 @@ body {
   font-weight: 400;
   color: var(--color);
   z-index: 1;
-  font-family: var(--bold);
+  font-weight: var(--bold);
 }
 .part {
   width: 100vw;
@@ -306,7 +300,7 @@ body {
   font-weight: 400;
   color: var(--color);
   z-index: 1;
-  font-family: var(--bold);
+  font-weight: var(--bold);
 }
 .section-3 p {
   color: var(--color1);
