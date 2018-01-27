@@ -14,7 +14,9 @@
 	letter-spacing: 2px;
 	text-decoration: none;
 	text-align: center;
-	transition-duration: 400ms;
+	-webkit-transition-duration: 400ms;
+	     -o-transition-duration: 400ms;
+	        transition-duration: 400ms;
 	font-family: var(--font);
 	padding-top: 5px;
 }
@@ -30,7 +32,9 @@
 	height: 30px;
 	width: 30px;
 	padding: 0;
-	transition-duration: 400ms;
+	-webkit-transition-duration: 400ms;
+	     -o-transition-duration: 400ms;
+	        transition-duration: 400ms;
 	opacity: 1;
 	margin: 0;
 }
@@ -47,7 +51,9 @@
 	border-radius: 25px;
 	opacity: 0;
 	top: -120px;
-	transition-duration: 400ms;
+	-webkit-transition-duration: 400ms;
+	     -o-transition-duration: 400ms;
+	        transition-duration: 400ms;
 	margin: 0;
 }
 .material-icons {
@@ -62,14 +68,25 @@ ul {
 	height: 240px;
 	width: 100vw;
 	opacity: 1;
-	transition-duration: 400ms;
+	-webkit-transition-duration: 400ms;
+	     -o-transition-duration: 400ms;
+	        transition-duration: 400ms;
 	background: none;
 	margin: 0;
 	padding: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	z-index: -2;
 }
 ul a {
@@ -80,12 +97,23 @@ ul a {
 	font-size: 28px;
 	width: 100vw;
 	height: 40px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	background: none;
-	transition-duration: 400ms;
+	-webkit-transition-duration: 400ms;
+	     -o-transition-duration: 400ms;
+	        transition-duration: 400ms;
 }
 ul a:first-child{
 	color: white;
@@ -104,5 +132,6 @@ ul a:hover {
 }
 .checkbox:checked ~ .page-wrap {
 	margin-top: 150px;
-	transform: rotateX(2deg);
+	-webkit-transform: rotateX(2deg);
+	        transform: rotateX(2deg);
 }
