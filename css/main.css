@@ -151,13 +151,17 @@ body {
   top: 100vh;
   background: white;
 }
+.section-1 img {
+  width: 5vw;
+  margin-top: 100px;
+}
 .section-1 h1 {
   width: var(--4col);
   font-size: 60px;
   text-align: center;
-  margin: 100px 0 40px 0;
+  margin: 40px 0 40px 0;
   font-weight: 400;
-  color: var(--color);
+  color: var(--color1);
   z-index: 1;
   font-family: var(--bold);
 }
@@ -210,7 +214,7 @@ body {
   text-align: center;
   margin: 100px 0 40px 0;
   font-weight: 400;
-  color: var(--color);
+  color: var(--color1);
   z-index: 1;
   font-family: var(--bold);
 }
@@ -304,7 +308,7 @@ body {
   text-align: center;
   margin: 100px 0 40px 0;
   font-weight: 400;
-  color: var(--color);
+  color: var(--color1);
   z-index: 1;
   font-family: var(--bold);
 }
