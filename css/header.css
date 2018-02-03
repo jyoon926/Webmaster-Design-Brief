@@ -11,18 +11,16 @@
   left: 60px;
   font-size: 18px;
   height: 30px;
-  letter-spacing: 8px;
+  letter-spacing: 2px;
   text-decoration: none;
   text-align: center;
   -webkit-transition-duration: 400ms;
        -o-transition-duration: 400ms;
           transition-duration: 400ms;
+  font-family: var(--font);
 }
 .logo:hover {
-}
-.logo strong {
-  font-weight: var(--black);
-  color: var(--color);
+  
 }
 .header-button {
   position: absolute;

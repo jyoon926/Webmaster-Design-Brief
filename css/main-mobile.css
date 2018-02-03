@@ -124,6 +124,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	top: 100vh;
+	background: white;
 }
 .section-1 h1 {
 	width: var(--6col);
@@ -166,6 +167,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	background: #eee;
 }
 .section-2 h1 {
 	width: var(--6col);
@@ -230,6 +232,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	top: 100vh;
+	background: white;
 }
 .section-3 h1 {
 	width: var(--6col);
