@@ -117,50 +117,6 @@ body {
 .lander a:hover {
 	background: none;
 }
-.section-1 {
-	width: 100vw;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	top: 100vh;
-	background: white;
-}
-.section-1 h1 {
-	width: var(--6col);
-	font-size: 50px;
-	text-align: center;
-	margin: 100px 0 40px 0;
-	font-weight: 400;
-	color: var(--color1);
-	z-index: 1;
-	font-family: var(--bold);
-	line-height: 50px;
-}
-.section-1 p {
-	color: var(--color1);
-	font-size: 16px;
-	margin: 0 0 40px 0;
-	text-align: center;
-	width: var(--6col);
-	line-height: 26px;
-	z-index: 1;
-}
-.section-1 a {
-	color: var(--color);
-	font-size: 16px;
-	margin: 0 0 100px 0;
-	padding: 20px 40px;
-	border: 3px solid var(--color);
-	text-decoration: none;
-	text-align: center;
-	transition-duration: 400ms;
-	z-index: 1;
-}
-.section-1 a:hover {
-	background: var(--color);
-	color: white;
-}
 .section-2 {
 	width: 100vw;
 	display: flex;
@@ -215,7 +171,6 @@ body {
 	font-size: 16px;
 	margin: 0 0 0 0;
 	padding: 20px 40px;
-	border: 3px solid var(--color);
 	text-decoration: none;
 	text-align: center;
 	transition-duration: 400ms;

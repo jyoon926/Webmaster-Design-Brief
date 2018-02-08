@@ -22,10 +22,12 @@ $(document).ready(function() {
 
 $(window).on("scroll",function () {
   if ($(this).scrollTop() > 500) {
-    $('.section-1').css('opacity', '1');
+    $('.page-wrap').css('background', 'var(--color)');
+    $('.nokey-wrap').css('opacity', '0');
   }
   else {
-    $('.section-1').css('opacity', '1');
+    $('.page-wrap').css('background', 'var(--color1)');
+    $('.nokey-wrap').css('opacity', '1');
   }
 });
 /*
