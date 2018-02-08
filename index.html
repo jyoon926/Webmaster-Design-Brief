@@ -1,361 +1,356 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Home | AGAPAI</title>
+
+    <title>AGAPAI | Home</title>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="google-site-verification" content="0BujZUJNuDl9p2zCf1zm6_ceLmyff1jYztsAvtecYZI" />
     <link rel="shortcut icon" href="img/logo.png"/>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<link href="https://fonts.googleapis.com/css?family=Lato|Prata" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" media="screen and (max-width: 480px)" href="css/main-mobile.css">
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-    <link rel="stylesheet" type="text/css" href="css/aos.css">
-    <link rel="stylesheet" type="text/css" href="css/header.css">
-    <link rel="stylesheet" type="text/css" media="screen and (max-width: 480px)" href="css/header-mobile.css">
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/hover.css">
     <script src="js/script.js"></script>
-    <script src="js/aos.js"></script>
-		<script>
-			$(document).ready(function(){
-				$("a").on('click', function(event) {
-					if (this.hash !== "") {
-						event.preventDefault();
-						var hash = this.hash;
-						$('html, body').animate({
-							scrollTop: $(hash).offset().top
-						}, 800, function(){
-							window.location.hash = hash;
-						});
-					}
-				});
+    <script>
+		$(document).ready(function(){
+			$("a").on('click', function(event) {
+				if (this.hash !== "") {
+					event.preventDefault();
+					var hash = this.hash;
+					$('html, body').animate({
+						scrollTop: $(hash).offset().top
+					}, 800, function(){
+						window.location.hash = hash;
+					});
+				}
 			});
-		</script>
+		});
+	</script>
+
 </head>
-<body class="body">
-	<input type="checkbox" id="checkbox" class="checkbox" id="checkbox">
-    <label for="checkbox" class="header-button"><i class="material-icons">&#xE5D2;</i></label>
-    <label for="checkbox" class="header-button2"><i class="material-icons">&#xE5CE;</i></label>
-	<ul class="header">
-		<a href="index.html">
-			<li>Home</li>
-		</a>
-		<a href="aboutai.html">
-			<li>About AI</li>
-		</a>
-		<a href="products.html">
-			<li>Our Product</li>
-		</a>
-		<a href="whoweare.html">
-			<li>Who We Are</li>
-		</a>
-    </ul>
-    <div class="page-wrap">
-		<a href="index.html" class="logo">AGAPAI</a>
-        <section class="lander">
-            <h1>Mechanically improving <strong>medicine.</strong></h1>
-            <p>A company that began with the idea to mechanically improve medicine, AgapAI is on the road to creating robotic surgical systems powered by advanced AI technologies.</p>
-			<img src="img/CARL.jpg" alt="">
-            <a href="#more">Learn More</a>
+<body>
+
+	<div class="cols">
+		<div class="col col1"></div>
+		<div class="col col2"></div>
+		<div class="col col3"></div>
+		<div class="col col4"></div>
+		<div class="col col5"></div>
+	</div>
+
+	<div class="fixed">
+		<img class="logo" src="img/logo.png">
+	</div>
+
+	<div class="page-content">
+
+		<div class="lander">
+			<div class="landercontent front">
+				<div class="landercontainer">
+					<p class="landertitle">MECHANICALLY IMPROVING MEDICINE</p>
+					<div class="landersection2">
+						<a class="button hvr-sweep-to-bottom" href="#next">Learn More</a>
+						<p class="paragraph">A company that began with the idea to mechanically improve medicine, AgapAI is on the road to creating robotic surgical systems powered by advanced AI technologies.</p>
+					</div>
+				</div>
+			</div>
 			<div class="nokey-wrap">
 		  		<canvas id="nokey" width="800" height="800"></canvas>
 			</div>
-        </section>
-		<section class="section-1" id="more">
-            <h1>We are AgapAI</h1>
-			<p>AgapAI is a world leader in artificial intelligence medical robotics and its application for positive impact. We are on a scientific mission to push the boundaries of AI, developing products that can perform complex tasks and surpass human abilities. As in all long-term research efforts there are many hurdles ahead, but our team of renowned scientists and engineers is making exciting progress.</p>
-			<a href="#">Who We Are</a>
-        </section>
-		<section class="section-2">
-            <h1>Meet ARM</h1>
-			<div class="part">
-				<div class="part1">
-					<p>With four degrees of rotation and precision to the thousandth of a millimeter, Arthro-Robotic Mechanism (ARM) sets a formidable new standard for autonomous robotic arms. Its unique design enrich ARM’s accuracy and reliability.</p>
-					<a href="#">Reserve Now</a>
-				</div>
-				<img src="img/CARL.jpg" alt="" class="part2">
+		</div>
+		<div class="background"></div>
+		<div class="sections">
+			<div class="section section1" id="next">
+				<p class="sectiontitle">We are AgapAI</p>
+				<p class="paragraph">AgapAI is a world leader in artificial intelligence medical robotics and its application for positive impact. We are on a scientific mission to push the boundaries of AI, developing products that can perform complex tasks and surpass human abilities. As in all long-term research efforts there are many hurdles ahead, but our team of renowned scientists and engineers is making exciting progress.</p>
 			</div>
-        </section>
-		<section class="section-3">
-            <h1>Artificial Intelligence</h1>
-			<p>Our team is proud to showcase what we have accomplished with our artificial intelligence in our robots. But what is AI? How does a machine mimic cognitive functions that humans associate with other human minds, such as learning and problem solving? What are the benefits, safety concerns, and potential future uses of machine intelligence?</p>
-			<a href="#">Learn More</a>
-        </section>
-    <script>
-		var canvas = document.getElementById('nokey'),
-		   can_w = parseInt(canvas.getAttribute('width')),
-		   can_h = parseInt(canvas.getAttribute('height')),
-		   ctx = canvas.getContext('2d');
+			<div class="section section2">
+				<p class="sectiontitle">Meet Arthro-Robotic Limb (ARM)</p>
+				<p class="paragraph">With four degrees of rotation and precision to the thousandth of a millimeter, Arthro-Robotic Mechanism (ARM) sets a formidable new standard for autonomous robotic arms. Its unique design enrich ARM’s accuracy and reliability.</p>
+				<a href="#" class="button hvr-sweep-to-bottom">Reserve Now</a>
+			</div>
+			<div class="section section3">
+				<p class="sectiontitle">What is Artificial Intelligence?</p>
+				<p class="paragraph">Our team is proud to showcase what we have accomplished with our artificial intelligence in our robots. But what is AI? How does a machine mimic cognitive functions that humans associate with other human minds, such as learning and problem solving? What are the benefits, safety concerns, and potential future uses of machine intelligence?</p>
+				<a href="#" class="button hvr-sweep-to-bottom">Learn More</a>
+			</div>
+		</div>
 
-		// console.log(typeof can_w);
+	</div>
 
-		var ball = {
-			  x: 0,
-			  y: 0,
-			  vx: 0,
-			  vy: 0,
-			  r: 0,
-			  alpha: 1,
-			  phase: 0
-		   },
-		   ball_color = {
-			   r: 255,
-			   g: 255,
-			   b: 255
-		   },
-		   R = 2,
-		   balls = [],
-		   alpha_f = 0.03,
-		   alpha_phase = 0,
+<script type="text/javascript">
+	var canvas = document.getElementById('nokey'),
+	   can_w = parseInt(canvas.getAttribute('width')),
+	   can_h = parseInt(canvas.getAttribute('height')),
+	   ctx = canvas.getContext('2d');
 
-		// Line
-		   link_line_width = 0.8,
-		   dis_limit = 260,
-		   add_mouse_point = true,
-		   mouse_in = false,
-		   mouse_ball = {
-			  x: 0,
-			  y: 0,
-			  vx: 0,
-			  vy: 0,
-			  r: 0,
-			  type: 'mouse'
-		   };
+	// console.log(typeof can_w);
 
-		// Random speed
-		function getRandomSpeed(pos){
-			var  min = -1,
-			   max = 1;
-			switch(pos){
-				case 'top':
-					return [randomNumFrom(min, max), randomNumFrom(0.1, max)];
-					break;
-				case 'right':
-					return [randomNumFrom(min, -0.1), randomNumFrom(min, max)];
-					break;
-				case 'bottom':
-					return [randomNumFrom(min, max), randomNumFrom(min, -0.1)];
-					break;
-				case 'left':
-					return [randomNumFrom(0.1, max), randomNumFrom(min, max)];
-					break;
-				default:
-					return;
-					break;
-			}
+	var ball = {
+		  x: 0,
+		  y: 0,
+		  vx: 0,
+		  vy: 0,
+		  r: 0,
+		  alpha: 1,
+		  phase: 0
+	   },
+	   ball_color = {
+		   r: 0,
+		   g: 0,
+		   b: 0
+	   },
+	   R = 2,
+	   balls = [],
+	   alpha_f = 0.03,
+	   alpha_phase = 0,
+
+	// Line
+	   link_line_width = 0.8,
+	   dis_limit = 260,
+	   add_mouse_point = true,
+	   mouse_in = false,
+	   mouse_ball = {
+		  x: 0,
+		  y: 0,
+		  vx: 0,
+		  vy: 0,
+		  r: 0,
+		  type: 'mouse'
+	   };
+
+	// Random speed
+	function getRandomSpeed(pos){
+		var  min = -1,
+		   max = 1;
+		switch(pos){
+			case 'top':
+				return [randomNumFrom(min, max), randomNumFrom(0.1, max)];
+				break;
+			case 'right':
+				return [randomNumFrom(min, -0.1), randomNumFrom(min, max)];
+				break;
+			case 'bottom':
+				return [randomNumFrom(min, max), randomNumFrom(min, -0.1)];
+				break;
+			case 'left':
+				return [randomNumFrom(0.1, max), randomNumFrom(min, max)];
+				break;
+			default:
+				return;
+				break;
 		}
-		function randomArrayItem(arr){
-			return arr[Math.floor(Math.random() * arr.length)];
-		}
-		function randomNumFrom(min, max){
-			return Math.random()*(max - min) + min;
-		}
-		console.log(randomNumFrom(0, 10));
-		// Random Ball
-		function getRandomBall(){
-			var pos = randomArrayItem(['top', 'right', 'bottom', 'left']);
-			switch(pos){
-				case 'top':
-					return {
-						x: randomSidePos(can_w),
-						y: -R,
-						vx: getRandomSpeed('top')[0],
-						vy: getRandomSpeed('top')[1],
-						r: R,
-						alpha: 1,
-						phase: randomNumFrom(0, 10)
-					}
-					break;
-				case 'right':
-					return {
-						x: can_w + R,
-						y: randomSidePos(can_h),
-						vx: getRandomSpeed('right')[0],
-						vy: getRandomSpeed('right')[1],
-						r: R,
-						alpha: 1,
-						phase: randomNumFrom(0, 10)
-					}
-					break;
-				case 'bottom':
-					return {
-						x: randomSidePos(can_w),
-						y: can_h + R,
-						vx: getRandomSpeed('bottom')[0],
-						vy: getRandomSpeed('bottom')[1],
-						r: R,
-						alpha: 1,
-						phase: randomNumFrom(0, 10)
-					}
-					break;
-				case 'left':
-					return {
-						x: -R,
-						y: randomSidePos(can_h),
-						vx: getRandomSpeed('left')[0],
-						vy: getRandomSpeed('left')[1],
-						r: R,
-						alpha: 1,
-						phase: randomNumFrom(0, 10)
-					}
-					break;
-			}
-		}
-		function randomSidePos(length){
-			return Math.ceil(Math.random() * length);
-		}
-
-		// Draw Ball
-		function renderBalls(){
-			Array.prototype.forEach.call(balls, function(b){
-			   if(!b.hasOwnProperty('type')){
-				   ctx.fillStyle = 'rgba('+ball_color.r+','+ball_color.g+','+ball_color.b+','+b.alpha+')';
-				   ctx.beginPath();
-				   ctx.arc(b.x, b.y, R, 0, Math.PI*2, true);
-				   ctx.closePath();
-				   ctx.fill();
-			   }
-			});
-		}
-
-		// Update balls
-		function updateBalls(){
-			var new_balls = [];
-			Array.prototype.forEach.call(balls, function(b){
-				b.x += b.vx;
-				b.y += b.vy;
-
-				if(b.x > -(50) && b.x < (can_w+50) && b.y > -(50) && b.y < (can_h+50)){
-				   new_balls.push(b);
-				}
-
-				// alpha change
-				b.phase += alpha_f;
-				b.alpha = Math.abs(Math.cos(b.phase));
-				// console.log(b.alpha);
-			});
-
-			balls = new_balls.slice(0);
-		}
-
-		// loop alpha
-		function loopAlphaInf(){
-
-		}
-
-		// Draw lines
-		function renderLines(){
-			var fraction, alpha;
-			for (var i = 0; i < balls.length; i++) {
-				for (var j = i + 1; j < balls.length; j++) {
-
-				   fraction = getDisOf(balls[i], balls[j]) / dis_limit;
-
-				   if(fraction < 1){
-					   alpha = (1 - fraction).toString();
-
-					   ctx.strokeStyle = 'rgba(150,150,150,'+alpha+')';
-					   ctx.lineWidth = link_line_width;
-
-					   ctx.beginPath();
-					   ctx.moveTo(balls[i].x, balls[i].y);
-					   ctx.lineTo(balls[j].x, balls[j].y);
-					   ctx.stroke();
-					   ctx.closePath();
-				   }
-				}
-			}
-		}
-
-		// calculate distance between two points
-		function getDisOf(b1, b2){
-			var  delta_x = Math.abs(b1.x - b2.x),
-			   delta_y = Math.abs(b1.y - b2.y);
-
-			return Math.sqrt(delta_x*delta_x + delta_y*delta_y);
-		}
-
-		// add balls if there a little balls
-		function addBallIfy(){
-			if(balls.length < 20){
-				balls.push(getRandomBall());
-			}
-		}
-
-		// Render
-		function render(){
-			ctx.clearRect(0, 0, can_w, can_h);
-
-			renderBalls();
-
-			renderLines();
-
-			updateBalls();
-
-			addBallIfy();
-
-			window.requestAnimationFrame(render);
-		}
-
-		// Init Balls
-		function initBalls(num){
-			for(var i = 1; i <= num; i++){
-				balls.push({
+	}
+	function randomArrayItem(arr){
+		return arr[Math.floor(Math.random() * arr.length)];
+	}
+	function randomNumFrom(min, max){
+		return Math.random()*(max - min) + min;
+	}
+	console.log(randomNumFrom(0, 10));
+	// Random Ball
+	function getRandomBall(){
+		var pos = randomArrayItem(['top', 'right', 'bottom', 'left']);
+		switch(pos){
+			case 'top':
+				return {
 					x: randomSidePos(can_w),
-					y: randomSidePos(can_h),
+					y: -R,
 					vx: getRandomSpeed('top')[0],
 					vy: getRandomSpeed('top')[1],
 					r: R,
 					alpha: 1,
 					phase: randomNumFrom(0, 10)
-				});
+				}
+				break;
+			case 'right':
+				return {
+					x: can_w + R,
+					y: randomSidePos(can_h),
+					vx: getRandomSpeed('right')[0],
+					vy: getRandomSpeed('right')[1],
+					r: R,
+					alpha: 1,
+					phase: randomNumFrom(0, 10)
+				}
+				break;
+			case 'bottom':
+				return {
+					x: randomSidePos(can_w),
+					y: can_h + R,
+					vx: getRandomSpeed('bottom')[0],
+					vy: getRandomSpeed('bottom')[1],
+					r: R,
+					alpha: 1,
+					phase: randomNumFrom(0, 10)
+				}
+				break;
+			case 'left':
+				return {
+					x: -R,
+					y: randomSidePos(can_h),
+					vx: getRandomSpeed('left')[0],
+					vy: getRandomSpeed('left')[1],
+					r: R,
+					alpha: 1,
+					phase: randomNumFrom(0, 10)
+				}
+				break;
+		}
+	}
+	function randomSidePos(length){
+		return Math.ceil(Math.random() * length);
+	}
+
+	// Draw Ball
+	function renderBalls(){
+		Array.prototype.forEach.call(balls, function(b){
+		   if(!b.hasOwnProperty('type')){
+			   ctx.fillStyle = 'rgba('+ball_color.r+','+ball_color.g+','+ball_color.b+','+b.alpha+')';
+			   ctx.beginPath();
+			   ctx.arc(b.x, b.y, R, 0, Math.PI*2, true);
+			   ctx.closePath();
+			   ctx.fill();
+		   }
+		});
+	}
+
+	// Update balls
+	function updateBalls(){
+		var new_balls = [];
+		Array.prototype.forEach.call(balls, function(b){
+			b.x += b.vx;
+			b.y += b.vy;
+
+			if(b.x > -(50) && b.x < (can_w+50) && b.y > -(50) && b.y < (can_h+50)){
+			   new_balls.push(b);
+			}
+
+			// alpha change
+			b.phase += alpha_f;
+			b.alpha = Math.abs(Math.cos(b.phase));
+			// console.log(b.alpha);
+		});
+
+		balls = new_balls.slice(0);
+	}
+
+	// loop alpha
+	function loopAlphaInf(){
+
+	}
+
+	// Draw lines
+	function renderLines(){
+		var fraction, alpha;
+		for (var i = 0; i < balls.length; i++) {
+			for (var j = i + 1; j < balls.length; j++) {
+
+			   fraction = getDisOf(balls[i], balls[j]) / dis_limit;
+
+			   if(fraction < 1){
+				   alpha = (1 - fraction).toString();
+
+				   ctx.strokeStyle = 'rgba(0, 0, 0,'+alpha+')';
+				   ctx.lineWidth = link_line_width;
+
+				   ctx.beginPath();
+				   ctx.moveTo(balls[i].x, balls[i].y);
+				   ctx.lineTo(balls[j].x, balls[j].y);
+				   ctx.stroke();
+				   ctx.closePath();
+			   }
 			}
 		}
-		// Init Canvas
-		function initCanvas(){
-			canvas.setAttribute('width', window.innerWidth);
-			canvas.setAttribute('height', window.innerHeight);
+	}
 
-			can_w = parseInt(canvas.getAttribute('width'));
-			can_h = parseInt(canvas.getAttribute('height'));
+	// calculate distance between two points
+	function getDisOf(b1, b2){
+		var  delta_x = Math.abs(b1.x - b2.x),
+		   delta_y = Math.abs(b1.y - b2.y);
+
+		return Math.sqrt(delta_x*delta_x + delta_y*delta_y);
+	}
+
+	// add balls if there a little balls
+	function addBallIfy(){
+		if(balls.length < 20){
+			balls.push(getRandomBall());
 		}
-		window.addEventListener('resize', function(e){
-			console.log('Window Resize...');
-			initCanvas();
-		});
+	}
 
-		function goMovie(){
-			initCanvas();
-			initBalls(20);
-			window.requestAnimationFrame(render);
-		}
-		goMovie();
+	// Render
+	function render(){
+		ctx.clearRect(0, 0, can_w, can_h);
 
-		// Mouse effect
-		canvas.addEventListener('mouseenter', function(){
-			console.log('mouseenter');
-			mouse_in = true;
-			balls.push(mouse_ball);
-		});
-		canvas.addEventListener('mouseleave', function(){
-			console.log('mouseleave');
-			mouse_in = false;
-			var new_balls = [];
-			Array.prototype.forEach.call(balls, function(b){
-				if(!b.hasOwnProperty('type')){
-					new_balls.push(b);
-				}
+		renderBalls();
+
+		renderLines();
+
+		updateBalls();
+
+		addBallIfy();
+
+		window.requestAnimationFrame(render);
+	}
+
+	// Init Balls
+	function initBalls(num){
+		for(var i = 1; i <= num; i++){
+			balls.push({
+				x: randomSidePos(can_w),
+				y: randomSidePos(can_h),
+				vx: getRandomSpeed('top')[0],
+				vy: getRandomSpeed('top')[1],
+				r: R,
+				alpha: 1,
+				phase: randomNumFrom(0, 10)
 			});
-			balls = new_balls.slice(0);
+		}
+	}
+	// Init Canvas
+	function initCanvas(){
+		canvas.setAttribute('width', window.innerWidth);
+		canvas.setAttribute('height', window.innerHeight);
+
+		can_w = parseInt(canvas.getAttribute('width'));
+		can_h = parseInt(canvas.getAttribute('height'));
+	}
+	window.addEventListener('resize', function(e){
+		console.log('Window Resize...');
+		initCanvas();
+	});
+
+	function goMovie(){
+		initCanvas();
+		initBalls(20);
+		window.requestAnimationFrame(render);
+	}
+	goMovie();
+
+	// Mouse effect
+	canvas.addEventListener('mouseenter', function(){
+		console.log('mouseenter');
+		mouse_in = true;
+		balls.push(mouse_ball);
+	});
+	canvas.addEventListener('mouseleave', function(){
+		console.log('mouseleave');
+		mouse_in = false;
+		var new_balls = [];
+		Array.prototype.forEach.call(balls, function(b){
+			if(!b.hasOwnProperty('type')){
+				new_balls.push(b);
+			}
 		});
-		canvas.addEventListener('mousemove', function(e){
-			var e = e || window.event;
-			mouse_ball.x = e.pageX;
-			mouse_ball.y = e.pageY;
-			// console.log(mouse_ball);
-		});
-	</script>
-    </div>
+		balls = new_balls.slice(0);
+	});
+	canvas.addEventListener('mousemove', function(e){
+		var e = e || window.event;
+		mouse_ball.x = e.pageX;
+		mouse_ball.y = e.pageY;
+		// console.log(mouse_ball);
+	});
+</script>
+
 </body>
 </html>
