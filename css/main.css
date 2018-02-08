@@ -65,7 +65,9 @@ body {
 	text-align: center;
 	padding: 30px 40px;
 	color: #20232e;
-	transition-duration: 500ms !important;
+	-webkit-transition-duration: 500ms !important;
+	     -o-transition-duration: 500ms !important;
+	        transition-duration: 500ms !important;
 	letter-spacing: .5px;
 	text-decoration: none;
 	font-family: 'medium';
@@ -93,10 +95,19 @@ body {
 	margin: 0;
 	padding: 0;
 	height: 180px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 }
 .fixed .logo {
 	width: 4.142857143vw;
@@ -117,10 +128,19 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: 'medium';
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 }
 .landercontainer {
 	width: var(--column4);
@@ -128,8 +148,13 @@ body {
 .landersection2 {
 	width: var(--column4);
 	margin-top: 80px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
 }
 .landertitle {
 	font-size: 70px;
@@ -137,7 +162,8 @@ body {
 	width: var(--column2);
 	line-height: 90px;
 	color: #20232e;
-	transform: translateZ(1px);
+	-webkit-transform: translateZ(1px);
+	        transform: translateZ(1px);
 }
 .landersection2 .button {
 	margin-left: var(--column1);
@@ -147,7 +173,8 @@ body {
 	margin-left: var(--column2);
 	margin-top: 0;
 	width: var(--column1);
-	transform: translateZ(1px);
+	-webkit-transform: translateZ(1px);
+	        transform: translateZ(1px);
 }
 .sections {
 	background-image: url('../img/Unicorn.jpg');
@@ -161,7 +188,8 @@ body {
 .section1 .sectiontitle {
 	padding: 140px 0 40px var(--column1);
 	width: var(--column2);
-	transform: translateZ(1px);
+	-webkit-transform: translateZ(1px);
+	        transform: translateZ(1px);
 	font-size: 50px;
 	color: #20232e;
 	font-family: 'medium';
@@ -171,7 +199,8 @@ body {
 .section1 .paragraph {
 	padding: 0 0 180px var(--column1);
 	width: var(--column2);
-	transform: translateZ(1px);
+	-webkit-transform: translateZ(1px);
+	        transform: translateZ(1px);
 }
 .section2 {
 	background-position: top;
@@ -181,13 +210,15 @@ body {
 }
 .section2 .sectiontitle {
 	padding: 140px 0 40px 0;
-	transform: translateZ(1px);
+	-webkit-transform: translateZ(1px);
+	        transform: translateZ(1px);
 	width: var(--column2);
 }
 .section2 .paragraph {
 	padding: 0 0 40px 10.714285714vw;
 	width: var(--column3);
-	transform: translateZ(1px);
+	-webkit-transform: translateZ(1px);
+	        transform: translateZ(1px);
 }
 .section2 .button {
 	margin-left: var(--column1);
@@ -199,13 +230,15 @@ body {
 }
 .section3 .sectiontitle {
 	padding: 140px 0 40px 0;
-	transform: translateZ(1px);
+	-webkit-transform: translateZ(1px);
+	        transform: translateZ(1px);
 	width: var(--column2);
 }
 .section3 .paragraph {
 	padding: 0 0 40px 10.714285714vw;
 	width: var(--column3);
-	transform: translateZ(1px);
+	-webkit-transform: translateZ(1px);
+	        transform: translateZ(1px);
 }
 .section3 .button {
 	margin-left: var(--column1);
