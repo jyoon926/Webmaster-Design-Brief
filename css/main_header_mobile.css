@@ -1,0 +1,36 @@
+
+.fixed {
+	position: fixed;
+	margin: 0;
+	padding: 0;
+	height: 70px;
+	width: 100vw;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	background: white;
+	z-index: 5;
+}
+.fixed .logo {
+	width: 50px;
+	height: 50px;
+	margin-left: 0;
+	margin-right: 0;
+}
+.fixed .logotext {
+	font-family: 'medium';
+	letter-spacing: 1px;
+	font-size: 24px;
+	color: #20232e;
+	text-decoration: none;
+}
