@@ -115,13 +115,6 @@ body {
 	margin-left: 1.5vw;
 	margin-right: 1.5vw;
 }
-.fixed .logotext {
-	font-family: 'medium';
-	letter-spacing: 1px;
-	font-size: 24px;
-	color: #20232e;
-	text-decoration: none;
-}
 .lander {
 	height: 100vh;
 	width: 100vw;
@@ -197,7 +190,7 @@ body {
 	letter-spacing: 1px;
 }
 .section1 .paragraph {
-	padding: 0 0 180px var(--column1);
+	padding: 0 0 100px var(--column1);
 	width: var(--column2);
 	-webkit-transform: translateZ(1px);
 	        transform: translateZ(1px);
@@ -205,11 +198,11 @@ body {
 .section2 {
 	background-position: top;
 	margin: -15px 0 0 0;
-	padding: 0 0 140px 0;
+	padding: 0 0 100px 0;
 	padding-left: var(--columnspace);
 }
 .section2 .sectiontitle {
-	padding: 140px 0 40px 0;
+	padding: 100px 0 40px 0;
 	-webkit-transform: translateZ(1px);
 	        transform: translateZ(1px);
 	width: var(--column2);
@@ -225,11 +218,11 @@ body {
 }
 .section3 {
 	margin: -15px 0 0 0;
-	padding: 0 0 140px 0;
+	padding: 0 0 100px 0;
 	padding-left: var(--columnspace);
 }
 .section3 .sectiontitle {
-	padding: 140px 0 40px 0;
+	padding: 100px 0 40px 0;
 	-webkit-transform: translateZ(1px);
 	        transform: translateZ(1px);
 	width: var(--column2);
