@@ -127,7 +127,7 @@ body {
 }
 .landersection2 {
 	width: var(--column4);
-	margin-top: 120px;
+	margin-top: 80px;
 	display: flex;
 	flex-direction: row;
 }
