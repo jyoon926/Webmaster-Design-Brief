@@ -83,10 +83,10 @@
 	        flex-direction: column;
 }
 .landertitle {
-	font-size: 50px;
+	font-size: 40px;
 	letter-spacing: 0px;
 	width: var(--column2);
-	line-height: 50px;
+	line-height: 40px;
 	color: #20232e;
 	-webkit-transform: translateZ(1px);
 	        transform: translateZ(1px);
@@ -116,10 +116,10 @@
 	width: var(--column4);
 	-webkit-transform: translateZ(1px);
 	        transform: translateZ(1px);
-	font-size: 50px;
+	font-size: 40px;
 	color: #20232e;
 	font-family: 'medium';
-	line-height: 50px;
+	line-height: 40px;
 	letter-spacing: 1px;
 	text-align: center;
 }
@@ -140,7 +140,7 @@
 	padding: 140px 0 40px 0;
 	-webkit-transform: translateZ(1px);
 	        transform: translateZ(1px);
-	width: var(--column3);
+	width: var(--column4);
 }
 .section2 .paragraph {
 	padding: 0 0 40px 0;
@@ -160,7 +160,7 @@
 	padding: 40px 0 40px 0;
 	-webkit-transform: translateZ(1px);
 	        transform: translateZ(1px);
-	width: var(--column2);
+	width: var(--column4);
 }
 .section3 .paragraph {
 	padding: 0 0 40px 0;
@@ -170,4 +170,11 @@
 }
 .section3 .button {
 	margin-left: var(--column2);
+}
+
+ul a {
+	font-size: 26px;
+}
+ul a p {
+	font-size: 16px;
 }
