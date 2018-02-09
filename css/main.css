@@ -177,6 +177,7 @@ body {
 }
 .section1 {
 	padding-left: var(--columnspace);
+	background: #dddddd;
 }
 .section1 .sectiontitle {
 	padding: 140px 0 40px var(--column1);
