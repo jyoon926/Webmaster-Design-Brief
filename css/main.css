@@ -7,6 +7,8 @@
 	--columnspace: 7.14285714286vw;
 	--color: #0f0f23;
 	--color-secondary: #1a237e;
+	--bold: 'hk-grotesk-bold';
+	--regular: 'hk-grotesk-regular';
 }
 html {
 	margin: 0;
@@ -78,20 +80,19 @@ body {
 	font-size: 18px;
 	text-align: center;
 	padding: 30px 40px;
-	color: var(--color);
+	color: black;
 	-webkit-transition-duration: 500ms !important;
 	     -o-transition-duration: 500ms !important;
 	        transition-duration: 500ms !important;
 	letter-spacing: .5px;
 	text-decoration: none;
-	font-family: 'medium';
+	font-family: var(--regular);
 }
 .paragraph {
 	margin: 0;
 	padding: 0;
 	font-size: 18px;
-	color: var(--color);
-	font-family: 'medium';
+	font-family: var(--regular);
 	line-height: 24px;
 	letter-spacing: .5px;
 }
@@ -99,8 +100,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font-size: 70px;
-	color: var(--color);
-	font-family: 'medium';
+	font-family: var(--regular);
 	line-height: 70px;
 	letter-spacing: 2px;
 }
@@ -134,7 +134,7 @@ body {
 	width: 100vw;
 	margin: 0;
 	padding: 0;
-	font-family: 'medium';
+	font-family: var(--regular);
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -168,7 +168,6 @@ body {
 	letter-spacing: 1px;
 	width: var(--column2);
 	line-height: 90px;
-	color: var(--color);
 	-webkit-transform: translateZ(1px);
 	        transform: translateZ(1px);
 }
@@ -186,12 +185,10 @@ body {
 .sections {
 	background-image: url('../img/Unicorn.jpg');
 	background-size: cover;
-	background-position: 50% -10%;
 	background-repeat: no-repeat;
 }
 .section1 {
 	padding-left: var(--columnspace);
-	background: #dddddd;
 }
 .section1 .sectiontitle {
 	padding: 140px 0 40px var(--column1);
@@ -199,8 +196,7 @@ body {
 	-webkit-transform: translateZ(1px);
 	        transform: translateZ(1px);
 	font-size: 50px;
-	color: var(--color);
-	font-family: 'medium';
+	font-family: var(--regular);
 	line-height: 50px;
 	letter-spacing: 1px;
 }
@@ -320,7 +316,7 @@ ul {
 }
 ul a {
 	color: white;
-	font-family: 'medium';
+	font-family: var(--regular);
 	text-align: center;
 	transform: scale(0);
 	opacity: 0;
@@ -338,7 +334,7 @@ ul a:first-child {
 }
 ul a p {
 	font-size: 20px;
-	font-family: 'light';
+	font-family: var(--regular);
 	letter-spacing: 1px;
 	color: var(--color);
 	transition-duration: 1s;

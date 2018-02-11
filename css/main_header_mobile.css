@@ -28,7 +28,7 @@
 	margin-right: 0;
 }
 .fixed .logotext {
-	font-family: 'medium';
+	font-family: var(--regular);
 	letter-spacing: 1px;
 	font-size: 24px;
 	color: var(--color);
