@@ -1,0 +1,69 @@
+.sections {
+	background-image: url('../img/Unicorn.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.section1 {
+	padding-left: var(--columnspace);
+}
+.section1 .sectiontitle {
+	padding: 140px 0 40px var(--column1);
+	width: var(--column2);
+	-webkit-transform: translateZ(1px);
+	        transform: translateZ(1px);
+	font-size: 50px;
+	font-family: var(--regular);
+	line-height: 50px;
+	letter-spacing: 1px;
+}
+.section1 .paragraph {
+	padding: 0 0 40px var(--column1);
+	width: var(--column2);
+	-webkit-transform: translateZ(1px);
+	        transform: translateZ(1px);
+}
+.section1 .button {
+	margin: 0 0 100px var(--column1);
+}
+.section2 {
+	background-position: top;
+	margin: -15px 0 0 0;
+	padding: 0 0 100px 0;
+	padding-left: var(--columnspace);
+}
+.section2 .sectiontitle {
+	padding: 100px 0 40px 0;
+	-webkit-transform: translateZ(1px);
+	        transform: translateZ(1px);
+	width: var(--column2);
+}
+.section2 .paragraph {
+	padding: 0 0 40px 10.714285714vw;
+	width: var(--column3);
+	-webkit-transform: translateZ(1px);
+	        transform: translateZ(1px);
+}
+.section2 .button {
+	margin-left: var(--column1);
+}
+.section3 {
+	margin: -15px 0 0 0;
+	padding: 0 0 100px 0;
+	padding-left: var(--columnspace);
+}
+.section3 .sectiontitle {
+	padding: 100px 0 40px 0;
+	-webkit-transform: translateZ(1px);
+	        transform: translateZ(1px);
+	width: var(--column2);
+}
+.section3 .paragraph {
+	padding: 0 0 40px 10.714285714vw;
+	width: var(--column3);
+	-webkit-transform: translateZ(1px);
+	        transform: translateZ(1px);
+}
+.section3 .button {
+	margin-left: var(--column1);
+}
+
