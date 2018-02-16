@@ -1334,7 +1334,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: var(--color-secondary);
+  background: var(--color-2);
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50% 0;

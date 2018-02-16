@@ -6,9 +6,16 @@
 	--column4: 85.7142857143vw;
 	--columnspace: 7.14285714286vw;
 	--color: #0f0f23;
-	--color-secondary: #1a237e;
-	--bold: 'hk-grotesk-bold';
-	--regular: 'hk-grotesk-regular';
+	--color-2: #1a237e;
+	--color-3: #2859b2;
+	--bold: 'akzidenz-grotesk_bqbold';
+	--bolditalic: 'akzidenz-grotesk_bqBdIt';
+	--medium: 'akzidenz-grotesk_bqmedium';
+	--mediumitalic: 'akzidenz-grotesk_bqMdIt';
+	--regular: 'akzidenz-grotesk_bqregular';
+	--regularitalic: 'akzidenz-grotesk_bqitalic';
+	--light: 'akzidenz-grotesk_bqlight';
+	--lightitalic: 'akzidenz-grotesk_bq_lightIt';
 }
 html {
 	margin: 0;
@@ -19,6 +26,7 @@ html {
 body {
 	margin: 0;
 	padding: 0;
+	overflow-x: hidden;
 }
 .nokey-wrap {
 	height: 100vh;
@@ -75,11 +83,12 @@ body {
 	z-index: -2;
 	margin: 0;
 	padding: 0;
+	overflow: hidden;
 }
 .button {
 	margin: 0;
 	background: white;
-	font-size: 18px;
+	font-size: 22px;
 	text-align: center;
 	padding: 30px 40px;
 	color: black;
@@ -93,9 +102,9 @@ body {
 .paragraph {
 	margin: 0;
 	padding: 0;
-	font-size: 18px;
+	font-size: 20px;
 	font-family: var(--regular);
-	line-height: 24px;
+	line-height: 28px;
 	letter-spacing: .5px;
 }
 .sectiontitle {
@@ -105,6 +114,17 @@ body {
 	font-family: var(--regular);
 	line-height: 70px;
 	letter-spacing: 2px;
+}
+.fixed1 {
+	height: 70px;
+	width: 100vw;
+	background: rgba(255,255,255,0);
+	display: none;
+	position: fixed;
+	z-index: 1;
+	transition-duration: 400ms;
+	margin: 0;
+	padding: 0;
 }
 .fixed {
 	position: fixed;
@@ -166,12 +186,13 @@ body {
 	        flex-direction: row;
 }
 .landertitle {
-	font-size: 70px;
+	font-size: 80px;
 	letter-spacing: 1px;
 	width: var(--column2);
 	line-height: 90px;
 	-webkit-transform: translateZ(1px);
 	        transform: translateZ(1px);
+	font-family: var(--regular);
 }
 .landersection2 .button {
 	margin-left: var(--column1);
@@ -252,8 +273,9 @@ ul {
 }
 ul a {
 	color: white;
-	font-family: var(--regular);
 	text-align: center;
+	font-family: var(--regular);
+	letter-spacing: 1px;
 	transform: scale(0);
 	opacity: 0;
 	transition-duration: .7s;
@@ -270,7 +292,6 @@ ul a:first-child {
 }
 ul a p {
 	font-size: 20px;
-	font-family: var(--regular);
 	letter-spacing: 1px;
 	color: var(--color);
 	transition-duration: 1s;
@@ -280,10 +301,10 @@ ul a:hover > .text {
 	color: white;
 }
 .underline--magical {
-  background-image: linear-gradient(120deg, var(--color-secondary) 0%, var(--color-secondary) 100%);
+  background-image: linear-gradient(120deg, var(--color-2) 0%, var(--color-2) 100%);
   background-repeat: no-repeat;
   background-size: 100% 4px;
-	padding: 16px 15px 5px 15px;
+	padding: 12px 20px 12px 20px;
   background-position: 0 85%;
   transition: background-size 0.5s cubic-bezier(.76,.01,.28,.99);
 }
