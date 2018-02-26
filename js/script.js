@@ -2,7 +2,7 @@ var lFollowX = 0,
     lFollowY = 0,
     x = 0,
     y = 0,
-    friction = 1 / 30;
+    friction = 1 / 20;
 
 function moveBackground() {
   x += (lFollowX - x) * friction;
@@ -44,3 +44,4 @@ $(window).on("scroll",function () {
     $('.fixed1').css('background', 'rgba(255,255,255,0)');
   }
 });
+

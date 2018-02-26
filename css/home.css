@@ -17,53 +17,86 @@
 	letter-spacing: 1px;
 }
 .section1 .paragraph {
-	padding: 0 0 40px var(--column1);
-	width: var(--column2);
+	padding: 140px 0 40px 0;
+	width: var(--column4);
+	font-size: 40px !important;
+	line-height: 50px !important;
+	font-family: var(--light);
 	-webkit-transform: translateZ(1px);
 	        transform: translateZ(1px);
 }
 .section1 .button {
-	margin: 0 0 100px var(--column1);
+	margin: 0 0 140px var(--column1);
 }
 .section2 {
 	background-position: top;
-	margin: -15px 0 0 0;
+	margin: 140px 0 0 0;
 	padding: 0 0 100px 0;
 	padding-left: var(--columnspace);
+	display: flex;
+	flex-direction: row;
+}
+.section2 img {
+	width: 8vw;
+	position: absolute;
+	box-shadow: 0 0 50px rgba(0,0,0,0.4);
+	border-radius: 4vw;
 }
 .section2 .sectiontitle {
-	padding: 100px 0 40px 0;
+	padding: 0 0 40px var(--column1);
 	-webkit-transform: translateZ(1px);
 	        transform: translateZ(1px);
+	width: var(--column1);
+	line-height: 60px;
+}
+.section2-2 {
+	display: flex;
+	flex-direction: column;
 	width: var(--column2);
 }
 .section2 .paragraph {
-	padding: 0 0 40px 10.714285714vw;
-	width: var(--column3);
+	padding: 40px 0 40px 0;
+	width: var(--column1);
 	-webkit-transform: translateZ(1px);
 	        transform: translateZ(1px);
 }
 .section2 .button {
-	margin-left: var(--column1);
+	margin-left: 1px;
+	width: 140px;
 }
 .section3 {
-	margin: -15px 0 0 0;
+	background-position: top;
+	margin: 40px 0 0 0;
 	padding: 0 0 100px 0;
 	padding-left: var(--columnspace);
+	display: flex;
+	flex-direction: row;
+}
+.section3 img {
+	width: 8vw;
+	position: absolute;
+	box-shadow: 0 0 50px rgba(0,0,0,0.4);
+	border-radius: 4vw;
 }
 .section3 .sectiontitle {
-	padding: 100px 0 40px 0;
+	padding: 0 0 40px var(--column1);
 	-webkit-transform: translateZ(1px);
 	        transform: translateZ(1px);
+	width: var(--column1);
+	line-height: 60px;
+}
+.section3-2 {
+	display: flex;
+	flex-direction: column;
 	width: var(--column2);
 }
 .section3 .paragraph {
-	padding: 0 0 40px 10.714285714vw;
-	width: var(--column3);
+	padding: 40px 0 40px 0;
+	width: var(--column1);
 	-webkit-transform: translateZ(1px);
 	        transform: translateZ(1px);
 }
 .section3 .button {
-	margin-left: var(--column1);
+	margin-left: 1px;
+	width: 120px;
 }
-

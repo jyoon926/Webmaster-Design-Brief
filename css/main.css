@@ -39,11 +39,12 @@ body {
 	filter: brightness(100%);
 	position: absolute;
 	z-index: -1;
+	display: none;
 }
 .col {
 	position: fixed;
 	height: 100vh;
-	background: rgba(255,255,255,0.8);
+	background: rgba(255,255,255,0.7);
 	width: 1px;
 	margin: 0;
 	padding: 0;
@@ -110,9 +111,9 @@ body {
 .sectiontitle {
 	margin: 0;
 	padding: 0;
-	font-size: 70px;
+	font-size: 50px;
 	font-family: var(--regular);
-	line-height: 70px;
+	line-height: 50px;
 	letter-spacing: 2px;
 }
 .fixed1 {
@@ -146,10 +147,10 @@ body {
 	        align-items: center;
 }
 .fixed .logo {
-	width: 4.142857143vw;
-	height: 4.142857143vw;
-	margin-left: 1.5vw;
-	margin-right: 1.5vw;
+	width: 3vw;
+	height: 3vw;
+	margin-left: 2.07142857143vw;
+	margin-right: 2.07142857143vw;
 }
 .lander {
 	height: 100vh;
@@ -188,11 +189,13 @@ body {
 .landertitle {
 	font-size: 80px;
 	letter-spacing: 1px;
-	width: var(--column2);
+	width: var(--column3);
 	line-height: 90px;
 	-webkit-transform: translateZ(1px);
 	        transform: translateZ(1px);
 	font-family: var(--regular);
+	color: #000;
+	margin: 0 0 100px 0;
 }
 .landersection2 .button {
 	margin-left: var(--column1);
@@ -205,7 +208,9 @@ body {
 	-webkit-transform: translateZ(1px);
 	        transform: translateZ(1px);
 }
-
+hr {
+	border: .5px solid rgba(255,255,255,0.4);
+}
 /* HEADER CSS
 HEADER HEADER HEADER HEADER HEADER */
 
@@ -327,4 +332,25 @@ ul a:hover .underline--magical {
 .checkbox:checked ~ .header-button {
 }
 .checkbox:checked ~ .page-wrap {
+}
+
+/* Footer */
+
+.footer {
+	height: 400px;
+	width: 100vw;
+	background: var(--color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1;
+	position: absolute;
+}
+.footer p {
+	color: white;
+	font-family: var(--light);
+	font-size: 20px;
+	letter-spacing: 5px;
+	padding: 20px 30px;
+	border: 2px solid white;
 }
