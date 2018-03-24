@@ -38,7 +38,7 @@
 .header-button {
 	top: 10px;
 	left: 10px;
-	margin-left: 0;
+	margin: 0;
 	z-index: 5;
 	color: var(--color);
 	background: white;
@@ -55,7 +55,7 @@
 .header-button2 {
 	top: -50px;
 	left: 10px;
-	margin-left: 0;
+	margin: 0;
 	z-index: 6;
 	color: var(--color);
 	background: white;
@@ -71,4 +71,23 @@
 }
 .checkbox:checked ~ .header-button2 {
 	top: 10px;
+}
+
+.footer {
+	height: 300px;
+	width: 100vw;
+	background: var(--color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1;
+	position: absolute;
+}
+.footer p {
+	color: white;
+	font-family: var(--light);
+	font-size: 20px;
+	letter-spacing: 5px;
+	padding: 20px 30px;
+	border: 2px solid white;
 }
