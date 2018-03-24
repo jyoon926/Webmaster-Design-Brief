@@ -40,8 +40,6 @@ body {
 	-webkit-filter: brightness(100%); /* Safari */
 	filter: brightness(100%);
 	position: absolute;
-	z-index: -1;
-	display: none;
 }
 .col {
 	position: fixed;
@@ -79,6 +77,7 @@ body {
 }
 .background {
 	top: 0;
+	left: 0;
 	position: absolute;
 	width: 100vw;
 	height: 100vh;
@@ -176,13 +175,19 @@ body {
 .landertitle {
 	font-size: 40px;
 	letter-spacing: 5px;
-	width: var(--column4);
+	max-width: var(--column4);
 	-webkit-transform: translateZ(1px);
 	        transform: translateZ(1px);
 	font-family: var(--regular);
 	color: #fff;
 	margin: 0 0 40px 0;
 	text-align: left;
+	overflow-wrap: break-word;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
 }
 .landertitle strong {
 	font-family: var(--medium);
