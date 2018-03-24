@@ -28,7 +28,7 @@ body {
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
-	cursor:url('../img/cursor.png') 12.833 12.833, auto;
+	cursor:url('../img/cursor.png') 10 10, auto;
 }
 .nokey-wrap {
 	height: 100vh;
@@ -210,20 +210,20 @@ body {
 }
 @media screen and (max-width: 1300px) {
 	.landersubtitle {
-		font-size: 90px;
-		line-height: 90px;
+		font-size: 80px;
+		line-height: 76px;
 	}
 	.lander .paragraph {
-		margin-bottom: 120px;
+		margin-bottom: 100px;
 	}
 }
 @media screen and (max-width: 1000px) {
 	.landersubtitle {
-		font-size: 70px;
-		line-height: 70px;
+		font-size: 60px;
+		line-height: 60px;
 	}
 	.lander .paragraph {
-		margin-bottom: 100px;
+		margin-bottom: 80px;
 		font-size: 18px;
 	}
 }
@@ -286,7 +286,7 @@ HEADER HEADER HEADER HEADER HEADER */
 	text-decoration: none;
 }
 .header-button, .header-button2:hover {
-	cursor:url('../img/cursor.png'), auto;
+	cursor:url('../img/cursor.png') 10 10, auto;
 }
 ul {
 	position: fixed;
@@ -386,5 +386,5 @@ ul a:hover .underline--magical {
 }
 
 a:hover {
-	cursor:url('../img/cursor.png') 12.833 12.833, auto;
+	cursor:url('../img/cursor.png') 10 10, auto;
 }
