@@ -98,13 +98,13 @@
 			<div class="section section2">
 				<p class="sectiontitle">Meet Arthro-Robotic Mechanism (ARM)</p>
 				<p class="paragraph">With four degrees of rotation and precision to the thousandth of a millimeter, Arthro-Robotic Mechanism (ARM) sets a formidable new standard for autonomous robotic arms. Its unique design enrich ARM’s accuracy and reliability.</p>
-				<a href="products.html" class="button hvr-sweep-to-bottom-3">Reserve Now</a>
+				<a href="products.html" class="button hvr-sweep-to-bottom-2">Reserve Now</a>
 			</div>
 			<img class="arm" src="img/CARL.png">
 			<div class="section section3">
 				<p class="sectiontitle">What is Artificial Intelligence?</p>
 				<p class="paragraph">Our team is proud to showcase what we have accomplished with our artificial intelligence in our robots. But what is AI? How does a machine mimic cognitive functions that humans associate with other human minds, such as learning and problem solving? What are the benefits, safety concerns, and potential future uses of machine intelligence?</p>
-				<a href="artificialintelligence.html" class="button hvr-sweep-to-bottom-3">Learn More</a>
+				<a href="artificialintelligence.html" class="button hvr-sweep-to-bottom-2">Learn More</a>
 			</div>
 		</div>
 
@@ -139,7 +139,7 @@
      alpha_phase = 0,
 
   // Line
-     link_line_width = 0.8,
+     link_line_width = 1,
      dis_limit = 400,
      add_mouse_point = true,
      mouse_in = false,
@@ -284,7 +284,7 @@
          if(fraction < 1){
            alpha = (1 - fraction).toString();
 
-           ctx.strokeStyle = 'rgba(255, 255, 255, .9)';
+           ctx.strokeStyle = 'rgba(255, 255, 255, .3)';
            ctx.lineWidth = link_line_width;
 
            ctx.beginPath();

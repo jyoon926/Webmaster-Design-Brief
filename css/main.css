@@ -5,9 +5,9 @@
 	--column3: 64.2857142857vw;
 	--column4: 85.7142857143vw;
 	--columnspace: 7.14285714286vw;
-	--color: #006c78;
-	--color-2: #117b88;
-	--color-3: #a9bec3;
+	--color: #0025ba;
+	--color-2: #0b44e2;
+	--color-3: #a8baea;
 	--color-4: #cacecf;
 	--bold: 'akzidenz-grotesk_bqbold';
 	--bolditalic: 'akzidenz-grotesk_bqBdIt';
@@ -17,6 +17,10 @@
 	--regularitalic: 'akzidenz-grotesk_bqitalic';
 	--light: 'akzidenz-grotesk_bqlight';
 	--lightitalic: 'akzidenz-grotesk_bq_lightIt';
+}
+::selection {
+    color: white; 
+    background: #002ec6;
 }
 html {
 	margin: 0;
@@ -81,7 +85,7 @@ body {
 	position: absolute;
 	width: 100vw;
 	height: 100vh;
-	background-image: url('../img/home-lander-graphic.svg');
+	background: var(--color-2);
 	background-size: cover;
 	z-index: -2;
 	margin: 0;
