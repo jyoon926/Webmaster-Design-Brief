@@ -54,8 +54,6 @@
 	padding: 0 0 140px 0;
 	background: white;
 	width: var(--column4);
-	border-radius: 20px;
-	box-shadow: 0 20px 50px rgba(0,0,0,0.2);
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -74,9 +72,4 @@
 	color: black;
 	-webkit-transform: translateZ(1px);
 	        transform: translateZ(1px);
-}
-
-.background {
-	background-image: url('../img/product-lander-graphic.svg');
-	margin-left: -10px;
 }

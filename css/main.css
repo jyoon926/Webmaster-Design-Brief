@@ -85,7 +85,7 @@ body {
 	position: absolute;
 	width: 100vw;
 	height: 100vh;
-	background: var(--color-2);
+	background: var(--color);
 	background-size: cover;
 	z-index: -2;
 	margin: 0;
@@ -312,8 +312,10 @@ ul {
 	z-index: 5;
 	transition-duration: .7s;
 	transition-timing-function: cubic-bezier(.76,.01,.28,.99);
-	border: 0px white solid;
+	border: 20px white solid;
+	box-sizing: border-box;
 	transition-delay: 150ms;
+	opacity: 0;
 }
 ul a {
 	color: white;
@@ -359,6 +361,7 @@ ul a:hover .underline--magical {
 	width: 100vw;
 	left: 0;
 	transition-delay: 1ms;
+	opacity: 1;
 }
 .checkbox:checked ~ ul a {
 	transform: scale(1);

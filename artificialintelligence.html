@@ -48,8 +48,8 @@
 	</div>
 
 	<input type="checkbox" id="checkbox" class="checkbox" id="checkbox">
-    <label for="checkbox" class="header-button hvr-sweep-to-bottom"><i class="material-icons">&#xE5D2;</i></label>
-    <label for="checkbox" class="header-button2 hvr-sweep-to-bottom"><i class="material-icons">&#xE5CE;</i></label>
+    <label for="checkbox" class="header-button hvr-sweep-to-bottom-1"><i class="material-icons">&#xE5D2;</i></label>
+    <label for="checkbox" class="header-button2 hvr-sweep-to-bottom-1"><i class="material-icons">&#xE5CE;</i></label>
 	<ul class="header">
 		<a href="index.html">
 			<li><span class="underline--magical">Home</span></li>
@@ -141,7 +141,7 @@
      alpha_phase = 0,
 
   // Line
-     link_line_width = 0.8,
+     link_line_width = 1,
      dis_limit = 400,
      add_mouse_point = true,
      mouse_in = false,
@@ -286,7 +286,7 @@
          if(fraction < 1){
            alpha = (1 - fraction).toString();
 
-           ctx.strokeStyle = 'rgba(255, 255, 255, .9)';
+           ctx.strokeStyle = 'rgba(255, 255, 255, .3)';
            ctx.lineWidth = link_line_width;
 
            ctx.beginPath();
