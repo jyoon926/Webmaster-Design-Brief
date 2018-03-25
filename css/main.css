@@ -85,7 +85,7 @@ body {
 	position: absolute;
 	width: 100vw;
 	height: 100vh;
-	background: var(--color);
+	background: var(--color-2);
 	background-size: cover;
 	z-index: -2;
 	margin: 0;
@@ -312,7 +312,7 @@ ul {
 	z-index: 5;
 	transition-duration: .7s;
 	transition-timing-function: cubic-bezier(.76,.01,.28,.99);
-	border: 20px white solid;
+	border: 20px var(--color-2) solid;
 	box-sizing: border-box;
 	transition-delay: 150ms;
 	opacity: 0;

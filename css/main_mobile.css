@@ -15,8 +15,6 @@
 	position: absolute;
 	width: 100vw;
 	height: 100vh;
-	background-image: url('../img/home-lander-graphic.svg');
-	background-size: cover;
 	z-index: -2;
 }
 .button {
@@ -69,10 +67,10 @@
 	        align-items: center;
 }
 .landersubtitle {
-	font-size: 60px;
+	font-size: 50px;
 	letter-spacing: 0;
 	width: var(--column4);
-	line-height: 60px;
+	line-height: 45px;
 	-webkit-transform: translateZ(1px);
 	        transform: translateZ(1px);
 	font-family: var(--regular);

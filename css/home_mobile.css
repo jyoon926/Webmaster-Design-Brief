@@ -39,8 +39,6 @@
 	background: white;
 	margin-top: -40px;
 	padding: 10vh 25vw;
-	border-radius: 20px;
-	box-shadow: 0 20px 50px rgba(0,0,0,0.2);
 }
 .section2 {
 	background-position: top;
@@ -51,8 +49,6 @@
 	align-items: center;
 	background: white;
 	border-radius: 0;
-	box-shadow: none;
-	box-shadow: 0 20px 50px rgba(0,0,0,0.2);
 }
 .section2 .sectiontitle {
 	padding: 80px 0 0 0;
@@ -82,8 +78,6 @@
 .arm {
 	width: 80vw;
 	margin: -40px 0 0 10vw;
-	border-radius: 20px;
-	box-shadow: 0 20px 50px rgba(0,0,0,0.3);
 }
 .section3 {
 	background-position: top;
