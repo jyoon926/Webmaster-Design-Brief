@@ -26,11 +26,22 @@
     color: white; 
     background: #002ec6;
 }
+#mouse-div{
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color:blue;
+    z-index: 1000;
+    pointer-events: none;
+    visibility: hidden;
+}
 html {
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
 	background: var(--color-4);
+	cursor: none;
 }
 body {
 	margin: 0;
