@@ -16,22 +16,6 @@
     <link rel="stylesheet" type="text/css" href="css/hover.css">
     <link rel="stylesheet" type="text/css" href="css/Akzidenz.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-     <script type="text/javascript">
-            window.onload = function(){
-                var bsDiv = document.getElementById("mouse-div");
-                var x, y;
-                window.addEventListener('mousemove', function(event){
-                    x = event.clientX;
-                    y = event.clientY;                    
-                    if ( typeof x !== 'undefined' ){
-                        bsDiv.style.left = x - 5 + "px";
-                        bsDiv.style.top = y - 5 + "px";
-			bsDiv.style.visibility = "visible";
-                    }
-                }, false);
-            }
-    </script>
-    <script src="js/script.js"></script>
     <script>
 		$(document).ready(function(){
 			$("a").on('click', function(event) {
