@@ -3,7 +3,10 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background: #eee;
-	padding-bottom: 140px;
+	padding: 0 0 140px 0;
+	margin: 0;
+	width: 100vw;
+	right: 0;
 }
 .section1 {
 	margin: 0;
@@ -30,12 +33,22 @@
 	background: var(--color-2);
 	color: white;
 }
-.section1 img {
+.logo-section1 {
 	position: absolute;
-	height: 100px;
-	background: white;
 	margin-top: -40px;
-	padding: 18vh 15vw;
+	background: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 58vh;
+	width: 32vw;
+}
+.section1 img {
+	height: 100px;
+	width: 100px;
+	transform-origin: 50% 60%;
+	padding: 0 !important;
+	margin: 0;
 }
 .section2 {
 	background-position: top;

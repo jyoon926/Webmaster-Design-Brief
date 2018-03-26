@@ -28,13 +28,13 @@
 }
 html {
 	margin: 0;
-	padding: 0;
+	padding: 0 !important;
 	overflow-x: hidden;
 	background: var(--color-4);
 }
 body {
-	margin: 0;
-	padding: 0;
+	margin: 0 !important;
+	padding: 0 !important;
 	overflow-x: hidden;
 	/*cursor:url('../img/cursor.png') 10 10, auto;*/
 }
@@ -315,6 +315,9 @@ HEADER HEADER HEADER HEADER HEADER */
 	     -o-transition-duration: .5s;
 	        transition-duration: .5s;
 	position: fixed;
+}
+.header-button:hover, .header-button2 {
+	cursor: pointer;
 }
 .material-icons {
 	font-size: 30px;

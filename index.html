@@ -3,7 +3,7 @@
 <head>
 
     <title>AGAPAI | Home</title>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="img/logo.png"/>
     <link rel="stylesheet" type="text/css" href="css/main.css">
@@ -16,7 +16,6 @@
     <link rel="stylesheet" type="text/css" href="css/hover.css">
     <link rel="stylesheet" type="text/css" href="css/Akzidenz.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <script src="js/script.js"></script>
     <script>
 		$(document).ready(function(){
 			$("a").on('click', function(event) {
@@ -51,8 +50,8 @@
 	</div>
 
 	<input type="checkbox" id="checkbox" class="checkbox" id="checkbox">
-    <label for="checkbox" class="header-button hvr-sweep-to-bottom"><i class="material-icons">&#xE5D2;</i></label>
-    <label for="checkbox" class="header-button2 hvr-sweep-to-bottom"><i class="material-icons">&#xE5CE;</i></label>
+    <label for="checkbox" class="header-button hvr-sweep-to-bottom-2"><i class="material-icons">&#xE5D2;</i></label>
+    <label for="checkbox" class="header-button2 hvr-sweep-to-bottom-1"><i class="material-icons">&#xE5CE;</i></label>
 	<ul class="header">
 		<a href="index.html">
 			<li><span class="underline--magical">Home</span></li>
@@ -89,7 +88,7 @@
 		<div class="background"></div>
 		<div class="sections">
 			<div class="section section1" id="next">
-				<img src="img/cool.svg">
+				<div class="logo-section1"><img class="logo-section1-img" src="img/cool.svg"></div>
 				<!--<p class="sectiontitle">We are AgapAI</p>-->
 				<div>
 					<p class="paragraph">AgapAI is a world leader in artificial intelligence medical robotics and its application for positive impact. We are on a scientific mission to push the boundaries of AI, developing products that can perform complex tasks and surpass human abilities. As in all long-term research efforts, there are many hurdles ahead, but our team of renowned scientists and engineers is making exciting progress.</p>
@@ -112,6 +111,22 @@
 		<div class="footer"><p>AGAPAI</p></div>
 
 	</div>
-
+	<script src="js/script.js"></script>
+	<script src="js/jquery.easeScroll.js"></script>
+	<script type="text/javascript">
+		$("html").easeScroll({
+		  frameRate: 60,
+		  animationTime: 1000,
+		  stepSize: 150,
+		  pulseAlgorithm: 1,
+		  pulseScale: 8,
+		  pulseNormalize: 1,
+		  accelerationDelta: 20,
+		  accelerationMax: 1,
+		  keyboardSupport: true,
+		  arrowScroll: 50,
+		  touchpadSupport: true
+		});
+	</script>
 </body>
 </html>
