@@ -24,6 +24,8 @@
                 border-radius: 100%;
                 background-color:blue;
 		z-index: 1000;
+		pointer-events: none;
+		visibility: hidden;
                 }
 	    html {
 		cursor: none;
@@ -39,6 +41,7 @@
                     if ( typeof x !== 'undefined' ){
                         bsDiv.style.left = x - 5 + "px";
                         bsDiv.style.top = y - 5 + "px";
+			bsDiv.style.visibility = "visible";
                     }
                 }, false);
             }
