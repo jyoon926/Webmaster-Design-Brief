@@ -331,9 +331,6 @@ HEADER HEADER HEADER HEADER HEADER */
 	font-size: 30px;
 	text-decoration: none;
 }
-.header-button, .header-button2:hover {
-	cursor:url('../img/cursor.png') 10 10, auto;
-}
 ul {
 	position: fixed;
 	height: 100vh;
@@ -489,8 +486,4 @@ ul a:hover .underline--magical {
 	letter-spacing: 5px;
 	padding: 20px 30px;
 	border: 2px solid white;
-}
-
-a:hover {
-	cursor:url('../img/cursor.png') 10 10, auto;
 }
