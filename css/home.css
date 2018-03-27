@@ -12,8 +12,13 @@
 	margin: 0;
 	padding-left: var(--columnspace);
 	background: #eee;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
 	top: 100vh;
 }
 .section1 .paragraph {
@@ -37,16 +42,24 @@
 	position: absolute;
 	margin-top: -40px;
 	background: white;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	height: 58vh;
 	width: 36vw;
 }
 .section1 img {
 	height: 140px;
 	width: 140px;
-	transform-origin: 50% 60%;
+	-webkit-transform-origin: 50% 60%;
+	    -ms-transform-origin: 50% 60%;
+	        transform-origin: 50% 60%;
 	padding: 0 !important;
 	margin: 0;
 }
@@ -54,8 +67,13 @@
 	background-position: top;
 	margin: 0 var(--columnspace);
 	padding: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 	background: white;
 }
 .section2 .sectiontitle {
@@ -88,8 +106,13 @@
 	background-position: top;
 	margin: 140px var(--columnspace) 0 var(--columnspace);
 	padding: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 	background: white;
 }
 .section3 .sectiontitle {
