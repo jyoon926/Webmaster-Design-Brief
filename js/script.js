@@ -328,7 +328,7 @@ var $logo = $('.logo-section1-img');
 var $win = $(window);
 
 $win.on('scroll', function () {
-  var top = $win.scrollTop() / 5;
+  var top = $win.scrollTop() / 3.5;
   $logo.css('transform', 'rotate(' + top + 'deg)');
 });
 

@@ -33,12 +33,19 @@
 .section1 .button {
 	margin: 0 0 80px 0;
 }
-.section1 img {
+.logo-section1 {
 	position: inherit;
-	height: 60px;
-	background: white;
 	margin-top: -40px;
-	padding: 10vh 25vw;
+	background: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 28vh;
+	width: 70vw;
+}
+.section1 img {
+	height: 80px;
+	width: 80px;
 }
 .section2 {
 	background-position: top;
