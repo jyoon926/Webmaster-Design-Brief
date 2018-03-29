@@ -115,7 +115,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font-size: 20px;
-	font-family: var(--regular);
+	font-family: var(--light);
 	line-height: 28px;
 	letter-spacing: .5px;
 	color: white;

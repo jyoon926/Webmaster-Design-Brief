@@ -1,22 +1,87 @@
-.landertitle {
-	font-size: 80px;
-	letter-spacing: 1px;
-	width: var(--column2);
-	line-height: 90px;
-	-webkit-transform: translateZ(1px);
-	        transform: translateZ(1px);
-	font-family: var(--regular);
-	color: white;
+.sections {
+	/*background-image: url('../img/Unicorn.jpg');*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	background: white;
+	padding-top: 0;
+	padding-bottom: 80px;
 }
-.landersection2 .button {
-	margin-left: var(--column1);
+.section1 {
+	margin: 0;
+	padding: 80px 0 60px 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	background: white;
 }
-.landersection2 .paragraph {
+.section1 hr {
 	position: absolute;
-	margin-left: var(--column2);
-	margin-top: 0;
-	width: var(--column1);
+	left: 0;
+	padding: 0;
+	width: 16.84vw;
+	margin: 20px 0 0 0;
+	border: 1px solid #eee;
+}
+.section1 .sectiontitle {
+	padding: 0 0 0 40px;
 	-webkit-transform: translateZ(1px);
 	        transform: translateZ(1px);
-	color: white;
+	width: var(--column3);
+	line-height: 60px;
+	color: var(--color-3);
+	font-size: 24px;
+	font-family: var(--regular);
+	line-height: 24px;
+	letter-spacing: 1px;
+}
+.section1 .paragraph {
+	padding: 30px 0 0 0;
+	width: var(--column3);
+	-webkit-transform: translateZ(1px);
+	        transform: translateZ(1px);
+	color: black;
+	font-family: var(--light);
+}
+.section2 {
+	margin: 0;
+	padding: 0 0 80px 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	background: white;
+}
+.section2 hr {
+	position: absolute;
+	left: 0;
+	padding: 0;
+	width: 16.84vw;
+	margin: 20px 0 0 0;
+	border: 1px solid #eee;
+}
+.section2 .sectiontitle {
+	padding: 0 0 0 40px;
+	-webkit-transform: translateZ(1px);
+	        transform: translateZ(1px);
+	width: var(--column3);
+	line-height: 60px;
+	color: var(--color-3);
+	font-size: 24px;
+	font-family: var(--regular);
+	line-height: 24px;
+	letter-spacing: 1px;
+}
+.section2 .paragraph {
+	padding: 30px 0 0 0;
+	width: var(--column3);
+	-webkit-transform: translateZ(1px);
+	        transform: translateZ(1px);
+	line-height: 60px;
+	color: var(--color-2);
+	font-size: 30px;
+	font-family: var(--regular);
+	line-height: 30px;
+	letter-spacing: 1px;
+	margin-bottom: 50px;
 }
