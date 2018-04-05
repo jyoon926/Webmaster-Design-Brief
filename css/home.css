@@ -29,7 +29,7 @@
 	font-family: var(--regular);
 	-webkit-transform: translateZ(1px);
 	        transform: translateZ(1px);
-	color: var(--color);
+	color: black;
 	margin-left: var(--column2);
 }
 .section1 .button {
