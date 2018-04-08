@@ -19,11 +19,11 @@
 	--lightitalic: 'akzidenz-grotesk_bq_lightIt';
 }
 ::-moz-selection {
-    color: white; 
+    color: white;
     background: #002ec6;
 }
 ::selection {
-    color: white; 
+    color: white;
     background: #002ec6;
 }
 html {
@@ -378,7 +378,6 @@ ul a {
 	        transition-delay: 0;
 }
 ul a:first-child {
-	margin-top: 100px;
 }
 ul a p {
 	font-size: 20px;
