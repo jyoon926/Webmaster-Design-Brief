@@ -130,7 +130,9 @@
 }
 .member img {
 	height: 300px;
-	background: #eee;
+	background-image: url('../img/profile.svg');
+	background-size: cover;
+	background-position: center;
 }
 .member article {
 	padding: 20px;
