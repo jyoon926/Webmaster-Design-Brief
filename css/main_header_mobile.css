@@ -78,7 +78,20 @@
 .checkbox:checked ~ .header-button2 {
 	top: 10px;
 }
-
+.link {
+	padding: 13px 7px 7px 13px;
+	z-index: 10;
+	margin: -24px;
+	display: inline-block;
+	position: fixed;
+	top: 34px;
+	right: 34px;
+	height: 30px;
+	width: 30px;
+	background: white;
+	color: var(--color);
+	text-decoration: none;
+}
 .footer {
 	height: 300px;
 	width: 100vw;

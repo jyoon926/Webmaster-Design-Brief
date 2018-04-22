@@ -315,6 +315,20 @@ HEADER HEADER HEADER HEADER HEADER */
 	font-size: 30px;
 	text-decoration: none;
 }
+.link {
+	padding: 13px 7px 7px 13px;
+	z-index: 10;
+	margin: -24px;
+	display: inline-block;
+	position: fixed;
+	top: 3.57142vw;
+	right: 3.57142vw;
+	height: 30px;
+	width: 30px;
+	background: white;
+	color: var(--color);
+	text-decoration: none;
+}
 ul {
 	position: fixed;
 	height: 100vh;
