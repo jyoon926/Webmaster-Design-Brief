@@ -229,6 +229,28 @@ body {
 	        text-align: left;
 	margin-bottom: 160px;
 }
+.designbriefhome {
+  color: #00004c;
+  font-weight: var(--light);
+  font-size: 18px;
+  top: 30px;
+  right: 30px;
+  margin: 0;
+  padding: 14px 20px;
+  border: 1px solid #00004c;
+  text-decoration: none;
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  position: fixed !important;
+	z-index: 10;
+}
+.designbriefhome:hover {
+  background: #00004c;
+  color: white;
+  border: 1px solid #00004c !important;
+}
 @media screen and (max-width: 1300px) {
 	.landersubtitle {
 		font-size: 80px;
@@ -328,6 +350,7 @@ HEADER HEADER HEADER HEADER HEADER */
 	background: white;
 	color: var(--color);
 	text-decoration: none;
+	opacity: 0;
 }
 ul {
 	position: fixed;
@@ -446,31 +469,4 @@ ul a:hover .underline--magical {
 .checkbox:checked ~ .header-button {
 }
 .checkbox:checked ~ .page-wrap {
-}
-
-/* Footer */
-
-.footer {
-	height: 400px;
-	width: 100vw;
-	background: var(--color);
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
-	z-index: 1;
-	position: absolute;
-}
-.footer p {
-	color: white;
-	font-family: var(--light);
-	font-size: 20px;
-	letter-spacing: 5px;
-	padding: 20px 30px;
-	border: 2px solid white;
 }
