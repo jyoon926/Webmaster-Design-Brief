@@ -252,5 +252,3 @@ $.fn.easeScroll = function(options) {
         L && K && (u("mousedown", a), u("mousewheel", n), u("load", t))
     }();
 }
-
-

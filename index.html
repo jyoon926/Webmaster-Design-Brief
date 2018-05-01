@@ -5,144 +5,53 @@
     <title>AGAPAI | Home</title>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,500i,600,600i,700,700i|Work+Sans:100,200,300,400,500,600,700" rel="stylesheet">
     <link rel="shortcut icon" href="img/logo.png"/>
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/home.css">
-    <link rel="stylesheet" type="text/css" href="css/webfont.css">
-    <link rel="stylesheet" type="text/css" media="screen and (max-width: 600px)" href="css/main_mobile.css">
-    <link rel="stylesheet" type="text/css" media="screen and (max-width: 600px)" href="css/home_mobile.css">
-    <link rel="stylesheet" type="text/css" media="screen and (max-width: 1000px)" href="css/main_header_mobile.css">
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-    <link rel="stylesheet" type="text/css" href="css/hover.css">
-    <link rel="stylesheet" type="text/css" href="css/Akzidenz.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <script>
-		$(document).ready(function(){
-			$("a").on('click', function(event) {
-				if (this.hash !== "") {
-					event.preventDefault();
-					var hash = this.hash;
-					$('html, body').animate({
-						scrollTop: $(hash).offset().top
-					}, 800, function(){
-						window.location.hash = hash;
-					});
-				}
-			});
-		});
-	</script>
 
 </head>
 <body>
-	<div id="mouse-div"></div>
-	<div class="fixed1"></div>
 
-	<div class="cols">
-		<div class="col col1"></div>
-		<div class="col col2"></div>
-		<div class="col col3"></div>
-		<div class="col col4"></div>
-		<div class="col col5"></div>
+	<div class="nokey-wrap">
+  		<canvas id="nokey" width="800" height="800"></canvas>
 	</div>
 
-	<div class="fixed">
-		<a href="index.html"><img class="logo" src="img/logo.svg"></a>
-	</div>
+  <div class="fixed">
+    <div class="left">
+      <a class="lefttext" href="index.html">AGAPAI</a>
+    </div>
+    <div class="right">
+      <ul>
+        <a href="index.html">Home</a>
+        <a href="#">Our Product</a>
+        <a href="#">About A.I.</a>
+        <a href="#">Who We Are</a>
+        <a href="#">Works Cited</a>
+      </ul>
+    </div>
+  </div>
 
-  <a href="http://ihstsa.us/" class="link hvr-sweep-to-bottom-2" target="_blank"><i class="material-icons">&#xE89E;</i></a>
-
-	<input type="checkbox" id="checkbox" class="checkbox" id="checkbox">
-    <label for="checkbox" class="header-button hvr-sweep-to-bottom-2"><i class="material-icons">&#xE5D2;</i></label>
-    <label for="checkbox" class="header-button2 hvr-sweep-to-bottom-1"><i class="material-icons">&#xE5CE;</i></label>
-	<ul class="header">
-		<a href="index.html">
-			<li><span class="underline--magical">Home</span></li>
-			<p class="text">An Introduction</p>
-		</a>
-		<a href="products.html">
-			<li><span class="underline--magical">Our Product</span></li>
-			<p class="text">ARM (Arthro-Robotic Limb)</p>
-		</a>
-		<a href="artificialintelligence.html">
-			<li><span class="underline--magical">Artificial Intelligence</span></li>
-			<p class="text">AI and Its Future</p>
-		</a>
-		<a href="whoweare.html">
-			<li><span class="underline--magical">Who We Are</span></li>
-			<p class="text">About Us</p>
-		</a>
+  <div class="bg"></div>
+  <div class="lander">
+    <ul>
+      <a href="index.html">Home</a><a href="#">Our Product</a><a href="#">About A.I.</a><a href="#">Who We Are</a><a href="#">Works Cited</a>
     </ul>
+    <a class="chapterpagebutton" href="http://ihstsa.us">Chapter Page</a>
+    <p class="landertitle">Mechanically improving medicine</p>
+    <p class="landertext">A company that began with the idea to mechanically improve medicine, AGAPAI is on the road to creating robotic surgical systems powered by advanced AI technologies.</p>
+    <a href="#section1" class="more">Learn More</a>
+  </div>
 
-	<div class="page-content">
-		<!--<a href="#next"><img class="scroll" src="img/scroll-arrow.svg"></a>-->
-		<div class="lander">
-      <a href="http://ihstsa.us/" target="_blank" class="designbriefhome">Chapter Page</a>
-			<div class="landercontent">
-				<div class="landercontainer">
-					<p class="landertitle">AGAPAI</p>
-					<p class="landersubtitle">Mechanically Improving Medicine</p>
-					<p class="paragraph">A company that began with the idea to mechanically improve medicine, AGAPAI is on the road to creating robotic surgical systems powered by advanced AI technologies.</p>
-				</div>
-			</div>
-			<div class="nokey-wrap">
-		  		<canvas id="nokey" width="800" height="800"></canvas>
-			</div>
-		</div>
-		<div class="background"></div>
-		<div class="sections">
-			<div class="section section1" id="next">
-				<div class="logo-section1"><img class="logo-section1-img" src="img/cool.svg"></div>
-				<!--<p class="sectiontitle">We are AgapAI</p>-->
-				<div>
-					<p class="paragraph">AGAPAI is a world leader in artificial intelligence medical robotics and its application for positive impact. We are on a scientific mission to push the boundaries of AI, developing products that can perform complex tasks and surpass human abilities. As in all long-term research efforts, there are many hurdles ahead, but our team of renowned scientists and engineers is making exciting progress.</p>
-					<a href="whoweare.html" class="button hvr-sweep-to-bottom-2">Who We Are</a>
-				</div>
-			</div>
-			<div class="section section2">
-				<p class="sectiontitle">Meet Arthro-Robotic Mechanism (ARM)</p>
-				<p class="paragraph">With four degrees of rotation and precision to the thousandth of a millimeter, Arthro-Robotic Mechanism (ARM) sets a formidable new standard for autonomous robotic arms. Its unique design enrich ARM’s accuracy and reliability.</p>
-				<a href="products.html" class="button hvr-sweep-to-bottom-2">Our Product</a>
-			</div>
-			<img class="arm" src="img/CARL.png">
-			<div class="section section3">
-				<p class="sectiontitle">What is Artificial Intelligence?</p>
-				<p class="paragraph">Our team is proud to showcase what we have accomplished with our artificial intelligence in our robots. But what is AI? How does a machine mimic cognitive functions that humans associate with other human minds, such as learning and problem-solving? What are the benefits, safety concerns, and potential future uses of machine intelligence?</p>
-				<a href="artificialintelligence.html" class="button hvr-sweep-to-bottom-2">Learn More</a>
-			</div>
-		</div>
-
-    <footer>
-      <div class="part1">
-        <a href="index.html" class="logofooter"><img src="img/logo.svg" alt=""></a>
-        <div class="part2">
-          <div class="part3">
-            <h1>Cite Map</h1>
-            <div class="ul">
-              <a class="firstchild" href="index.html">Home</a>
-              <a class="secondchild" href="products.html">Our Product</a>
-              <a class="thirdchild" href="artificialintelligence.html">Artificial Intelligence</a>
-              <a class="fourthchild" href="whoweare.html">Who We Are</a>
-              <a class="fifthchild" target="_blank" href="http://ihstsa.us/workscited.us">Works Cited</a>
-              <div class="arrow"><i class="material-icons">&#xE5C8;</i></div>
-            </div>
-          </div>
-          <div class="part4">
-            <h2>External Links</h2>
-            <div class="ul">
-              <a class="firstchild" target="_blank" href="http://agapai.us/">Chapter Page</a>
-              <div class="arrow"><i class="material-icons">&#xE5C8;</i></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
+  <div class="section1" id="section1"></div>
 
 	</div>
 	<script src="js/script.js"></script>
 	<script src="js/jquery.easeScroll.js"></script>
 	<script type="text/javascript">
 		$("html").easeScroll({
-		  frameRate: 60,
+		  frameRate: 120,
 		  animationTime: 1000,
 		  stepSize: 150,
 		  pulseAlgorithm: 1,

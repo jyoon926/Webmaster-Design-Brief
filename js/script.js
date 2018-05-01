@@ -1,53 +1,18 @@
-/*var lFollowX = 0,
-    lFollowY = 0,
-    x = 0,
-    y = 0,
-    friction = 1 / 20;
-
-function moveBackground() {
-  x += (lFollowX - x) * friction;
-  y += (lFollowY - y) * friction;
-  
-  translate = 'translate(' + x + 'px, ' + y + 'px) scale(1.1)';
-
-  $('.background').css({
-    '-webit-transform': translate,
-    '-moz-transform': translate,
-    'transform': translate
-  });
-
-  $('.nokey-wrap').css({
-    '-webit-transform': translate,
-    '-moz-transform': translate,
-    'transform': translate
-  });
-
-  window.requestAnimationFrame(moveBackground);
-}
-
-$(window).on('mousemove click', function(e) {
-
-  var lMouseX = Math.max(-200, Math.min(200, $(window).width() / 2 - e.clientX));
-  var lMouseY = Math.max(-200, Math.min(200, $(window).height() / 2 - e.clientY));
-  lFollowX = (20 * lMouseX) / 100; // 100 : 12 = lMouxeX : lFollow
-  lFollowY = (10 * lMouseY) / 100;
-
-});
-
-moveBackground();
-
-$(window).on("scroll",function () {
-  if ($(this).scrollTop() > 100) {
-    $('.fixed1').css('background', 'rgba(255,255,255,1)');
-  }
-  else {
-    $('.fixed1').css('background', 'rgba(255,255,255,0)');
-  }
-});
-
-*/
-
 document.addEventListener('DOMContentLoaded', function() {
+  $(document).ready(function(){
+    $("a").on('click', function(event) {
+      if (this.hash !== "") {
+        event.preventDefault();
+        var hash = this.hash;
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+          window.location.hash = hash;
+        });
+      }
+    });
+  });
+
   var canvas = document.getElementById('nokey'),
      can_w = parseInt(canvas.getAttribute('width')),
      can_h = parseInt(canvas.getAttribute('height')),
@@ -332,3 +297,21 @@ $win.on('scroll', function () {
   $logo.css('transform', 'rotate(' + top + 'deg)');
 });
 
+
+//CHANGE ON SCROLL
+
+jQuery(document).ready(function(){
+
+var elementPosition = $('.section1').offset();
+
+$(window).scroll(function(){
+  if($(window).scrollTop() > elementPosition.top-10){
+    $('.right').css('right','0');
+    $('.lefttext').css('color','var(--color-2)');
+  } else {
+    $('.right').css('right','-180px');
+    $('.lefttext').css('color','white');
+  }
+});
+
+});
