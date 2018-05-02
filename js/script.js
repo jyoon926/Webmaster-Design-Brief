@@ -305,12 +305,16 @@ jQuery(document).ready(function(){
 var elementPosition = $('.section1').offset();
 
 $(window).scroll(function(){
-  if($(window).scrollTop() > elementPosition.top-10){
+  if($(window).scrollTop() > 200){
     $('.right').css('right','0');
     $('.lefttext').css('color','var(--color-2)');
+    $('.whitebackground').css('background','white');
+    $('.whitebackground').css('z-index','1');
   } else {
-    $('.right').css('right','-180px');
+    $('.right').css('right','-135px');
     $('.lefttext').css('color','white');
+    $('.whitebackground').css('background','rgba(0, 37, 186, 0.3)');
+    $('.whitebackground').css('z-index','-1');
   }
 });
 
