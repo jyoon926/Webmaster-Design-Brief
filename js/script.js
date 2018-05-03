@@ -309,12 +309,16 @@ $(window).scroll(function(){
     $('.right').css('right','0');
     $('.lefttext').css('color','var(--color-2)');
     $('.whitebackground').css('background','white');
-    $('.whitebackground').css('z-index','1');
+    $('.whitebackground').css('z-index','-1');
+    $('.section1').css('opacity','1');
+    $('.sectiontitle').css('z-index','4');
   } else {
     $('.right').css('right','-135px');
     $('.lefttext').css('color','white');
     $('.whitebackground').css('background','rgba(0, 37, 186, 0.3)');
     $('.whitebackground').css('z-index','-1');
+    $('.section1').css('opacity','0');
+    $('.sectiontitle').css('z-index','-5');
   }
 });
 
