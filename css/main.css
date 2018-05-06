@@ -240,9 +240,9 @@ body {
 	width: calc(100vw - 340px);
 	line-height: 120px;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
 	.landertitle {
-		font-size: 95px;
+		font-size: 90px;
 		line-height: 80px;
 	}
 }
