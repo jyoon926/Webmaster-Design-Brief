@@ -7,27 +7,18 @@ $(document).ready(function(){
     triggerElement: '.more'
   })
   .setClassToggle('.whitebackground', 'whitebackground-after')
-  .addIndicators({
-    name: 'white background'
-  })
   .addTo(controller);
   //Right scene
   var ourScene = new ScrollMagic.Scene({
     triggerElement: '.more'
   })
   .setClassToggle('.right', 'right-after')
-  .addIndicators({
-    name: 'right'
-  })
   .addTo(controller);
   //Left scene
   var ourScene = new ScrollMagic.Scene({
     triggerElement: '.more'
   })
   .setClassToggle('.lefttext', 'left-after')
-  .addIndicators({
-    name: 'left'
-  })
   .addTo(controller);
   //Sectiontitles scene
   var ourScene = new ScrollMagic.Scene({
@@ -35,9 +26,6 @@ $(document).ready(function(){
     triggerHook: .8
   })
   .setClassToggle('.sectiontitles', 'sectiontitle-after')
-  .addIndicators({
-    name: 'sectiontitle wrap'
-  })
   .addTo(controller);
   //Section1 sectiontitle scene
   var ourScene = new ScrollMagic.Scene({
@@ -45,9 +33,6 @@ $(document).ready(function(){
     triggerHook: .8,
   })
   .setClassToggle('.sectiontitle1', 'sectiontitle-after')
-  .addIndicators({
-    name: 'sectiontitle 1'
-  })
   .addTo(controller);
   //Section2 sectiontitle scene
   var Scene = new ScrollMagic.Scene({
@@ -55,9 +40,6 @@ $(document).ready(function(){
     triggerHook: .8,
   })
   .setClassToggle('.sectiontitle2', 'sectiontitle-after')
-  .addIndicators({
-    name: 'sectiontitle 2'
-  })
   .addTo(controller);
   //Section1 fadeout sectiontitle scene
   var Scene = new ScrollMagic.Scene({
@@ -65,9 +47,6 @@ $(document).ready(function(){
     triggerHook: .8,
   })
   .setClassToggle('.sectiontitle1', 'sectiontitle-before')
-  .addIndicators({
-    name: 'sectiontitle 1 fadeout'
-  })
   .addTo(controller);
   //Section3 sectiontitle scene
   var Scene = new ScrollMagic.Scene({
@@ -75,9 +54,6 @@ $(document).ready(function(){
     triggerHook: .8,
   })
   .setClassToggle('.sectiontitle3', 'sectiontitle-after')
-  .addIndicators({
-    name: 'sectiontitle 3'
-  })
   .addTo(controller);
   //Section2 fadeout sectiontitle scene
   var Scene = new ScrollMagic.Scene({
@@ -85,9 +61,6 @@ $(document).ready(function(){
     triggerHook: .8,
   })
   .setClassToggle('.sectiontitle2', 'sectiontitle-before')
-  .addIndicators({
-    name: 'sectiontitle 2 fadeout'
-  })
   .addTo(controller);
 
 });
