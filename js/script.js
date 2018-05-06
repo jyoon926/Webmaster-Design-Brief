@@ -32,7 +32,7 @@ $(document).ready(function(){
   //Sectiontitles scene
   var ourScene = new ScrollMagic.Scene({
     triggerElement: '.section1',
-    triggerHook: .75
+    triggerHook: .8
   })
   .setClassToggle('.sectiontitles', 'sectiontitle-after')
   .addIndicators({
@@ -42,7 +42,7 @@ $(document).ready(function(){
   //Section1 sectiontitle scene
   var ourScene = new ScrollMagic.Scene({
     triggerElement: '.section1',
-    triggerHook: .75,
+    triggerHook: .8,
   })
   .setClassToggle('.sectiontitle1', 'sectiontitle-after')
   .addIndicators({
@@ -52,7 +52,7 @@ $(document).ready(function(){
   //Section2 sectiontitle scene
   var Scene = new ScrollMagic.Scene({
     triggerElement: '.section2',
-    triggerHook: .75,
+    triggerHook: .8,
   })
   .setClassToggle('.sectiontitle2', 'sectiontitle-after')
   .addIndicators({
@@ -62,7 +62,7 @@ $(document).ready(function(){
   //Section1 fadeout sectiontitle scene
   var Scene = new ScrollMagic.Scene({
     triggerElement: '.section2',
-    triggerHook: .75,
+    triggerHook: .8,
   })
   .setClassToggle('.sectiontitle1', 'sectiontitle-before')
   .addIndicators({
@@ -72,7 +72,7 @@ $(document).ready(function(){
   //Section3 sectiontitle scene
   var Scene = new ScrollMagic.Scene({
     triggerElement: '.section3',
-    triggerHook: .75,
+    triggerHook: .8,
   })
   .setClassToggle('.sectiontitle3', 'sectiontitle-after')
   .addIndicators({
@@ -82,7 +82,7 @@ $(document).ready(function(){
   //Section2 fadeout sectiontitle scene
   var Scene = new ScrollMagic.Scene({
     triggerElement: '.section3',
-    triggerHook: .75,
+    triggerHook: .8,
   })
   .setClassToggle('.sectiontitle2', 'sectiontitle-before')
   .addIndicators({
