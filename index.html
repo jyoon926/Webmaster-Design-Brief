@@ -1,389 +1,91 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-    <title>AGAPAI | Home</title>
-    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="img/logo.png"/>
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/home.css">
-    <link rel="stylesheet" type="text/css" href="css/webfont.css">
-    <link rel="stylesheet" type="text/css" media="screen and (max-width: 600px)" href="css/main_mobile.css">
-    <link rel="stylesheet" type="text/css" media="screen and (max-width: 600px)" href="css/home_mobile.css">
-    <link rel="stylesheet" type="text/css" media="screen and (max-width: 1000px)" href="css/main_header_mobile.css">
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-    <link rel="stylesheet" type="text/css" href="css/hover.css">
-    <link rel="stylesheet" type="text/css" href="css/Akzidenz.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <script src="js/script.js"></script>
-    <script>
-		$(document).ready(function(){
-			$("a").on('click', function(event) {
-				if (this.hash !== "") {
-					event.preventDefault();
-					var hash = this.hash;
-					$('html, body').animate({
-						scrollTop: $(hash).offset().top
-					}, 800, function(){
-						window.location.hash = hash;
-					});
-				}
-			});
-		});
-	</script>
-
+  <title>AGAPAI | Home</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,500i,600,600i,700,700i|Work+Sans:100,200,300,400,500,600,700" rel="stylesheet">
+  <link rel="shortcut icon" href="img/logo.png"/>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/home.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
-	<div class="fixed1"></div>
-	
-	<div class="cols">
-		<div class="col col1"></div>
-		<div class="col col2"></div>
-		<div class="col col3"></div>
-		<div class="col col4"></div>
-		<div class="col col5"></div>
+
+	<div class="nokey-wrap">
+  		<canvas id="nokey" width="800" height="800"></canvas>
 	</div>
 
-	<div class="fixed">
-		<a href="index.html"><img class="logo" src="img/logo.svg"></a>
-	</div>
+  <div class="fixed">
+    <div class="left">
+      <a class="lefttext" href="index.html">AGAPAI</a>
+    </div>
+    <div class="right">
+      <ul>
+        <a href="index.html">Home</a>
+        <a href="#">Our Product</a>
+        <a href="#">About A.I.</a>
+        <a href="#">Who We Are</a>
+        <a href="#">Works Cited</a>
+	<a href="http://ihstsa.us" target="blank">Chapter Page</a>
+      </ul>
+    </div>
+  </div>
 
-	<input type="checkbox" id="checkbox" class="checkbox" id="checkbox">
-    <label for="checkbox" class="header-button hvr-sweep-to-bottom"><i class="material-icons">&#xE5D2;</i></label>
-    <label for="checkbox" class="header-button2 hvr-sweep-to-bottom"><i class="material-icons">&#xE5CE;</i></label>
-	<ul class="header">
-		<a href="index.html">
-			<li><span class="underline--magical">Home</span></li>
-			<p class="text">An Introduction</p>
-		</a>
-		<a href="products.html">
-			<li><span class="underline--magical">Our Product</span></li>
-			<p class="text">ARM (Arthro-Robotic Limb)</p>
-		</a>
-		<a href="artificialintelligence.html">
-			<li><span class="underline--magical">Artificial Intelligence</span></li>
-			<p class="text">AI and Its Future</p>
-		</a>
-		<a href="whoweare.html">
-			<li><span class="underline--magical">Who We Are</span></li>
-			<p class="text">About Us</p>
-		</a>
+  <div class="sectiontitles">
+    <p class="sectiontitle sectiontitle1">who we are</p>
+    <p class="sectiontitle sectiontitle2">our product</p>
+    <p class="sectiontitle sectiontitle3">about a.i.</p>
+  </div>
+
+  <div class="bg"></div>
+  <div class="lander">
+    <ul>
+      <a href="index.html">Home</a><a href="#">Our Product</a><a href="#">About A.I.</a><a href="#">Who We Are</a><a href="#">Works Cited</a>
     </ul>
+    <a class="chapterpagebutton" href="http://ihstsa.us" target="blank">Chapter Page</a>
+    <p class="landertitle">Mechanically improving medicine</p>
+    <p class="landertext">A company that began with the idea to mechanically improve medicine, AGAPAI is on the road to creating robotic surgical systems powered by advanced AI technologies.</p>
+    <a href="#section1" class="more">Learn More</a>
+  </div>
 
-	<div class="page-content">
-		<!--<a href="#next"><img class="scroll" src="img/scroll-arrow.svg"></a>-->
-		<div class="lander">
-			<div class="landercontent">
-				<div class="landercontainer">
-					<p class="landertitle">AGAP<strong>AI</strong></p>
-					<p class="landersubtitle">Mechanically Improving Medicine</p>
-					<p class="paragraph">A company that began with the idea to mechanically improve medicine, AgapAI is on the road to creating robotic surgical systems powered by advanced AI technologies.</p>
-				</div>
-			</div>
-			<div class="nokey-wrap">
-		  		<canvas id="nokey" width="800" height="800"></canvas>
-			</div>
-		</div>
-		<div class="background"></div>
-		<div class="sections">
-			<div class="section section1" id="next">
-				<img src="img/cool.svg">
-				<!--<p class="sectiontitle">We are AgapAI</p>-->
-				<div>
-					<p class="paragraph">AgapAI is a world leader in artificial intelligence medical robotics and its application for positive impact. We are on a scientific mission to push the boundaries of AI, developing products that can perform complex tasks and surpass human abilities. As in all long-term research efforts, there are many hurdles ahead, but our team of renowned scientists and engineers is making exciting progress.</p>
-					<a href="whoweare.html" class="button hvr-sweep-to-bottom-2">Who We Are</a>
-				</div>
-			</div>
-			<div class="section section2">
-				<p class="sectiontitle">Meet Arthro-Robotic Mechanism (ARM)</p>
-				<p class="paragraph">With four degrees of rotation and precision to the thousandth of a millimeter, Arthro-Robotic Mechanism (ARM) sets a formidable new standard for autonomous robotic arms. Its unique design enrich ARM’s accuracy and reliability.</p>
-				<a href="products.html" class="button hvr-sweep-to-bottom-2">Reserve Now</a>
-			</div>
-			<img class="arm" src="img/CARL.png">
-			<div class="section section3">
-				<p class="sectiontitle">What is Artificial Intelligence?</p>
-				<p class="paragraph">Our team is proud to showcase what we have accomplished with our artificial intelligence in our robots. But what is AI? How does a machine mimic cognitive functions that humans associate with other human minds, such as learning and problem solving? What are the benefits, safety concerns, and potential future uses of machine intelligence?</p>
-				<a href="artificialintelligence.html" class="button hvr-sweep-to-bottom-2">Learn More</a>
-			</div>
-		</div>
+  <div class="whitebackground"></div>
 
-		<div class="footer"><p>AGAPAI</p></div>
-
+  <div class="section1" id="section1">
+    <p class="text">AGAPAI is a world leader in artificial intelligence medical robotics and its application for positive impact. We are on a scientific mission to push the boundaries of AI, developing products that can perform complex tasks and surpass human abilities. As in all long-term research efforts, there are many hurdles ahead, but our team of renowned scientists and engineers is making exciting progress.</p>
+    <a href="#" class="button">Who We Are</a>
 	</div>
-<script type="text/javascript">
-  var canvas = document.getElementById('nokey'),
-     can_w = parseInt(canvas.getAttribute('width')),
-     can_h = parseInt(canvas.getAttribute('height')),
-     ctx = canvas.getContext('2d');
 
-  // console.log(typeof can_w);
+  <div class="section2" id="section2">
 
-  var ball = {
-      x: 0,
-      y: 0,
-      vx: 0,
-      vy: 0,
-      r: 0,
-      alpha: 1,
-      phase: 0
-     },
-     ball_color = {
-       r: 255,
-       g: 255,
-       b: 255
-     },
-     R = 2,
-     balls = [],
-     alpha_f = 0.03,
-     alpha_phase = 0,
+    <p class="text">With four degrees of rotation and precision to the thousandth of a millimeter, Arthro-Robotic Mechanism (ARM) sets a formidable new standard for autonomous robotic arms. Its unique design enrich ARM’s accuracy and reliability.</p>
+    <a href="#" class="button">Our Product</a>
+	</div>
 
-  // Line
-     link_line_width = 1,
-     dis_limit = 400,
-     add_mouse_point = true,
-     mouse_in = false,
-     mouse_ball = {
-      x: 0,
-      y: 0,
-      vx: 0,
-      vy: 0,
-      r: 0,
-      type: 'mouse'
-     };
+  <div class="section3" id="section3">
 
-  // Random speed
-  function getRandomSpeed(pos){
-    var  min = -1,
-       max = 1;
-    switch(pos){
-      case 'top':
-        return [randomNumFrom(min, max), randomNumFrom(0.1, max)];
-        break;
-      case 'right':
-        return [randomNumFrom(min, -0.1), randomNumFrom(min, max)];
-        break;
-      case 'bottom':
-        return [randomNumFrom(min, max), randomNumFrom(min, -0.1)];
-        break;
-      case 'left':
-        return [randomNumFrom(0.1, max), randomNumFrom(min, max)];
-        break;
-      default:
-        return;
-        break;
-    }
-  }
-  function randomArrayItem(arr){
-    return arr[Math.floor(Math.random() * arr.length)];
-  }
-  function randomNumFrom(min, max){
-    return Math.random()*(max - min) + min;
-  }
-  console.log(randomNumFrom(0, 10));
-  // Random Ball
-  function getRandomBall(){
-    var pos = randomArrayItem(['top', 'right', 'bottom', 'left']);
-    switch(pos){
-      case 'top':
-        return {
-          x: randomSidePos(can_w),
-          y: -R,
-          vx: getRandomSpeed('top')[0],
-          vy: getRandomSpeed('top')[1],
-          r: R,
-          alpha: 1,
-          phase: randomNumFrom(0, 10)
-        }
-        break;
-      case 'right':
-        return {
-          x: can_w + R,
-          y: randomSidePos(can_h),
-          vx: getRandomSpeed('right')[0],
-          vy: getRandomSpeed('right')[1],
-          r: R,
-          alpha: 1,
-          phase: randomNumFrom(0, 10)
-        }
-        break;
-      case 'bottom':
-        return {
-          x: randomSidePos(can_w),
-          y: can_h + R,
-          vx: getRandomSpeed('bottom')[0],
-          vy: getRandomSpeed('bottom')[1],
-          r: R,
-          alpha: 1,
-          phase: randomNumFrom(0, 10)
-        }
-        break;
-      case 'left':
-        return {
-          x: -R,
-          y: randomSidePos(can_h),
-          vx: getRandomSpeed('left')[0],
-          vy: getRandomSpeed('left')[1],
-          r: R,
-          alpha: 1,
-          phase: randomNumFrom(0, 10)
-        }
-        break;
-    }
-  }
-  function randomSidePos(length){
-    return Math.ceil(Math.random() * length);
-  }
+    <p class="text">With four degrees of rotation and precision to the thousandth of a millimeter, Arthro-Robotic Mechanism (ARM) sets a formidable new standard for autonomous robotic arms. Its unique design enrich ARM’s accuracy and reliability.</p>
+    <a href="#" class="button">Our Product</a>
+	</div>
 
-  // Draw Ball
-  function renderBalls(){
-    Array.prototype.forEach.call(balls, function(b){
-       if(!b.hasOwnProperty('type')){
-         ctx.fillStyle = 'rgba('+ball_color.r+','+ball_color.g+','+ball_color.b+','+b.alpha+')';
-         ctx.beginPath();
-         ctx.arc(b.x, b.y, R, 0, Math.PI*2, true);
-         ctx.closePath();
-         ctx.fill();
-       }
-    });
-  }
-
-  // Update balls
-  function updateBalls(){
-    var new_balls = [];
-    Array.prototype.forEach.call(balls, function(b){
-      b.x += b.vx;
-      b.y += b.vy;
-
-      if(b.x > -(50) && b.x < (can_w+50) && b.y > -(50) && b.y < (can_h+50)){
-         new_balls.push(b);
-      }
-
-      // alpha change
-      b.phase += alpha_f;
-      b.alpha = Math.abs(Math.cos(b.phase));
-      // console.log(b.alpha);
-    });
-
-    balls = new_balls.slice(0);
-  }
-
-  // loop alpha
-  function loopAlphaInf(){
-
-  }
-
-  // Draw lines
-  function renderLines(){
-    var fraction, alpha;
-    for (var i = 0; i < balls.length; i++) {
-      for (var j = i + 1; j < balls.length; j++) {
-
-         fraction = getDisOf(balls[i], balls[j]) / dis_limit;
-
-         if(fraction < 1){
-           alpha = (1 - fraction).toString();
-
-           ctx.strokeStyle = 'rgba(255, 255, 255, .3)';
-           ctx.lineWidth = link_line_width;
-
-           ctx.beginPath();
-           ctx.moveTo(balls[i].x, balls[i].y);
-           ctx.lineTo(balls[j].x, balls[j].y);
-           ctx.stroke();
-           ctx.closePath();
-         }
-      }
-    }
-  }
-
-  // calculate distance between two points
-  function getDisOf(b1, b2){
-    var  delta_x = Math.abs(b1.x - b2.x),
-       delta_y = Math.abs(b1.y - b2.y);
-
-    return Math.sqrt(delta_x*delta_x + delta_y*delta_y);
-  }
-
-  // add balls if there a little balls
-  function addBallIfy(){
-    if(balls.length < 20){
-      balls.push(getRandomBall());
-    }
-  }
-
-  // Render
-  function render(){
-    ctx.clearRect(0, 0, can_w, can_h);
-
-    renderBalls();
-
-    renderLines();
-
-    updateBalls();
-
-    addBallIfy();
-
-    window.requestAnimationFrame(render);
-  }
-
-  // Init Balls
-  function initBalls(num){
-    for(var i = 1; i <= num; i++){
-      balls.push({
-        x: randomSidePos(can_w),
-        y: randomSidePos(can_h),
-        vx: getRandomSpeed('top')[0],
-        vy: getRandomSpeed('top')[1],
-        r: R,
-        alpha: 1,
-        phase: randomNumFrom(0, 10)
-      });
-    }
-  }
-  // Init Canvas
-  function initCanvas(){
-    canvas.setAttribute('width', window.innerWidth);
-    canvas.setAttribute('height', window.innerHeight);
-
-    can_w = parseInt(canvas.getAttribute('width'));
-    can_h = parseInt(canvas.getAttribute('height'));
-  }
-  window.addEventListener('resize', function(e){
-    console.log('Window Resize...');
-    initCanvas();
-  });
-
-  function goMovie(){
-    initCanvas();
-    initBalls(20);
-    window.requestAnimationFrame(render);
-  }
-  goMovie();
-
-  // Mouse effect
-  canvas.addEventListener('mouseenter', function(){
-    console.log('mouseenter');
-    mouse_in = true;
-    balls.push(mouse_ball);
-  });
-  canvas.addEventListener('mouseleave', function(){
-    console.log('mouseleave');
-    mouse_in = false;
-    var new_balls = [];
-    Array.prototype.forEach.call(balls, function(b){
-      if(!b.hasOwnProperty('type')){
-        new_balls.push(b);
-      }
-    });
-    balls = new_balls.slice(0);
-  });
-  canvas.addEventListener('mousemove', function(e){
-    var e = e || window.event;
-    mouse_ball.x = e.pageX;
-    mouse_ball.y = e.pageY;
-    // console.log(mouse_ball);
-  });
-</script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+  <script src="js/script.js"></script>
+	<!--script src="js/jquery.easeScroll.js"></script>
+	<script type="text/javascript">
+		$("html").easeScroll({
+		  frameRate: 120,
+		  animationTime: 1000,
+		  stepSize: 150,
+		  pulseAlgorithm: 1,
+		  pulseScale: 8,
+		  pulseNormalize: 1,
+		  accelerationDelta: 20,
+		  accelerationMax: 1,
+		  keyboardSupport: true,
+		  arrowScroll: 50,
+		  touchpadSupport: true
+		});
+	</script-->
 </body>
 </html>
