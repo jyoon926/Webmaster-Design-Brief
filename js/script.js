@@ -1,4 +1,110 @@
+$(document).ready(function(){
+  //ScrollMagic
+  //Init ScrollMagic
+  var controller = new ScrollMagic.Controller();
+  //White Background scene
+  var ourScene = new ScrollMagic.Scene({
+    triggerElement: '.more'
+  })
+  .setClassToggle('.whitebackground', 'whitebackground-after')
+  .addIndicators({
+    name: 'white background'
+  })
+  .addTo(controller);
+  //Right scene
+  var ourScene = new ScrollMagic.Scene({
+    triggerElement: '.more'
+  })
+  .setClassToggle('.right', 'right-after')
+  .addIndicators({
+    name: 'right'
+  })
+  .addTo(controller);
+  //Left scene
+  var ourScene = new ScrollMagic.Scene({
+    triggerElement: '.more'
+  })
+  .setClassToggle('.lefttext', 'left-after')
+  .addIndicators({
+    name: 'left'
+  })
+  .addTo(controller);
+  //Sectiontitles scene
+  var ourScene = new ScrollMagic.Scene({
+    triggerElement: '.section1',
+    triggerHook: .75
+  })
+  .setClassToggle('.sectiontitles', 'sectiontitle-after')
+  .addIndicators({
+    name: 'sectiontitle wrap'
+  })
+  .addTo(controller);
+  //Section1 sectiontitle scene
+  var ourScene = new ScrollMagic.Scene({
+    triggerElement: '.section1',
+    triggerHook: .75,
+  })
+  .setClassToggle('.sectiontitle1', 'sectiontitle-after')
+  .addIndicators({
+    name: 'sectiontitle 1'
+  })
+  .addTo(controller);
+  //Section2 sectiontitle scene
+  var Scene = new ScrollMagic.Scene({
+    triggerElement: '.section2',
+    triggerHook: .75,
+  })
+  .setClassToggle('.sectiontitle2', 'sectiontitle-after')
+  .addIndicators({
+    name: 'sectiontitle 2'
+  })
+  .addTo(controller);
+  //Section1 fadeout sectiontitle scene
+  var Scene = new ScrollMagic.Scene({
+    triggerElement: '.section2',
+    triggerHook: .75,
+  })
+  .setClassToggle('.sectiontitle1', 'sectiontitle-before')
+  .addIndicators({
+    name: 'sectiontitle 1 fadeout'
+  })
+  .addTo(controller);
+  //Section3 sectiontitle scene
+  var Scene = new ScrollMagic.Scene({
+    triggerElement: '.section3',
+    triggerHook: .75,
+  })
+  .setClassToggle('.sectiontitle3', 'sectiontitle-after')
+  .addIndicators({
+    name: 'sectiontitle 3'
+  })
+  .addTo(controller);
+  //Section2 fadeout sectiontitle scene
+  var Scene = new ScrollMagic.Scene({
+    triggerElement: '.section3',
+    triggerHook: .75,
+  })
+  .setClassToggle('.sectiontitle2', 'sectiontitle-before')
+  .addIndicators({
+    name: 'sectiontitle 2 fadeout'
+  })
+  .addTo(controller);
+
+});
+
+
 document.addEventListener('DOMContentLoaded', function() {
+
+  //Spinning logo on home page
+  var $logo = $('.logo-section1-img');
+  var $win = $(window);
+
+  $win.on('scroll', function () {
+    var top = $win.scrollTop() / 3.5;
+    $logo.css('transform', 'rotate(' + top + 'deg)');
+  });
+
+  //Smooth scrolling between anchors
   $(document).ready(function(){
     $("a").on('click', function(event) {
       if (this.hash !== "") {
@@ -13,6 +119,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
+  //Net effect
   var canvas = document.getElementById('nokey'),
      can_w = parseInt(canvas.getAttribute('width')),
      can_h = parseInt(canvas.getAttribute('height')),
@@ -288,21 +395,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
 }, false);
 
-//Spinning logo on home page
-var $logo = $('.logo-section1-img');
-var $win = $(window);
-
-$win.on('scroll', function () {
-  var top = $win.scrollTop() / 3.5;
-  $logo.css('transform', 'rotate(' + top + 'deg)');
-});
-
 
 //CHANGE ON SCROLL
 
-jQuery(document).ready(function(){
+/*jQuery(document).ready(function(){
 
-var elementPosition = $('.section1').offset();
+var elementPosition = $('.section2').offset();
 
 $(window).scroll(function(){
   if($(window).scrollTop() > 200){
@@ -323,3 +421,4 @@ $(window).scroll(function(){
 });
 
 });
+*/
