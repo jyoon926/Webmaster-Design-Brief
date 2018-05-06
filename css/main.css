@@ -242,8 +242,8 @@ body {
 }
 @media screen and (max-width: 1300px) {
 	.landertitle {
-		font-size: 90px;
-		line-height: 80px;
+		font-size: 85px;
+		line-height: 75px;
 	}
 }
 .landertext {
