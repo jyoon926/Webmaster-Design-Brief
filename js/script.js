@@ -2,6 +2,12 @@ $(document).ready(function(){
   //ScrollMagic
   //Init ScrollMagic
   var controller = new ScrollMagic.Controller();
+  //container scene
+  var ourScene = new ScrollMagic.Scene({
+    triggerElement: '.more'
+  })
+  .setClassToggle('.container', 'container-after')
+  .addTo(controller);
   //White Background scene
   var ourScene = new ScrollMagic.Scene({
     triggerElement: '.more'
@@ -68,6 +74,15 @@ $(document).ready(function(){
 
 document.addEventListener('DOMContentLoaded', function() {
 
+  //Loading screen
+  var overlay = document.getElementById("overlay");
+  var body = document.getElementById("body");
+  window.addEventListener('load', function(){
+      overlay.style.top = '-100vh';
+      body.style.opacity = '1';
+      html.style.overflowY = 'hidden';
+  })
+
   //Spinning logo on home page
   var $logo = $('.logo-section1-img');
   var $win = $(window);
@@ -91,6 +106,24 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
   });
+
+  //background mouse parallaxing effect
+  $("#container").mousemove(function(e) {
+    parallaxIt(e, ".bg", -150);
+    parallaxIt(e, ".nokey-wrap", -50);
+  });
+
+  function parallaxIt(e, target, movement) {
+    var $this = $("#container");
+    var relX = e.pageX - $this.offset().left;
+    var relY = e.pageY - $this.offset().top;
+
+    TweenMax.to(target, 1, {
+      x: (relX - $this.width() / 2) / $this.width() * movement,
+      y: (relY - $this.height() / 2) / $this.height() * movement
+    });
+  }
+
 
   //Net effect
   var canvas = document.getElementById('nokey'),

@@ -1,0 +1,235 @@
+#section1 {
+	margin: 0;
+	padding: 0;
+	height: 0;
+	width: 0;
+}
+.section1 {
+	margin: 300px 0;
+	z-index: 4;
+	transition-duration: 400ms;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.section1 .text {
+	font-size: 35px;
+	color: var(--color-2);
+	font-family: 'Cormorant Garamond', serif;
+	z-index: 5;
+	width: 50vw;
+	font-weight: 500;
+	margin: 0 25vw;
+}
+.section1 .button {
+	font-size: 16px;
+	color: var(--color-2);
+	font-family: 'Work Sans', sans-serif;
+	z-index: 5;
+	width: 97px;
+	font-weight: 500;
+	margin: 40px 0 0 25vw;
+	text-decoration: none;
+	padding: 25px 50px;
+	border: 1px solid var(--color-2);
+	border-radius: 0 70px 0 70px;
+	transition-duration: 300ms;
+}
+.section1 .button:hover {
+	border-radius: 0;
+	background: var(--color-2);
+	color: white;
+}
+
+.sectiondivider {
+	z-index: 70 !important;
+	border: 1px solid var(--color);
+	color: var(--color);
+	width: 100vw;
+}
+
+.section2 {
+	margin: 300px 180px;
+	z-index: 6;
+	transition-duration: 400ms;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: calc(100vw - 360px);
+}
+.section2 .part1 {
+	z-index: 6;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	width: 500px;
+	height: 400px;
+	padding: 60px;
+	margin: -70px 0 0 0;
+	box-sizing: border-box;
+	background: var(--color-2);
+}
+.section2 .title {
+	font-size: 22px;
+	color: white;
+	font-family: 'Work Sans', sans-serif;
+	z-index: 6;
+	font-weight: 500;
+	margin: 0 0 30px 0;
+	padding: 0;
+}
+.section2 .text {
+	font-size: 16px;
+	color: var(--color-3);
+	font-family: 'Work Sans', sans-serif;
+	z-index: 6;
+	font-weight: 500;
+	margin: 0 0;
+	padding: 0;
+}
+.section2 .button {
+	font-size: 16px;
+	color: white;
+	font-family: 'Work Sans', sans-serif;
+	z-index: 5;
+	width: 97px;
+	font-weight: 500;
+	margin: 40px 0 0 0;
+	text-decoration: none;
+	padding: 25px 50px;
+	border: 1px solid white;
+	border-radius: 0 70px 0 70px;
+	transition-duration: 300ms;
+}
+.section2 .button:hover {
+	border-radius: 0;
+	background: white;
+	color: var(--color-2);
+}
+.section2 img {
+	z-index: 5;
+	width: 60vw;
+	height: calc((60vw / 2560) * 1440);
+	margin: 00;
+}
+.section3 {
+	margin: 200px 180px 280px 180px;
+	z-index: 6;
+	transition-duration: 400ms;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	width: calc(100vw - 360px);
+}
+.section3 .part1 {
+	z-index: 6;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	width: 500px;
+	height: 450px;
+	padding: 60px;
+	margin: 0 0 -70px 0;
+	box-sizing: border-box;
+	background: var(--color-2);
+}
+.section3 .title {
+	font-size: 22px;
+	color: white;
+	font-family: 'Work Sans', sans-serif;
+	z-index: 6;
+	font-weight: 500;
+	margin: 0 0 30px 0;
+	padding: 0;
+}
+.section3 .text {
+	font-size: 16px;
+	color: var(--color-3);
+	font-family: 'Work Sans', sans-serif;
+	z-index: 6;
+	font-weight: 500;
+	margin: 0 0;
+	padding: 0;
+}
+.section3 .button {
+	font-size: 16px;
+	color: white;
+	font-family: 'Work Sans', sans-serif;
+	z-index: 5;
+	width: 97px;
+	font-weight: 500;
+	margin: 40px 0 0 0;
+	text-decoration: none;
+	padding: 25px 50px;
+	border: 1px solid white;
+	border-radius: 0 70px 0 70px;
+	transition-duration: 300ms;
+}
+.section3 .button:hover {
+	border-radius: 0;
+	background: white;
+	color: var(--color-2);
+}
+.section3 img {
+	z-index: 5;
+	width: 60vw;
+	height: calc((60vw / 1867) * 1400);
+	margin: 0 0 0 calc(((60vw + 500px) - (100vw - 360px)) * -1);
+}
+
+.sectiontitles {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	z-index: -5;
+	opacity: 0;
+	transition-duration: 900ms;
+}
+.sectiontitle {
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	font-family: 'Work Sans';
+	color: rgba(11, 68, 226, .1);
+	text-align: center;
+	font-weight: 500;
+	letter-spacing: -10px;
+	transition-duration: 900ms;
+}
+.sectiontitle1 {
+	z-index: -5;
+	opacity: 0;
+	font-size: 20vw;
+	line-height: 17vw;
+}
+.sectiontitle2 {
+	z-index: -5;
+	opacity: 0;
+	font-size: 20vw;
+	line-height: 17vw;
+}
+.sectiontitle3 {
+	z-index: -5;
+	opacity: 0;
+	font-size: 22vw;
+	line-height: 17vw;
+	letter-spacing: 5px;
+}
+.sectiontitle-after {
+	z-index: 5;
+	opacity: 1;
+}
+.sectiontitle-before {
+	z-index: -5;
+	opacity: 0;
+}
