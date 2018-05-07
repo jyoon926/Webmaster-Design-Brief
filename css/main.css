@@ -171,12 +171,12 @@ body {
 .bg {
 	margin: 0;
 	padding: 0;
-	height: 100vh;
-	width: 100vw;
+	height: 140vh;
+	width: 140vw;
 	position: fixed;
-	top: 0;
-	left: 0;
-	background: var(--color-2);
+	top: -20vh;
+	left: -20vw;
+	background-image: url('../img/lander.jpg');
 	background-size: cover;
 	z-index: -2;
 	background-repeat: no-repeat;
@@ -243,7 +243,7 @@ body {
 @media screen and (max-width: 1300px) {
 	.landertitle {
 		font-size: 85px;
-		line-height: 75px;
+		line-height: 70px;
 	}
 }
 .landertext {
@@ -267,6 +267,7 @@ body {
 	transition-duration: 300ms;
 	text-align: center;
 	font-size: 16px;
+	z-index: 1;
 }
 .lander .more:hover {
 	margin: 35px 0 0 0;
@@ -471,4 +472,85 @@ body {
 	width: 60vw;
 	height: calc((60vw / 1867) * 1400);
 	margin: 0 0 0 calc(((60vw + 500px) - (100vw - 360px)) * -1);
+}
+
+
+
+#container {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	margin: 0 0 -100vh 0;
+	padding: 0;
+}
+.container-after {
+	display: none;
+}
+
+
+/*loading screen*/
+
+#overlay {
+  margin: auto;
+  padding:0;
+  z-index: 998;
+	height: 100vh;
+	width: 100vw;
+  position: fixed;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  top: 0;
+  left: 0;
+  background: var(--color);
+  -webkit-transition-duration: 1000ms;
+          transition-duration: 1000ms;
+  -webkit-transition-delay: 0;
+          transition-delay: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+.spinner {
+	width: 100px;
+	height: 100px;
+	border: 1px solid var(--color);
+	border-top: 1px solid white;
+	border-radius: 100%;
+	margin: 0;
+	z-index: 998;
+	-webkit-animation: spin 1s infinite linear;
+	        animation: spin 1s infinite linear;
+}
+@-webkit-keyframes spin {
+	from {
+		-webkit-transform: rotate(0deg);
+		        transform: rotate(0deg);
+	}
+	to {
+		-webkit-transform: rotate(360deg);
+		        transform: rotate(360deg);
+	}
+}
+@keyframes spin {
+	from {
+		-webkit-transform: rotate(0deg);
+		        transform: rotate(0deg);
+	}
+	to {
+		-webkit-transform: rotate(360deg);
+		        transform: rotate(360deg);
+	}
 }

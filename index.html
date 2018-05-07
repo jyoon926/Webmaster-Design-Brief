@@ -12,9 +12,9 @@
 </head>
 <body>
 
-	<div class="nokey-wrap">
-  		<canvas id="nokey" width="800" height="800"></canvas>
-	</div>
+  <div id="overlay">
+    <div class="spinner"></div>
+  </div>
 
   <div class="fixed">
     <div class="left">
@@ -38,7 +38,12 @@
     <p class="sectiontitle sectiontitle3">about a.i.</p>
   </div>
 
-  <div class="bg"></div>
+  <div id="container" class="container">
+    <div class="nokey-wrap">
+    		<canvas id="nokey" width="800" height="800"></canvas>
+  	</div>
+    <div class="bg"></div>
+  </div>
   <div class="lander">
     <ul>
       <a href="index.html">Home</a><a href="#">Our Product</a><a href="#">About A.I.</a><a href="#">Who We Are</a><a href="#">Works Cited</a>
@@ -76,6 +81,8 @@
 
   <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/utils/Draggable.min.js"></script>
   <script src="js/script.js"></script>
 	<!--script src="js/jquery.easeScroll.js"></script>
 	<script type="text/javascript">
