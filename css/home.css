@@ -1,3 +1,16 @@
+.bg {
+	margin: 0;
+	padding: 0;
+	height: 140vh;
+	width: 140vw;
+	position: fixed;
+	top: -20vh;
+	left: -20vw;
+	background-image: url('../img/lander.jpg');
+	background-size: cover;
+	z-index: -2;
+	background-repeat: no-repeat;
+}
 #section1 {
 	margin: 0;
 	padding: 0;

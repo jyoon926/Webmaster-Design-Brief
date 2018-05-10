@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   //background mouse parallaxing effect
   $("#container").mousemove(function(e) {
-    parallaxIt(e, ".bg", -150);
+    parallaxIt(e, ".bg", -100);
     parallaxIt(e, ".nokey-wrap", -50);
   });
 
