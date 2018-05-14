@@ -20,10 +20,19 @@
 .section1 {
 	margin: 300px 0;
 	z-index: 4;
-	transition-duration: 400ms;
+	-webkit-transition-duration: 400ms;
+	     -o-transition-duration: 400ms;
+	        transition-duration: 400ms;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 }
 .section1 .text {
 	font-size: 35px;
@@ -46,7 +55,9 @@
 	padding: 25px 50px;
 	border: 1px solid var(--color-2);
 	border-radius: 0 70px 0 70px;
-	transition-duration: 300ms;
+	-webkit-transition-duration: 300ms;
+	     -o-transition-duration: 300ms;
+	        transition-duration: 300ms;
 }
 .section1 .button:hover {
 	border-radius: 0;
@@ -64,24 +75,45 @@
 .section2 {
 	margin: 300px 180px;
 	z-index: 6;
-	transition-duration: 400ms;
+	-webkit-transition-duration: 400ms;
+	     -o-transition-duration: 400ms;
+	        transition-duration: 400ms;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	width: calc(100vw - 360px);
 }
 .section2 .part1 {
 	z-index: 6;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: flex-start;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
 	width: 500px;
 	height: 400px;
 	padding: 60px;
 	margin: -70px 0 0 0;
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	background: var(--color-2);
 }
 .section2 .title {
@@ -114,7 +146,9 @@
 	padding: 25px 50px;
 	border: 1px solid white;
 	border-radius: 0 70px 0 70px;
-	transition-duration: 300ms;
+	-webkit-transition-duration: 300ms;
+	     -o-transition-duration: 300ms;
+	        transition-duration: 300ms;
 }
 .section2 .button:hover {
 	border-radius: 0;
@@ -130,23 +164,42 @@
 .section3 {
 	margin: 200px 180px 280px 180px;
 	z-index: 6;
-	transition-duration: 400ms;
+	-webkit-transition-duration: 400ms;
+	     -o-transition-duration: 400ms;
+	        transition-duration: 400ms;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
-	align-items: flex-end;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-align: end;
+	    -ms-flex-align: end;
+	        align-items: flex-end;
 	width: calc(100vw - 360px);
 }
 .section3 .part1 {
 	z-index: 6;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: flex-start;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
 	width: 500px;
 	height: 450px;
 	padding: 60px;
 	margin: 0 0 -70px 0;
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	background: var(--color-2);
 }
 .section3 .title {
@@ -179,7 +232,9 @@
 	padding: 25px 50px;
 	border: 1px solid white;
 	border-radius: 0 70px 0 70px;
-	transition-duration: 300ms;
+	-webkit-transition-duration: 300ms;
+	     -o-transition-duration: 300ms;
+	        transition-duration: 300ms;
 }
 .section3 .button:hover {
 	border-radius: 0;
@@ -194,9 +249,15 @@
 }
 
 .sectiontitles {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	height: 100vh;
 	width: 100vw;
 	top: 0;
@@ -206,7 +267,9 @@
 	position: fixed;
 	z-index: -5;
 	opacity: 0;
-	transition-duration: 900ms;
+	-webkit-transition-duration: 900ms;
+	     -o-transition-duration: 900ms;
+	        transition-duration: 900ms;
 }
 .sectiontitle {
 	margin: 0;
@@ -217,7 +280,9 @@
 	text-align: center;
 	font-weight: 500;
 	letter-spacing: -10px;
-	transition-duration: 900ms;
+	-webkit-transition-duration: 900ms;
+	     -o-transition-duration: 900ms;
+	        transition-duration: 900ms;
 }
 .sectiontitle1 {
 	z-index: -5;

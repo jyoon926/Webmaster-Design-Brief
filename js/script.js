@@ -29,14 +29,14 @@ $(document).ready(function(){
   //Sectiontitles scene
   var ourScene = new ScrollMagic.Scene({
     triggerElement: '.section1',
-    triggerHook: .8
+    triggerHook: .95
   })
   .setClassToggle('.sectiontitles', 'sectiontitle-after')
   .addTo(controller);
   //Section1 sectiontitle scene
   var ourScene = new ScrollMagic.Scene({
     triggerElement: '.section1',
-    triggerHook: .8,
+    triggerHook: .95
   })
   .setClassToggle('.sectiontitle1', 'sectiontitle-after')
   .addTo(controller);
